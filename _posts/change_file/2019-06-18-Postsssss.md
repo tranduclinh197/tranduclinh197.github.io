@@ -1,8 +1,8 @@
 ---
 layout: "post"
-titile: "Trang đầu tiên"
+title: "Trang đầu tiên :3"
 date: 2019-06-18 21:43:59 +0700
-categories: jekyll update
+categories: /post/
 author: Trần Đức Lĩnh
 ---
 
