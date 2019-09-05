@@ -2,8 +2,8 @@
   path: /
   i-class: fas fa-address-card text-dark
   span-class: hidden-md ml-1
-
+  
 - title: Thông tin
   path: /about/
-  i-class: fas 
-  span-class: 
+  i-class: fas fa-info-circle text-dark
+  span-class: hidden-md ml-1
