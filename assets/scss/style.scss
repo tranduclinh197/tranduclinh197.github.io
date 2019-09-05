@@ -1,5 +1,10 @@
 $white: rgb(255,255,255);
 
+@font-face {
+  font-family: titleNar;
+  src: url(../fonts/UTM-Gradoo.ttf) format('truetype');
+}
+
 body {
   // min-height: 75rem;
   background: rgb(240, 240, 240);
@@ -18,6 +23,10 @@ body {
 .container-border-radius {
   border: none;
   border-radius: 8px;
+}
+
+.font-bar {
+  font-family: titleNar;
 }
 
 .outline-none {

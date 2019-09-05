@@ -25,11 +25,12 @@ data-nar:
     topic:
       - img-src:
         path:
-        text-title: Hình học cơ bản
+        text-title: Toán số cơ bản
 
       - img-src:
         path:
-        text-title: ...
+        text-title: Hình học cơ bản
+
 
   - h4-title: Ngoại ngữ
     topic:
@@ -37,4 +38,13 @@ data-nar:
         path:
         text-title: English
 
+      - img-src:
+        path:
+        disa: disabled
+        text-title: Russian
 
+  - h4-title: Kỹ năng sống
+    topic:
+      - img-src:
+        path:
+        text-title: Kỹ năng giao tiếp
