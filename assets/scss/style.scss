@@ -29,6 +29,7 @@ body {
 
 .font-bar {
   font-family: titleNar;
+  font-size: 1.1rem;
 }
 
 .outline-none {
@@ -94,10 +95,10 @@ body {
 
 @media (max-width: 320px) {
   .font-bar {
-    font-size: 0.925rem;
+    font-size: 0.875rem;
   }
   .icon-narbar {
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
   }
 }
