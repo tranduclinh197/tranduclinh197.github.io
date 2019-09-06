@@ -3,11 +3,13 @@ $white: rgb(255,255,255);
 @font-face {
   font-family: titleNar;
   src: url(../fonts/UTM-Gradoo.ttf) format('truetype');
+  font-size: 16px;
 }
 
 body {
   // min-height: 75rem;
   background: rgb(240, 240, 240);
+  min-width: 320px;
 }
 .text-white {
   color: $white;
@@ -37,6 +39,16 @@ body {
 
 .overflow-ellipsis {
   text-overflow: ellipsis;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 576px) and (-webkit-min-device-pixel-ratio: 2) {
+    .font-bar {
+      font-size: 0.925rem;
+    }
+    .icon-narbar {
+      width: 20px;
+      height: 20px;
+    }
 }
 
 @media (max-width: 768px) {

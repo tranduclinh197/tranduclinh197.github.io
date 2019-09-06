@@ -19,12 +19,12 @@
                                         {% for item in topics.topic %}
                                             {% if item.disa == "disabled" %}
                                                 <a class="dropdown-item disabled" href="{{ item.path }}" >
-                                                    <img class="rounded-circle z-depth-0 mr-2" src="{{ item.img-src }}" height="30">
+                                                    <img class="rounded-circle z-depth-0 mr-sm-2" src="{{ item.img-src }}">
                                                         {{ item.text-title }}
                                                 </a>
                                             {% else %}
                                                 <a class="dropdown-item" href="{{ item.path }}" >
-                                                        <img class="rounded-circle z-depth-0 mr-2" src="{{ item.img-src }}" height="30">
+                                                        <img class="rounded-circle z-depth-0 mr-sm-2" src="{{ item.img-src }}">
                                                             {{ item.text-title }}
                                                 </a>
                                             {% endif %}
