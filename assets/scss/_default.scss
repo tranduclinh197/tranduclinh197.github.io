@@ -1,0 +1,49 @@
+@media (max-width: 768px) {
+  .hidden-md {
+    display: none;
+  }
+}
+
+body {
+  // min-height: 75rem;
+  background: rgb(245, 245, 245);
+  min-width: 320px;
+  color: #3C4858;
+}
+
+.bg-views {
+  background-image: url("../img/bg-wOlf.jpg");
+  background-repeat:no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position:center;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+.container-border-radius {
+  border: none;
+  border-radius: 8px;
+}
+
+.outline-none {
+  outline: none;
+  box-shadow:none !important;
+  border:1px solid #ccc !important;
+}
+
+.overflow-ellipsis {
+  text-overflow: ellipsis;
+}
+
+.backdrop-filter {
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+  background-color: rgba(243, 243, 243, 0.425);
+}
+
+.text-white {
+  color: $white;
+}

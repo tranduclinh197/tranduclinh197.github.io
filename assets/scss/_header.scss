@@ -1,0 +1,32 @@
+@font-face {
+  font-family: titleNar;
+  src: url(../fonts/UTM-Gradoo.ttf) format('truetype');
+  font-size: 16px;
+}
+
+@media (max-width: 320px) {
+  .font-bar {
+    font-size: 0.875rem;
+  }
+  .icon-narbar {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+header {
+  background: linear-gradient(to right, rgb(143, 247, 247), rgb(191, 255, 185));
+  // background: -webkit-linear-gradient(to left, #fff, #fff);
+  // background: -moz-linear-gradient(to left, #fff, #fff);
+  // background: -o-linear-gradient(to left, #fff, #fff);
+}
+
+.narbar-height {
+  height: 42px;
+}
+
+.font-bar {
+  font-family: titleNar;
+  font-size: 1.1rem;
+}
+
