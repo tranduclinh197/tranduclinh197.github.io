@@ -10,40 +10,156 @@ title: Cá nhân
         </article>
 </div> -->
 <div class="main">
-    <div class="profile-content "> 
+    <div class="profile-content ">
         <div class="container blue mt-4">
             <div class="row">
                 <div class="col-md-10 ml-auto mr-auto mt-4">
-                    <div class="profile mt-5 mb-4 container-border-radius shadow">
+                    <div class="profile mt-5 container-border-radius shadow">
                         <div class="avatar">
-                            <img src="/assets/img/avt.png" alt="Error Img" class="img-raised rounded-circle img-fluid shadow-sm">
+                            <img src="/assets/img/avt.png" alt="Trần Đức Lĩnh"
+                                class="img-raised rounded-circle img-fluid shadow-sm">
                         </div>
                         <div class="name text-center">
                             <h3 class="title">Trần Đức Lĩnh</h3>
-                            <h6>Front-End</h6>
-                            <div class="connect">
-                                <a href="https://www.facebook.com/100025040414692" class="btn btn-just-icon btn-link">
-                                    <img src="/assets/svg/fb.svg" height="20">
-                                </a>
-                                <a href="https://github.com/higithub97" class="btn btn-just-icon btn-link">
-                                    <img src="/assets/svg/github.svg" height="20">
-                                </a>
-                                <a href="https://twitter.com/kulinhz" class="btn btn-just-icon btn-link">
-                                    <img src="/assets/svg/twitter.svg" height="20">
-                                </a>
-                            </div>
-                            <div class="mt-1 cv">
-                                <a href="#" class="btn btn-just-icon btn-link">
-                                    <img src="/assets/svg/cv.svg" height="40">
-                                </a>
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse" aria-expanded="false" aria-controls="collapse">
+                                <h6>Front-End</h6>
+                            </button>
+                            <div class="collapse" id="collapse">
+                                <div class="d-flex justify-content-center">
+                                    <p class="bg-warning p-1 px-2 container-border-radius">
+                                        Chưa có trạng thái nào.
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                        <div class="pb-2 text-center">
-                            <p>" Không có điều gì xảy ra cho đến khi bạn hành động. " </p>
+
+
+                        <div class="container">
+                            <div class="title text-center">
+                                <!-- <h3>Navigation Pills</h3> -->
+                                <!-- <h3>
+                                    <small>Giới thiệu bản thân</small>
+                                </h3> -->
+                            </div>
+                            <div class="row">
+                                <div class="col-md-10 ml-auto mr-auto">
+                                    <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+                                        <li class="nav-item">
+                                            <a class="nav-link" id="pills-home-tab" data-toggle="pill"
+                                                href="#pills-home" role="tab" aria-controls="pills-home"
+                                                aria-selected="true">
+                                                <i class="fas fa-poll-h">
+                                                    <span class="hidden-md-sm-405">
+                                                        Kỹ năng
+                                                    </span>
+                                                </i>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link active" id="pills-profile-tab" data-toggle="pill"
+                                                href="#pills-profile" role="tab" aria-controls="pills-profile"
+                                                aria-selected="false">
+                                                <i class="fas fa-user-alt">
+                                                    <span class="hidden-md-sm-405">
+                                                        Giới thiệu
+                                                    </span>
+                                                </i>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" id="pills-contact-tab" data-toggle="pill"
+                                                href="#pills-contact" role="tab" aria-controls="pills-contact"
+                                                aria-selected="false">
+                                                <i class="fas fa-puzzle-piece">
+                                                    <span class="hidden-md-sm-405">
+                                                        Liên hệ
+                                                    </span>
+                                                </i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <div class="tab-content" id="pills-tabContent">
+                                        <div class="tab-pane fade " id="pills-home" role="tabpanel"
+                                            aria-labelledby="pills-home-tab">
+                                            <div class="row">
+                                                <div class="col-lg-12 col-md-6">
+                                                    <div class="title">
+                                                        <h3>
+                                                            <small>
+                                                                Biểu đồ kỹ năng
+                                                            </small>
+                                                        </h3>
+                                                    </div>
+                                                    
+                                                    <div class="container pb-3">
+                                                        {% for skill in site.data.skills %}
+                                                            <div>
+                                                                <p class="overflow-ellipsis" style="margin: 10px 0 0 2px">{{ skill.name-skill }}</p>
+                                                            </div>
+                                                            <div class="progress">
+                                                                <!-- Not ERROR ((style-"xxx")) -->
+                                                                <div class="progress-bar {{ skill.color-bar }}" role="progressbar" style="width:{{ skill.valuenow }}%;"
+                                                                    aria-valuenow="{{ skill.valuenow }}" aria-valuemin="0" aria-valuemax="100">{{ skill.valuenow }}%
+                                                                </div>
+                                                            </div>
+                                                        {% endfor %}
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade show active" id="pills-profile" role="tabpanel"
+                                            aria-labelledby="pills-profile-tab">
+                                            <div class="container">
+                                                <h4>Tran Duc Linh</h4>
+                                                <p>Frontend Developer</p>
+                                                <ul>
+                                                    <li><strong>Date of birth: </strong>Jun 20, 1997</li>
+                                                    <li><strong>Gender: </strong>Male</li>
+                                                    <li><strong>Phone: </strong>0764.513.613</li>
+                                                    <li><strong>Email: </strong>emailcuatoi97@gmail.com</li>
+                                                    <li><strong>Address: </strong>Ninh Hoa, Khanh Hoa, Viet Nam</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="pills-contact" role="tabpanel"
+                                            aria-labelledby="pills-contact-tab">
+                                            <div class="container">
+                                                <div class="connect d-flex justify-content-center">
+                                                    <a href="https://www.facebook.com/100025040414692"
+                                                        class="btn btn-just-icon btn-link" title="Liên hệ qua facebook">
+                                                        <img src="/assets/svg/fb.svg" height="30">
+                                                    </a>
+                                                    <a href="https://github.com/higithub97"
+                                                        class="btn btn-just-icon btn-link"
+                                                        title="Xem nguồn code từ github">
+                                                        <img src="/assets/svg/github.svg" height="30">
+                                                    </a>
+                                                    <a href="https://twitter.com/kulinhz"
+                                                        class="btn btn-just-icon btn-link" title="Liên hệ qua gmail">
+                                                        <img src="/assets/svg/gmail.svg" height="30">
+                                                    </a>
+                                                    <a href="https://twitter.com/kulinhz"
+                                                        class="btn btn-just-icon btn-link" title="Liên hệ qua twitter">
+                                                        <img src="/assets/svg/twitter.svg" height="30">
+                                                    </a>
+                                                </div>
+                                                <div class="mt-1 cv d-flex justify-content-center">
+                                                    <a href="#" class="btn btn-just-icon btn-link" title="Xem CV">
+                                                        <img src="/assets/svg/cv.svg" height="45">
+                                                    </a>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pb-2 text-center mt-2 mb-4">
+                                <p>" Không có điều gì xảy ra cho đến khi bạn hành động. " </p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>

@@ -3,12 +3,26 @@
     display: none;
   }
 }
+@media (max-width: 405px) {
+  .hidden-md-sm-405 {
+    display: none;
+  }
+}
 
 body {
   // min-height: 75rem;
-  background: rgb(245, 245, 245);
+  background: #dfe4e9;
   min-width: 320px;
   color: rgb(60, 72, 88);
+}
+
+.bg-blue{
+  background: blue;
+}
+
+.progress {
+  // margin-top: 2px;
+  border-radius: 999px;
 }
 
 .bg-views {

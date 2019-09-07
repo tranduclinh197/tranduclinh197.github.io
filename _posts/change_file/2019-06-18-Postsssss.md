@@ -6,4 +6,4 @@ categories: /post/
 author: Trần Đức Lĩnh
 ---
 
-## Học Jekyll làm blog free :v
+> `Học Jekyll làm blog free :v`

@@ -1,0 +1,23 @@
+- name-skill: HTML/CSS-(Responsive, .sass/.scss)
+  color-bar: bg-danger
+  valuenow: 95
+  
+- name-skill: JavaScript-(ES6)
+  color-bar: bg-warning
+  valuenow: 60
+
+- name-skill: Design-(Ps/Lr)
+  color-bar: bg-warning
+  valuenow: 70
+
+- name-skill: Office computing-(Wr, Ex, Pp)
+  color-bar: bg-warning
+  valuenow: 85
+
+- name-skill: English
+  color-bar: bg-warning
+  valuenow: 50
+
+- name-skill: Other-(Git command, git work-follow)
+  color-bar: bg-warning
+  valuenow: 100
