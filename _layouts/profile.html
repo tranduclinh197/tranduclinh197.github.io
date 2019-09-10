@@ -92,7 +92,7 @@ title: Cá nhân
                                                     </div>
                                                     
                                                     <div class="container pb-3">
-                                                        {% for skill in site.data.skills %}
+                                                        {% for skill in site.data.profile_skills %}
                                                             <div>
                                                                 <p class="overflow-ellipsis" style="margin: 10px 0 0 2px">{{ skill.name-skill }}</p>
                                                             </div>
@@ -125,23 +125,12 @@ title: Cá nhân
                                             aria-labelledby="pills-contact-tab">
                                             <div class="container">
                                                 <div class="connect d-flex justify-content-center">
-                                                    <a href="https://www.facebook.com/100025040414692"
-                                                        class="btn btn-just-icon btn-link" title="Liên hệ qua facebook">
-                                                        <img src="/assets/svg/fb.svg" height="30">
-                                                    </a>
-                                                    <a href="https://github.com/higithub97"
-                                                        class="btn btn-just-icon btn-link"
-                                                        title="Xem nguồn code từ github">
-                                                        <img src="/assets/svg/github.svg" height="30">
-                                                    </a>
-                                                    <a href="https://twitter.com/kulinhz"
-                                                        class="btn btn-just-icon btn-link" title="Liên hệ qua gmail">
-                                                        <img src="/assets/svg/gmail.svg" height="30">
-                                                    </a>
-                                                    <a href="https://twitter.com/kulinhz"
-                                                        class="btn btn-just-icon btn-link" title="Liên hệ qua twitter">
-                                                        <img src="/assets/svg/twitter.svg" height="30">
-                                                    </a>
+                                                    {% for infor in site.data.profile_infor %}
+                                                        <a href="{{ infor.href }}"
+                                                            class="btn btn-just-icon btn-link" title="{{ infor.title }}">
+                                                            <img src="/assets/svg/{{ infor.src }}" height="30">
+                                                        </a>
+                                                    {% endfor %}
                                                 </div>
                                                 <div class="mt-1 cv d-flex justify-content-center">
                                                     <a href="#" class="btn btn-just-icon btn-link" title="Xem CV">

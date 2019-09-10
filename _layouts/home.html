@@ -2,19 +2,70 @@
 layout: default
 title: Trang chủ
 ---
-<div class="container bg-light container-border-radius py-3 px-4">
+<div class="container bg-light container-border-radius py-3 px-4 my-lg-4 my-3">
     <div class="posts">
-        {% for post in site.posts %}
+        <div class="card-columns col-md-12 ">
+            {% for post in site.posts %}
+
+                <div class="card">
+                    <div class="card-header card-header-image">
+                        <a href="#pablo">
+                            <img class="img" src="/assets/img/blog8.jpg" width="100%">
+                            <h3><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <p>
+                            <small>
+                                {{ post.excerpt }}
+                            </small>
+                        </p>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+
+    <!-- {% for post in site.posts %}
             <article>
-                <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                <h3><a href="{{ post.url }}">{{ post.title }}</a></h2>
                 <p class="text-dark">
-                    Published on {{ post.date | date_to_string }}
+                    <i class="fas fa-user-alt font-weight-light mr-lg-1">
+                        <a href="#">
+                            <span>
+                                {{ post.author }}
+                            </span>
+                        </a>
+                    </i>
+
+                    <i class="fas fa-clock font-weight-light mr-lg-1">
+                        <a href="#">
+                            <span>
+                                {{ post.date | date_to_string }}
+                            </span>
+                        </a>
+                    </i>
+
+                    {% if post.tag != null %}
+                        <i class="fas fa-tags font-weight-light mr-lg-1">
+                            <a href="#">
+                                <span>
+                                    {{ post.tag }}
+                                </span>
+                            </a>
+                        </i>
+                    {% endif %}
+
                     <small>
                         {{ post.excerpt }}
                     </small>
+
                 </p>
-                
             </article>
         {% endfor %}
     </div>
 </div>
+
+ -->

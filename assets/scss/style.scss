@@ -1,3 +1,5 @@
+@import "scss_main/bootstrap.scss";
+
 @import "_color.scss";
 @import "_header.scss";
 @import "_footer.scss";
@@ -8,6 +10,21 @@
 @import "_profile.scss";
 @import "_about.scss";
 
+
+.card-columns {
+  @include media-breakpoint-only(xl) {
+    column-count: 3;
+  }
+  @include media-breakpoint-only(lg) {
+    column-count: 3;
+  }
+  @include media-breakpoint-only(md) {
+    column-count: 3;
+  }
+  @include media-breakpoint-only(sm) {
+    column-count: 2;
+  }
+}
 
 //- 
 
