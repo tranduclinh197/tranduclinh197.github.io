@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "Giới thiệu về bản thân"
+date:   2019-06-18 21:18:46 +0700
+categories: jekyll update
+author: Trần Đức Lĩnh
+tag: start
+img-title: /assets/img/blog1.jpg
+---
+Đây là blog đầu tay của mình, mục đích ban đầu mình muốn tạo một nơi để lưu trữ, sao lưu kiến thức từ mọi nơi để học lại. Chính xác hơn là một nơi để lưu trữ **bookmark**.
+
+![image-title-here](/assets/img/img-post/welcome-jekyll/pic-1.png){:width="100%"}
+
+Lúc đó mình hay `note` những gì khó nhớ vào file với đuôi mở rộng là `.md` (`markdown`) và `push` lên `github` dùng tạm.
+Nhưng kiến thức ngày càng nhiều, việc phân chia chủ đề bài viết lại không rõ ràng, giao diện lại không trực quan nên mình chuyển sang viết `Jekyll + Bootstrap` để có cái nhìn toàn vẹn hơn.
+
+#### Là một Frontend Coder
+Từ một cậu tân sinh viên không biết gì về công nghệ thông tin và với kinh nghiệm non kém chỉ khoảng 1.5 đến 2 năm lập trình, lượng kiến thức cũng chỉ ở mức cơ bản, mình vẫn tự tin để hướng dẫn các bạn tân sinh viên mới toanh về hướng đi của một Frontend Coder đi trước và phạm nhiều sai lầm ngớ ngẩn như mình đây.
+
+À!!! Có lần mình chỉ một bạn sai tét bét ra mà không biết làm lại như thế nào luôn. Vì thế mình vẫn còn học hỏi nhiều thứ từ các bậc tiền bối đi trước lắm.

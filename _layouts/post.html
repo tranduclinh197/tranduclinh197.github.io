@@ -1,8 +1,37 @@
 ---
 layout: default
 ---
-<article>
-    <h2>{{ page.title }}</h2>
-    Published on {{ page.date | date_to_string }}
-    {{ content }}
-</article>
+<div class="container bg-light container-border-radius py-3 px-4 my-lg-4 my-3">
+    <article>
+        <h2>{{ page.title }}</h2>
+        <div class="pb-1 pl-3">
+            <i class="fas fa-user-alt font-weight-light mr-1">
+                    <a href="#">
+                        <span>
+                                {{ page.author }}
+                        </span>
+                    </a>
+                </i>
+                <i class="fas fa-clock font-weight-light mr-1">
+                    <a href="#">
+                        <span>
+                                {{ page.date | date_to_string }}
+                        </span>
+                    </a>
+                </i>
+            {% if page.tag != null %}
+                <i class="fas fa-tags font-weight-light mr-1">
+                    <a href="#">
+                        <span>
+                                {{ page.tag }}
+                        </span>
+                    </a>
+                </i>
+            {% endif %}
+        </div>
+        <hr/>
+        <!-- Published on {{ page.date | date_to_string }} -->
+        {{ content }}
+    </article>
+
+</div>
