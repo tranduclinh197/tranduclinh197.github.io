@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Giới thiệu về bản thân"
-date:   2019-06-18 21:18:46 +0700
+date:   2019-09-11 11:20:40 +0700
 categories: jekyll update
 author: Trần Đức Lĩnh
 tag: start
