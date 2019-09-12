@@ -5,7 +5,7 @@ title: Trang chủ
 <div class="container bg-light container-border-radius py-3 px-4 my-lg-4 my-3">
     <div class="posts">
         <div class="card-columns col-md-12 ">
-            {% for post in site.posts reversed %}
+            {% for post in site.posts | reversed %}
                 <div class="card shadow-sm mt-5">
                     <div class="card-header bg-transparent border-0" style="margin-bottom: -44px">
                         <a href="{{ post.url }}">
@@ -16,13 +16,17 @@ title: Trang chủ
                         <h5 class="text-center"><a href="{{ post.url }}">{{ post.title }}</a></h5>
                         {% if post.tag != null %}
                             <i class="fas fa-tags font-weight-light mr-lg-1">
-                                <a href="#">
-                                    <span>
-                                        <small>
-                                            {{ post.tag }}
-                                        </small>
-                                    </span>
-                                </a>
+                                {% for multi-tag in post.tag %}
+                                    <a class="post" href="/tag/{{multi-tag}}">
+                                        <span>
+                                            <small>
+                                                <!-- {{ multi-tag }} -->
+                                                #{{multi-tag}}
+                                            </small>
+                                        </span>
+                                    </a>
+                                    {% unless forloop.last %}, {% endunless %}
+                                {% endfor %}
                             </i>
                         {% endif %}
                         <p>

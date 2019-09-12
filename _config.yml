@@ -1,6 +1,6 @@
 title: Trần Đức Lĩnh
 email: emailcuatoi97@gmail.com
-description: "Sổ tay cá nhân"
+description: "Blog cá nhân"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "higithub97.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: kulinhz
@@ -12,3 +12,5 @@ theme: minima
 plugins:
   - jekyll-feed
 
+# paginate: 6
+# paginate_path: /page:num/
