@@ -1,4 +1,11 @@
 data-nar:
+  - h4-title: Bạn có biết ???
+    topic:
+      - img-src:
+        path: /
+        text-title: Click(...)
+        disa: disabled
+
   - h4-title: Lập trình
     topic:
       - img-src:
