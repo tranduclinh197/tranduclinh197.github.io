@@ -8,7 +8,7 @@ tag: ["console.log", "javascript", "doyouknow"]
 img-title: /assets/img/blog8.jpg
 permalink: /consolelog
 ---
-Ai đã dấn thân vào JavaScript thì khi nhắc đến `console.log` thì ai ai cũng đều biết nó là cái gì. Nhưng không ít bạn biết rằng, ngoài <code>`console.log` </code>ra thì có trên 20 phương thức *console* khác nhau.
+Khi đã dấn thân vào JavaScript, thì `console.log` không còn quá xa lạ gì nữa rồi. Nhưng không ít bạn biết rằng, ngoài <code>`console.log` </code>ra thì có trên 20 phương thức *console* khác nhau.
 
 ![image-title-here](/assets/img/img-post/console/console.jpg){:width="100%"}
 
@@ -87,3 +87,7 @@ Ai đã dấn thân vào JavaScript thì khi nhắc đến `console.log` thì ai
 > Kết quả
 
 ![image-title-here](/assets/img/img-post/console/result.js.console.time.png){:width="50%"}
+
+***
+
+Đó là những phương thức có thể giúp ích cho bạn có cái nhìn trực quan hơn về `console`, bạn cũng có thể tuỳ biến nhiều cách hiển thị hơn, không còn nhàm chán, đơn điệu khi chỉ dùng mỗi `console.log` nữa đúng không nào.

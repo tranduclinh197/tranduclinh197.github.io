@@ -55,3 +55,7 @@ Nếu bạn là một lập trình viên thì việc thao tác thành thạo cá
 
 ##### Thao tác tắt phần mềm
 * `taskkill/f /im <name-application>.exe` : `Tắt trong tường hợp khi không thể thoát trực tiếp`
+
+***
+
+Mình đã tổng hợp lại những thao tác trên `cmd` thường dùng nhất trên *Windows*. Sẽ có những lúc bạn sẽ cần, hãy note lại để dùng dần nhé.

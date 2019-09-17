@@ -33,4 +33,6 @@ Các bạn chỉ có việc ôn lại sơ sơ rồi liên hệ thực tế để
 Ví dụ: <br/>
 Nhiều bạn học JavaScript cũng đã biết `Regex` rồi, và nó tương đồng với một chương của toán học lớp 6, đó chính là bài `Tập hợp`. Hoặc các bài tương tự như khi tạo những sự kiện (even), cần đến toạ độ `xOy` để tính góc chéo thì ta dùng định lý `Pitago`.<br/>
 
-Toán học quan trọng đến mức **sống còn** là thế đấy.
+***
+
+Toán học thực sự rất quan trọng, bạn có nghĩ rằng đã là một lập trình viên thì không động chạm tới toán? Suy nghĩ lại nhé.
