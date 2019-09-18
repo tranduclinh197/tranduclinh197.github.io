@@ -4,6 +4,15 @@
   font-size: 16px;
 }
 
+.font-bar {
+  font-family: titleNar;
+}
+
+@media (max-width: 361px) {
+  .font-bar{
+    font-size: 0.95rem;
+  } 
+}
 @media (max-width: 320px) {
   .font-bar {
     font-size: 0.875rem;
@@ -23,11 +32,6 @@ header {
 
 .narbar-height {
   height: 42px;
-}
-
-.font-bar {
-  font-family: titleNar;
-  font-size: 1.1rem;
 }
 
 .input-search {
