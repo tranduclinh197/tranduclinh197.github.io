@@ -14,10 +14,10 @@
   color-bar: bg-warning
   valuenow: 85
 
-- name-skill: English
+- name-skill: English-(Basic)
   color-bar: bg-warning
-  valuenow: 50
+  valuenow: 55
 
 - name-skill: Other-(Git command, git work-follow)
   color-bar: bg-warning
-  valuenow: 100
+  valuenow: 68
