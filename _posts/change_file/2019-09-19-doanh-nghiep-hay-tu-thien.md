@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Trong IT, doanh nghiệp có trong giống một nhà từ thiện?"
+title:  "Trong nghành IT, doanh nghiệp có trông giống một nhà từ thiện?"
 date:  2019-09-19 23:21:05 +0700
 categories: tu-tuong-IT
 author: Trần Đức Lĩnh
@@ -9,6 +9,8 @@ img-title: /assets/img/blog9.jpg
 permalink: /doanh-nghiep-hay-mot-nha-tu-thien
 ---
 Dạo 1 vòng trên các trang cộng đồng lập trình, có 1 bạn viết về chủ đề *Doanh nghiệp không phải trường học hay nhà từ thiện* khá hay nên mình xin trích một vài đoạn trên trang *topitworks* như sau:
+
+![image-title-here](/assets/img/img-post/cong-ty-hay-nha-tu-thien/img-title.jpg){:width="100%"}
 
 * Kiến thức lập trình của tui hơi kém cũng tại trường không dạy thì đi ra trường làm cái gì???
 * Mà ông cứ lo xa, vào công ty chắc chắn họ sẽ đào tạo lại thôi.
@@ -25,10 +27,10 @@ Thường thì công ty sẽ chịu lỗ nặng vì họ sẽ cử một anh có
 
 **Sự ràng buộc và khuyến mãi được tặng kèm.**<br/>
 Không có chuyện họ đào tạo cho bạn, sau đó bạn sẽ bỏ đi tìm một nơi nào đó ngon hơn. Công ty bỏ công sức đào tạo bạn, họ phải tìm cách kiếm lời hoặc ít ra phải hoà vốn chứ.<br/>
-Sự thật mà nói mọi thứ đều phải có lời cã hai bên, không có cái gì miễn phí cã, khi bạn tạo ra năng xuất cho công ty, công ty mới có tiền để trả lương cho bạn, họ không phải một nhà từ thiện mà trả lương cho bạn hoài được.
+Sự thật mà nói mọi thứ đều phải có lời cã hai bên, không có cái gì miễn phí cã, khi bạn tạo ra năng xuất cho công ty, công ty mới có tiền để trả lương cho bạn, họ không phải một nhà từ thiện mà cho bạn tiền hoài được.
 
-Trên một số *group giao lưu chia sẻ kiến thức lập trình* trên Facebook, một bạn có hỏi về chuyện đi thực tập 3 công ty nhưng sau một khoảng thời gian họ đều nói rằng công ty không thể đào tạo lâu dài, phiền bạn đó đi chỗ khác. Bạn đó cho rằng việc công ty đào tạo quá ngắn nhưng kiến thức lại quá nhiều, công việc công ty thì không đếm hết được. Áp lực đè lên bạn ấy quá lớn. Vậy ai là người có lỗi?<br/>
+Trên một số *group giao lưu chia sẻ kiến thức lập trình* trên Facebook, một bạn có hỏi về chuyện đi thực tập 3 công ty nhưng sau một khoảng thời gian họ đều nói rằng công ty không thể đào tạo lâu dài, phiền đi chỗ khác. Bạn đó cho rằng việc công ty đào tạo quá ngắn nhưng kiến thức lại quá nhiều, công việc công ty thì không đếm hết được. Áp lực đè lên bạn ấy quá lớn. Vậy ai là người có lỗi?<br/>
 
 Tự ngẫm lại nhé.
 
-**Tóm lại** bạn nên chủ động tìm hiểu học hỏi một lĩnh vực nào đó, tự định hướng cho bản thân, từ đó bản thân sẽ có giá trị và con đường phát triển cũng dễ dàng hơn rất nhiều.
+**Tóm lại** bạn nên chủ động tìm hiểu học hỏi một lĩnh vực nào đó, tự định hướng cho bản thân sớm nhất có thể, từ đó bản thân sẽ có giá trị và con đường phát triển cũng dễ dàng hơn rất nhiều.
