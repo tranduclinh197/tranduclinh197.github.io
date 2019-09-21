@@ -23,8 +23,8 @@
   }
 }
 
-header {
-  background: linear-gradient(to right, rgb(143, 247, 247), rgb(191, 255, 185));
+header, footer {
+  background: linear-gradient(to right, #99ee99, #e9b8e5);
   // background: -webkit-linear-gradient(to left, #fff, #fff);
   // background: -moz-linear-gradient(to left, #fff, #fff);
   // background: -o-linear-gradient(to left, #fff, #fff);

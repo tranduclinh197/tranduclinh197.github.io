@@ -143,6 +143,9 @@ permalink: /397ecce003aa459208285c90d2931fef
     * ![.](/assets/img/private/96.e157a40c.png) [easings.net...(CSS)](https://easings.net/)
     * ![.](/assets/img/private/emet.ico) [docs.emmet.io...(Emmet)](https://docs.emmet.io/cheat-sheet/)
     * ![.](/assets/img/private/four-dot.png) [bennettfeely.com...(clip-path)](https://bennettfeely.com/clippy/)
+    * ![.](/assets/img/private/regex.png) [regexr.com...(Regex)](https://regexr.com/)
+    * ![.](/assets/img/private/game-regex.png) [regexcrossword.com...(Regex)](https://regexcrossword.com/)
+
 
 ***
 
