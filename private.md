@@ -25,7 +25,6 @@ permalink: /397ecce003aa459208285c90d2931fef
     * ![.](/assets/img/private/js.png) [javascript.info](https://javascript.info/)
     * ![.](/assets/img/private/30sec.png) [30secondsofcode.org](https://www.30secondsofcode.org/)
     * ![.](/assets/img/private/codejs.ico) [geeksforgeeks.org](https://www.geeksforgeeks.org)
-    * ![.](/assets/img/private/cubic-bezier-graph.png) [cubic-bezier.com](https://cubic-bezier.com/)
     * ![.](/assets/img/private/express.png) [expressjs.com](https://expressjs.com/)
     * ![.](/assets/img/private/xfavicon.png.pagespeed.ic.I4cjKGL2YU.png) [webfaver.com](http://webfaver.com/)
     * ![.](/assets/img/private/logo-funnylinecode-01.jpg) [nhungdongcodevui.com](https://nhungdongcodevui.com/)
@@ -51,6 +50,7 @@ permalink: /397ecce003aa459208285c90d2931fef
     * ![.](/assets/img/private/kata.png) [katacoda.com](https://www.katacoda.com/)
     * ![.](/assets/img/private/0129e9b9983bd5c26bfa72285bccb6c7.png) [learn.cloudcannon.com](https://learn.cloudcannon.com/)
     * ![.](/assets/img/private/hoc247_logo.png) [hoc247.net](https://hoc247.net/)
+    * ![.](/assets/img/private/nodejs.png) [nodejs.org](https://nodejs.org/en/docs/)
 
 ***
 
@@ -73,6 +73,7 @@ permalink: /397ecce003aa459208285c90d2931fef
     * ![.](/assets/img/private/vio.ico) [viblo.asia](https://viblo.asia/)
     * ![.](/assets/img/private/codehub.ico) [codehub.vn](https://www.codehub.vn/)
     * ![.](/assets/img/private/hub.png) [stackoverrun.com](https://stackoverrun.com/)
+    * ![.](/assets/img/private/news-design.png) [designernews.co](https://www.designernews.co/)
 
 ***
 
@@ -88,6 +89,8 @@ permalink: /397ecce003aa459208285c90d2931fef
 * ##### Font
     * ![.](/assets/img/private/google_fonts_lodp.ico) [fonts.google.com](https://fonts.google.com/)
     * ![.](/assets/img/private/fontcss.ico) [cssfontstack.com](https://www.cssfontstack.com/)
+    * ![.](/assets/img/private/font.png) [fontsquirrel.com](https://www.fontsquirrel.com/)
+    * ![.](/assets/img/private/myfont.webp) [myfonts.com](https://www.myfonts.com/)
 
 ***
 
@@ -103,6 +106,8 @@ permalink: /397ecce003aa459208285c90d2931fef
 * ##### Xây dựng ý tưởng mới
     * ![.](/assets/img/private/favicon-fd1ea058.png) [pinterest.com](https://www.pinterest.com/)
     * ![.](/assets/img/private/systax.ico) [enlight.nyc](https://enlight.nyc/)
+    * ![.](/assets/img/private/c.ico) [calltoidea.com](https://www.calltoidea.com/)
+
 
 ***
 
@@ -134,10 +139,14 @@ permalink: /397ecce003aa459208285c90d2931fef
     * ![.](/assets/img/private/responsive.ico) [lab.maltewassermann.com/...(RESPONSIVE)](http://lab.maltewassermann.com/viewport-resizer/)
     * ![.](/assets/img/private/savevideo.ico) [savefrom.net/...(Save video)](https://en.savefrom.net/)
     * ![.](/assets/img/private/br-radius.png) [9elements.github.io...(Fancy-br-radius)](https://9elements.github.io/fancy-border-radius/#30.30.30.52--.)
+    * ![.](/assets/img/private/cubic-bezier-graph.png) [cubic-bezier.com...(CSS)](https://cubic-bezier.com/)
+    * ![.](/assets/img/private/96.e157a40c.png) [easings.net...(CSS)](https://easings.net/)
+    * ![.](/assets/img/private/emet.ico) [docs.emmet.io...(Emmet)](https://docs.emmet.io/cheat-sheet/)
+    * ![.](/assets/img/private/four-dot.png) [bennettfeely.com...(clip-path)](https://bennettfeely.com/clippy/)
 
 ***
 
-* ##### Ảnh
+* ##### Background
     * ![.](/assets/img/private/apple-touch-icon.png) [flickr.com](https://www.flickr.com/)
     * ![.](/assets/img/private/pix.png) [pixabay.com](https://pixabay.com/vi/)
     * ![.](/assets/img/private/pexels.png) [pexels.com](https://www.pexels.com/)
@@ -149,6 +158,7 @@ permalink: /397ecce003aa459208285c90d2931fef
     * ![.](/assets/img/private/foter.ico) [foter.com](https://foter.com/)
     * ![.](/assets/img/private/wall.ico) [wallpapercave.com](https://wallpapercave.com/)
     * ![.](/assets/img/private/clearlogo.png) [cleanpng.com](https://cleanpng.com/)
+    * ![.](/assets/img/private/background-video.ico) [coverr.co](https://coverr.co/)
 
 ***
 
@@ -166,6 +176,16 @@ permalink: /397ecce003aa459208285c90d2931fef
     * ![.](/assets/img/private/icon-svg.png) [freepik.com](https://www.freepik.com/)
     * ![.](/assets/img/private/cropped-dohoafx-icon-160x160.png) [dohoafx.com](https://dohoafx.com/)
     * ![.](/assets/img/private/continents10.png) [dev.w3.org/..charref](https://dev.w3.org/html5/html-author/charref)
+    * ![.](/assets/img/private/design.ico) [materialpalette.com](https://www.materialpalette.com/)
+    * ![.](/assets/img/private/favicon.gif) [colorhunt.co](https://colorhunt.co/)
+    * ![.](/assets/img/private/favicon-32.png) [paletton.com](http://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF)
+    * ![.](/assets/img/private/color-design.png) [uigradients.com](https://uigradients.com/)
+    * ![.](/assets/img/private/webdesign.png) [webdesignrankings.com](https://www.webdesignrankings.com/resources/lolcolors/)
+    * ![.](/assets/img/private/design-web.ico) [canva.com](https://www.canva.com/)
+    * ![.](/assets/img/private/p.png) [placeit.net](https://placeit.net/)
+    * ![.](/assets/img/private/icon-design.ico) [iconmonstr.com](https://iconmonstr.com/)
+    * ![.](/assets/img/private/iconxx.ico) [icomoon.io](https://icomoon.io/)
+    * ![.](/assets/img/private/idea.ico) [newdesigngroup.ca](https://www.newdesigngroup.ca/)
 
 ***
 
