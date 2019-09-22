@@ -6,7 +6,7 @@ categories:
 author: Trần Đức Lĩnh
 tag: ["math", "toan"]
 img-title: /assets/img/blog3.jpg
-permalink: /toan-hoc-co-quan-trong
+permalink: /toan-hoc-co-quan-trong.html
 ---
 Giỏi toán không nhất thiết trở thành lập trình viên giỏi.<br/>
 Nhưng muốn trở thành một lập trình viên giỏi thì phải giỏi toán.

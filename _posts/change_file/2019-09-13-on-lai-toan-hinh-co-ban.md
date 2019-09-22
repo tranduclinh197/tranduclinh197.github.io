@@ -6,7 +6,7 @@ categories: hinh-hoc-co-ban-p1
 author: Trần Đức Lĩnh
 tag: ["hinh-hoc", "math", "toan"]
 img-title: /assets/img/blog4.jpg
-permalink: /hinh-hoc-co-ban-p1
+permalink: /hinh-hoc-co-ban-p1.html
 ---
 Một điều thú vị là khi bạn muốn tối ưu những `icon` trên website giúp việc load trang trở nên nhanh hơn, bạn phải biết về `SVG` và `<canvas>`.<br/>
 Khác biệt lớn nhất khi thiết kế icon theo ý muốn ta phải sử dụng toạ độ để tính toán các điểm. Tất nhiên sẽ có những phần mềm hỗ trợ làm điều đó, nhưng mình khuyên các bạn nên biết chút ít về cách tạo `SVG`, `<canvas>` thủ công.
