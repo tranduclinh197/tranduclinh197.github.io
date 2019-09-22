@@ -38,7 +38,11 @@ Khi đã dấn thân vào JavaScript, thì `console.log` không còn quá xa l�
 ***
 
 ### console.log
-![image-title-here](/assets/img/img-post/console/js.console.log.png){:width="90%"}
+
+```js
+    //Tran Duc Linh
+    console.log('Hello word');
+```
 
 > Kết quả
 
@@ -47,7 +51,13 @@ Khi đã dấn thân vào JavaScript, thì `console.log` không còn quá xa l�
 ***
 
 ### console.log + CSS
-![image-title-here](/assets/img/img-post/console/js.console.log_css.png){:width="90%"}
+
+```js
+    // Tran Duc Linh
+    console.log('%c Cảnh báo ', 'color: white; background-color: rgba(255,20,14,1);
+    font-size:20px; border: 1px solid red;border-radius: 999px; padding: 2px 10px',
+    'Lỗi...');
+```
 
 > Kết quả
 
@@ -56,7 +66,13 @@ Khi đã dấn thân vào JavaScript, thì `console.log` không còn quá xa l�
 ***
 
 ### console.table()
-![image-title-here](/assets/img/img-post/console/js.console.table.png){:width="90%"}
+
+```js
+    // Tran Duc Linh
+    const hub_1 = { id: "1d4BfD", name: "Duc Linh"};
+    const hub_2 = { id: "2CFf0A", name: "Somebody..."};
+    console.table({ hub_1, hub_2})
+```
 
 > Kết quả
 
@@ -65,7 +81,18 @@ Khi đã dấn thân vào JavaScript, thì `console.log` không còn quá xa l�
 ***
 
 ### console.group()
-![image-title-here](/assets/img/img-post/console/js.console.group.png){:width="90%"}
+
+```js
+    // Tran Duc Linh
+    console.group('Tổng quan');
+    console.log('Tên: Trần Đức Lĩnh');
+    console.log('Công việc: Front-End');
+
+    console.group('Thêm');
+    console.log('Địa chỉ: Ninh Hoà - Khánh Hoà');
+    console.groupEnd();
+    console.groupEnd();
+```
 
 > Kết quả
 
@@ -74,7 +101,11 @@ Khi đã dấn thân vào JavaScript, thì `console.log` không còn quá xa l�
 ***
 
 ### console.warn() & console.error()
-![image-title-here](/assets/img/img-post/console/js.console.warn_err.png){:width="90%"}
+
+```js
+    // Tran Duc Linh
+    console.warn("Waring!!!");
+```
 
 > Kết quả
 
@@ -82,7 +113,15 @@ Khi đã dấn thân vào JavaScript, thì `console.log` không còn quá xa l�
 
 ***
 ### console.time()
-![image-title-here](/assets/img/img-post/console/js.console.time.png){:width="90%"}
+
+```js
+    // Tran Duc Linh
+    console.time("for-loop");
+    for(let i=0;i<4;i++){
+        console.log(i);
+    }
+    console.timeEnd("for-loop");
+```
 
 > Kết quả
 
