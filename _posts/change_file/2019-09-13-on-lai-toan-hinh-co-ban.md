@@ -11,13 +11,21 @@ permalink: /hinh-hoc-co-ban-p1.html
 Một điều thú vị là khi bạn muốn tối ưu những `icon` trên website giúp việc load trang trở nên nhanh hơn, bạn phải biết về `SVG` và `<canvas>`.<br/>
 Khác biệt lớn nhất khi thiết kế icon theo ý muốn ta phải sử dụng toạ độ để tính toán các điểm. Tất nhiên sẽ có những phần mềm hỗ trợ làm điều đó, nhưng mình khuyên các bạn nên biết chút ít về cách tạo `SVG`, `<canvas>` thủ công.
 
+
+
 #### Cùng nhau ôn lại 1 chút kiến thức toán hình nào.
 <hr/>
 ##### **Hình tam giác**
 
 * Nếu ta có 1 điểm, tất nhiên sẽ vẽ được vô số tia, vô số đường thẳng.
 
-![image-title-here](/assets/img/img-post/toan-hinh-co-ban-p1/1-diem.png){:width="100%"}
+<div id="box" class="jxgbox" style="display: block; margin: 10px auto; width:80%; height:350px;"></div>
+<script type="text/javascript">
+    var board = JXG.JSXGraph.initBoard('box', {boundingbox: [-10, 10, 30, -10], axis:true});
+    var pol = board.create('point',[4.5,4.5]);
+</script>
+<!-- ![image-title-here](/assets/img/img-post/toan-hinh-co-ban-p1/1-diem.png){:width="100%"} -->
+
 <hr/>
 * Nếu đi qua 2 điểm chỉ vẻ được duy nhất 1 đường thằng.
 
