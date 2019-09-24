@@ -82,3 +82,9 @@
     /* opacity: 0.6; */
 }
 
+/* Edit by Tran Duc Linh */
+
+.jsx_geometry {
+    display: block; margin: 10px auto; width:80%; height:350px;
+    box-shadow: 8px 8px 20px #c8c8c8;
+}

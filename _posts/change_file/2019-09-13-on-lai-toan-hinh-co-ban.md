@@ -19,22 +19,23 @@ Khác biệt lớn nhất khi thiết kế icon theo ý muốn ta phải sử d�
 
 * Nếu ta có 1 điểm, tất nhiên sẽ vẽ được vô số tia, vô số đường thẳng.
 
-<div id="box" class="jxgbox" style="display: block; margin: 10px auto; width:80%; height:350px;"></div>
-<script type="text/javascript">
-    var board = JXG.JSXGraph.initBoard('box', {boundingbox: [-10, 10, 30, -10], axis:true});
-    var pol = board.create('point',[4.5,4.5]);
-</script>
+<div id="point" class="jxgbox jsx_geometry"></div>
+
 <!-- ![image-title-here](/assets/img/img-post/toan-hinh-co-ban-p1/1-diem.png){:width="100%"} -->
 
 <hr/>
 * Nếu đi qua 2 điểm chỉ vẻ được duy nhất 1 đường thằng.
 
-![image-title-here](/assets/img/img-post/toan-hinh-co-ban-p1/duong-thang.png){:width="100%"}
+<div id="twoPoint" class="jxgbox jsx_geometry"></div>
+
+<!-- ![image-title-here](/assets/img/img-post/toan-hinh-co-ban-p1/duong-thang.png){:width="100%"} -->
 <hr/>
 * Nếu M nằm giữa A, B thì sẽ có vô số chỗ trên AB.
 * M nằm giữa AB là `trung điểm` của AB.
 * Đường `trung trực` của AB là đường thẳng đi qua `trung điểm` AB và vuông góc với AB.
 * Những điểm nằm trên đường `trung trực luôn luôn` cách đều 2 đầu đoạn thẳng.
+
+<div id="midPoint" class="jxgbox jsx_geometry"></div>
 
 ![image-title-here](/assets/img/img-post/toan-hinh-co-ban-p1/trung-truc.png){:width="100%"}
 <hr/>
