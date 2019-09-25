@@ -14,7 +14,7 @@ Khác biệt lớn nhất khi thiết kế icon theo ý muốn ta phải sử d�
 
 
 #### Cùng nhau ôn lại 1 chút kiến thức toán hình nào.
-*Hiển thị toạ độ sẽ bị biến dạng khi xem theo <strong>chiều dọc</strong> trên hầu hết thiết bị di động.*
+*(Hiển thị toạ độ sẽ bị biến dạng khi xem theo <strong>chiều dọc</strong> trên hầu hết thiết bị di động.)*
 <hr/>
 ##### **Hình tam giác**
 
@@ -22,16 +22,10 @@ Khác biệt lớn nhất khi thiết kế icon theo ý muốn ta phải sử d�
 
 <div id="point" class="jxgbox jxgControll_embed"></div>
 
-
-<!-- ![image-title-here](/assets/img/img-post/toan-hinh-co-ban-p1/1-diem.png){:width="100%"} -->
-
-<hr/>
 * Nếu đi qua 2 điểm chỉ vẽ được duy nhất 1 đường thằng.
 
 <div id="twoPoint" class="jxgbox jxgControll_embed"></div>
 
-<!-- ![image-title-here](/assets/img/img-post/toan-hinh-co-ban-p1/duong-thang.png){:width="100%"} -->
-<hr/>
 * Nếu M nằm giữa A, B thì sẽ có vô số chỗ trên AB.
 * M nằm giữa AB là `trung điểm` của AB.
 * Đường `trung trực` của AB là đường thẳng đi qua `trung điểm` AB và vuông góc với AB.
@@ -89,12 +83,12 @@ Khác biệt lớn nhất khi thiết kế icon theo ý muốn ta phải sử d�
 
 <div id="trigonometric" class="jxgbox jxgControll_embed"></div>
 
-![image-title-here](/assets/img/img-post/toan-hinh-co-ban-p1/binh-thuong-1-canh.png){:width="100%"}
-
-<hr/>
 
 * **Diện tích tam giác**
-![image-title-here](/assets/img/img-post/toan-hinh-co-ban-p1/dien-tich-1.png){:width="100%"}
+
+<div id="acreage" class="jxgbox jxgControll_embed"></div>
+
+<div id="acreage_2" class="jxgbox jxgControll_embed"></div>
 
 ![image-title-here](/assets/img/img-post/toan-hinh-co-ban-p1/dien-tich-2.png){:width="100%"}
 
