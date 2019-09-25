@@ -17,7 +17,7 @@ function midpoint() {
   point[0] = mid_point.create('point',[-10,5], {name:'A',size:4});
   point[1] = mid_point.create('point',[20,5], {name:'B',size:4});
   point[2] = mid_point.create('point',[5,-5], {name:'N',size:4});
-  point[3] = mid_point.create('point',[5,5], {name:'M',size:5});
+  point[3] = mid_point.create('midpoint', [point[0], point[1]], {name:'M',size:4});
   mid_point.create('text', [8, 6, "Trung điểm"]);
 
 function line_point (x, y, color='#208', sF = false, sL = false) {
@@ -119,7 +119,8 @@ function pitago () {
   point[0] = board.create('point',[-15,-15], {name:'A',size:4});
   point[1] = board.create('point',[-15,15], {name:'B',size:4});
   point[2] = board.create('point',[15,-15], {name:'C',size:4});
-  point[3] = board.create('point',[0,0], {name:'H',size:4});
+  point[3] = board.create('midpoint', [point[1], point[2]], {name:'H',size:4});
+
   board.create('text', [-10, 10, "Hình chiếu"]);
   board.create('text', [-21, 3, "Đường xiên"]);
   board.create('text', [-10, -9, "Đường cao"]);
@@ -192,10 +193,18 @@ function acreage_2 () {
   point[0] = board.create('point',[0,15], {name:'A',size:4});
   point[1] = board.create('point',[-15,0], {name:'B',size:4});
   point[2] = board.create('point',[15,0], {name:'C',size:4});
-  point[3] = board.create('point',[0,6.3], {name:'0',size:4});
-  point[4] = board.create('point',[-5,10], {name:'E',size:4});
+  point[3] = board.create('midpoint', [point[1], point[2]], {name:'H',size:4});
+  point[4] = board.create('point',[0,6.14], {name:'0',size:4});
+  point[5] = board.create('point',[-5,10], {name:'E',size:4});
+  point[6] = board.create('midpoint', [point[0], point[1]], {name:'D',size:4});
+  point[7] = board.create('midpoint', [point[0], point[2]], {name:'F',size:4});
+
+
+  // point[5] = board.create('midpoint', [point[0], point[4]], {name:'E',size:4});
+  
+
   board.create('circle',[point[0], point[1], point[2]], {strokeColor:'#00ff00',strokeWidth:2});
-  board.create('circle',[point[3], point[4]], {strokeColor:'rgb(202, 0, 151)', strokeWidth:2});
+  board.create('circle',[point[4], point[5]], {strokeColor:'rgb(202, 0, 151)', strokeWidth:2});
   
 
 
@@ -206,6 +215,55 @@ function acreage_2 () {
   line_point("A","C");
   line_point("B","C");
   line_point("0","E");
+  line_point("A","H", "#FF6633");
+  line_point("B","F", "#FF6633");
+  line_point("C","D", "#FF6633");
+
+
+  board.create('text', [3, -2.5, "a"], {strokeColor:'red'});
+  board.create('text', [8.37, 9.86, "b"], {strokeColor:'red'});
+  board.create('text', [-9, 8.8, "c"], {strokeColor:'red'});
+  board.create('text', [-20, 21, "S = abc/4R"], {strokeColor:'red'});
+  board.create('text', [-20, 18, "S = p.r"], {strokeColor:'red'});
+  board.create('text', [9, 22, "Công thức Heron"]);
+  board.create('text', [9, 20, "S = &Sqrt;p(p-a)(p-b)(p-c)"], {strokeColor:'red'});
+  board.create('text', [-15, 10, "R"], {strokeColor:'red'});
+  board.create('text', [-4.6, 3, "r"], {strokeColor:'red'});
+  board.create('text', [-22, -12, "R: Bán kính vòng tròn ngoại tiếp (tiếp xúc 3 điểm &xutri;ABC"], {strokeColor:'red'});
+  board.create('text', [-22, -14, "r: Bán kính vòng tròn nội tiếp (tiếp xúc 3 cạnh &xutri;ABC"], {strokeColor:'red'});
+  board.create('text', [-22, -16, "p: Nữa chu vi (p = a+b+c/2)"], {strokeColor:'red'});
+};
+
+function median_line() {
+  let board = JXG.JSXGraph.initBoard('median_line', {boundingbox: [-25, 25, 25, -25], axis:true, showCopyright:false});
+  point[0] = board.create('point',[0,15], {name:'A',size:4});
+  point[1] = board.create('point',[-20,0], {name:'B',size:4});
+  point[2] = board.create('point',[15,0], {name:'C',size:4});
+
+  point[3] = board.create('midpoint', [point[0], point[1]], {name:'D',size:4});
+  point[4] = board.create('midpoint', [point[1], point[2]], {name:'E',size:4});
+  point[5] = board.create('midpoint', [point[2], point[0]], {name:'M',size:4});
+
+
+
+  function line_point (x, y, color='rgb(61, 0, 202)') {
+    board.create('line',[x, y], {strokeColor: color,strokeWidth:2, straightFirst:false, straightLast:false,});
+  }
+  line_point("A","B");
+  line_point("A","C");
+  line_point("B","C");
+  line_point("B","M", "rgb(202, 0, 151)");
+  line_point("C","D", "rgb(255, 251, 0)");
+  line_point("A","E", "rgb(0, 255, 34)");
+
+  board.create('text', [-10, 3.8, "mb"], {strokeColor:'rgb(202, 0, 151)'});
+  board.create('text', [7, 4.2, "mc"], {strokeColor:'rgb(255, 251, 0)'});
+  board.create('text', [-3.7, -1.5, "ma"], {strokeColor:'rgb(0, 255, 34)'});
+
+  board.create('text', [6, -7, "ma^2 = (b^2+c^2)/2 - a^2/4"], {strokeColor:'red'});
+  board.create('text', [6, -9, "mb^2 = (a^2+c^2)/2 - b^2/4"], {strokeColor:'red'});
+  board.create('text', [6, -11, "ma^2 = (a^2+b^2)/2 - c^2/4"], {strokeColor:'red'});
+  board.create('text', [-3, 6.5, "G"], {strokeColor:'red'});
 
 };
 
@@ -224,4 +282,5 @@ pitago();
 trigonometric();
 acreage();
 acreage_2();
-export { one_point, two_point, midpoint, threedot, triangle, high_road, pitago, trigonometric, acreage, acreage_2 };
+median_line();
+export { one_point, two_point, midpoint, threedot, triangle, high_road, pitago, trigonometric, acreage, acreage_2, median_line };

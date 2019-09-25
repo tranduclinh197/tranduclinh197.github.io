@@ -90,8 +90,6 @@ Khác biệt lớn nhất khi thiết kế icon theo ý muốn ta phải sử d�
 
 <div id="acreage_2" class="jxgbox jxgControll_embed"></div>
 
-![image-title-here](/assets/img/img-post/toan-hinh-co-ban-p1/dien-tich-2.png){:width="100%"}
-
 * **Định lý hàm số (sin)**
     * `a/sinA = b/sinB = c/sinC = 2R`
 
@@ -101,17 +99,14 @@ Khác biệt lớn nhất khi thiết kế icon theo ý muốn ta phải sử d�
     * `c^2 = a^2 + b^2 - 2ab . cosC`
 
 * **Đường trung tuyến** là đường thẳng hạ từ đỉnh xuống trung điểm cạnh đối diện.
-
-![image-title-here](/assets/img/img-post/toan-hinh-co-ban-p1/trung-tuyen.png){:width="100%"}
-<hr/>
 * **Trọng tâm** là giao nhau của 3 đường trung tuyến.
+
+<div id="median_line" class="jxgbox jxgControll_embed"></div>
+
 => G là trọng tâm.<br/>
     * `AG = 2/3 AM`
     * `GM = 1/3 AM`
     * `AM = 1/3 GM`
-
-![image-title-here](/assets/img/img-post/toan-hinh-co-ban-p1/trong-tam.png){:width="100%"}
-<hr/>
 
 * **Trực tâm** là giao nhau của 3 đường cao<br/>
 => H là trọng tâm
