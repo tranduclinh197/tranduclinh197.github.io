@@ -14,19 +14,21 @@ Khác biệt lớn nhất khi thiết kế icon theo ý muốn ta phải sử d�
 
 
 #### Cùng nhau ôn lại 1 chút kiến thức toán hình nào.
+*Hiển thị toạ độ sẽ bị biến dạng khi xem theo <strong>chiều dọc</strong> trên hầu hết thiết bị di động.*
 <hr/>
 ##### **Hình tam giác**
 
 * Nếu ta có 1 điểm, tất nhiên sẽ vẽ được vô số tia, vô số đường thẳng.
 
-<div id="point" class="jxgbox jsx_geometry"></div>
+<div id="point" class="jxgbox jxgControll_embed"></div>
+
 
 <!-- ![image-title-here](/assets/img/img-post/toan-hinh-co-ban-p1/1-diem.png){:width="100%"} -->
 
 <hr/>
-* Nếu đi qua 2 điểm chỉ vẻ được duy nhất 1 đường thằng.
+* Nếu đi qua 2 điểm chỉ vẽ được duy nhất 1 đường thằng.
 
-<div id="twoPoint" class="jxgbox jsx_geometry"></div>
+<div id="twoPoint" class="jxgbox jxgControll_embed"></div>
 
 <!-- ![image-title-here](/assets/img/img-post/toan-hinh-co-ban-p1/duong-thang.png){:width="100%"} -->
 <hr/>
@@ -35,37 +37,47 @@ Khác biệt lớn nhất khi thiết kế icon theo ý muốn ta phải sử d�
 * Đường `trung trực` của AB là đường thẳng đi qua `trung điểm` AB và vuông góc với AB.
 * Những điểm nằm trên đường `trung trực luôn luôn` cách đều 2 đầu đoạn thẳng.
 
-<div id="midPoint" class="jxgbox jsx_geometry"></div>
+<div id="midPoint" class="jxgbox jxgControll_embed"></div>
 
-![image-title-here](/assets/img/img-post/toan-hinh-co-ban-p1/trung-truc.png){:width="100%"}
-<hr/>
 
-* 3 điểm nằm trên 1 đường thẳng thì 3 điểm đó thẳng hàng.
+* 3 điểm **ABC** nằm trên 1 đường thẳng thì 3 điểm đó thẳng hàng.
+* 3 điểm **DEF** không nằm trên 1 đường thẳng thì sẽ tạo ra 1 hình `tam giác`.
 
-![image-title-here](/assets/img/img-post/toan-hinh-co-ban-p1/3-diem.png){:width="100%"}
-<hr/>
-
-* 3 điểm không nằm trên 1 đường thẳng thì sẽ tạo ra 1 hình `tam giác`.
-
-![image-title-here](/assets/img/img-post/toan-hinh-co-ban-p1/tam-giac.png){:width="100%"}
-<hr/>
+<div id="threeDot" class="jxgbox jxgControll_embed"></div>
 
 * Các loại tam giác phổ biến
 
-![image-title-here](/assets/img/img-post/toan-hinh-co-ban-p1/cac-loai-tam-giac.png){:width="100%"}
-<hr/>
+<p class="text-center text-bold">Tam giác tù</p>
+<div id="triangle_basic_1" class="jxgbox jxgControll_embed"></div>
+
+***
+<p class="text-center text-bold">Tam giác vuông</p>
+<div id="triangle_basic_2" class="jxgbox jxgControll_embed"></div>
+
+***
+<p class="text-center text-bold">Tam giác đều</p>
+<div id="triangle_basic_3" class="jxgbox jxgControll_embed"></div>
+
+***
+<p class="text-center text-bold">Tam giác cân</p>
+<div id="triangle_basic_4" class="jxgbox jxgControll_embed"></div>
+
+***
+<p class="text-center text-bold">Tam giác vuông cân</p>
+<div id="triangle_basic_5" class="jxgbox jxgControll_embed"></div>
+
 
 * Đường cao là đương hạ từ đỉnh vuông góc với cạnh đối diện.
 
-![image-title-here](/assets/img/img-post/toan-hinh-co-ban-p1/duong-cao.png){:width="100%"}
-<hr/>
+<div id="high_road_1" class="jxgbox jxgControll_embed"></div>
+<div id="high_road_2" class="jxgbox jxgControll_embed"></div>
+
 
 **Pitago**
 * *Bình phương cạnh huyền bằng tổng bình phương 2 cạnh gốc vuông* 
 
-![image-title-here](/assets/img/img-post/toan-hinh-co-ban-p1/pitago.png){:width="100%"}
+<div id="pitago" class="jxgbox jxgControll_embed"></div>
 
-<hr/>
 
 **Hệ thức lượng**
 * `sinα = c/b`
@@ -74,6 +86,9 @@ Khác biệt lớn nhất khi thiết kế icon theo ý muốn ta phải sử d�
 * `cotα = a/c`
 
 * *Bình phương 1 cạnh gốc vuông bằng tích hình chiếu nhân với cạnh huyền*
+
+<div id="trigonometric" class="jxgbox jxgControll_embed"></div>
+
 ![image-title-here](/assets/img/img-post/toan-hinh-co-ban-p1/binh-thuong-1-canh.png){:width="100%"}
 
 <hr/>
