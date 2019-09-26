@@ -111,18 +111,18 @@ Khác biệt lớn nhất khi thiết kế icon theo ý muốn ta phải sử d�
 * **Trực tâm** là giao nhau của 3 đường cao<br/>
 => H là trọng tâm
 
-![image-title-here](/assets/img/img-post/toan-hinh-co-ban-p1/truc-tam.png){:width="100%"}
-<hr/>
+<div id="direct" class="jxgbox jxgControll_embed"></div>
+
 * **Tâm đường tròn ngoại tiếp** là giao nhau giữa 3 đường trung trực.<br/>
 => I là đường tròn ngoại tiếp tam giác ABC
 
-![image-title-here](/assets/img/img-post/toan-hinh-co-ban-p1/tam-duong-tron-ngoai.png){:width="100%"}
-<hr/>
+<div id="circumcircle_out" class="jxgbox jxgControll_embed"></div>
+
 * **Tâm đường tròn nội tiếp** là giao nhau giữa 3 đường phân giác.<br/>
 => I là đường tròn nội tiếp tam giác ABC
 
-![image-title-here](/assets/img/img-post/toan-hinh-co-ban-p1/tam-duong-tron-noi.png){:width="100%"}
+<div id="circumcircle_in" class="jxgbox jxgControll_embed"></div>
 
 ***
 
-Những kiến thức về hình tam giác sẽ giúp bạn nhớ lại những gì đã quên, thay vào đó sẽ có những bài tập ứng dụng thực tế để các bạn hiểu rõ hơn về hình học quan trọng như thế nào khi đã là một *lập trình viên* nói chung và *front-end* nói riêng.
+Phần 2 mình sẽ nói rõ hơn về các hình còn lại.
