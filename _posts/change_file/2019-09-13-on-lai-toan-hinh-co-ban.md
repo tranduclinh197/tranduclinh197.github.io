@@ -125,4 +125,4 @@ Khác biệt lớn nhất khi thiết kế icon theo ý muốn ta phải sử d�
 
 ***
 
-Phần 2 mình sẽ nói rõ hơn về các hình còn lại.
+Kết thúc phần 1 giúp các bạn nhớ lại cấu tạo cơ bản của 1 đường thẳng và 3 điểm không thẳng hàng tạo thành 1 tam giác. Các phần sau mình sẽ ôn lại cơ bản các hình học phức tạp hơn.
