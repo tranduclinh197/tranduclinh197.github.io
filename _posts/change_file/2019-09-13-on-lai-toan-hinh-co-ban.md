@@ -103,7 +103,7 @@ Khác biệt lớn nhất khi thiết kế icon theo ý muốn ta phải sử d�
 
 <div id="median_line" class="jxgbox jxgControll_embed"></div>
 
-=> G là trọng tâm.<br/>
+* => G là trọng tâm.<br/>
     * `AG = 2/3 AM`
     * `GM = 1/3 AM`
     * `AM = 1/3 GM`
