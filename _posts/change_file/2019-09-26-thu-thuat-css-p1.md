@@ -13,13 +13,13 @@ CSS có thể học trong vòng 2-3 tháng, nhưng muốn giỏi thì đó là m
 
 ![image-title-here](/assets/img/img-post/know-css/know-css.jpg){:width="100%"}
 
-Mình tổng hợp lại từ các trang *viblo.asia* - *kipalog* của tác giả (Hà Hữu Tín).<br/>
-<small>*Mạo hiểm viết thẳng html - css(thuần) trên .md, khi bảo trì code chắc sẽ gặp chút khó khăn đây =))*</small>
+<small>Tổng hợp lại từ các trang *viblo.asia* - *kipalog* của tác giả (Hà Hữu Tín).<br/></small>
 
 ### 1) style="border-radius:...;"
 
 Nếu để ý kỹ thì trên các trang *Facebook* có những *button* được bo tròn 2 bên, vậy làm như thế nào để được như vậy? <br/>
-Bạn muốn dùng **border-radius:50%???.** Không được đâu, trừ khi *width = height* may ra nó là hình tròn, số còn lại là dạng ellipse mà thôi.
+Bạn muốn dùng **border-radius:50%???.**<br/>
+Không được đâu, trừ khi *width = height* may ra nó là hình tròn, số còn lại là dạng ellipse mà thôi.
 
 <!-- max-width and max-height == 450px -->
 <div class="jxgbox jxgControll_embed">
@@ -30,7 +30,7 @@ Bạn muốn dùng **border-radius:50%???.** Không được đâu, trừ khi *w
     top: 30%;
     width: 250px;
     height: 40px;
-    background: linear-gradient(to right, #f6ea41, #f048c6);
+    background: linear-gradient(to right, #9618f7, #c1fcd3);
     border: 1px solid #c1c1c1;
     border-radius: 50% 50%;
     box-shadow: 2px 2px 20px #a8a8a8;
@@ -42,7 +42,7 @@ Bạn muốn dùng **border-radius:50%???.** Không được đâu, trừ khi *w
     top: 60%;
     width: 250px;
     height: 40px;
-    background: linear-gradient(to right, #b51f1a, #f98af6);    
+    background: linear-gradient(to right bottom, #e65758, #771d32);    
     border: 1px solid #c1c1c1;
     border-radius: 999px;
     box-shadow: 20px 20px 30px #a8a8a8;
@@ -54,7 +54,8 @@ Nhưng tăng lên 100px mọi lập luận phía trên đều sai.<br/>
 
 Theo [nguồn](https://stackoverflow.com/questions/29966499/border-radius-in-percentage-and-pixels-px-or-em) stackoverflow có giải thích thì **border-radius** có 2 giá trị X và Y nằm trên trục tạo nên hình ellipse và xác định hình dạng của góc.<br/>
 Nếu bặn đặt 1 giá trị duy nhất thì được áp dụng cho tất cả các góc **border-radius: x** == **border-radius: x/x**.<br/>
-Thay vì sử dụng giá trị tương đối **%**, ta nên dùng 1 giá trị tuyệt đối như **px**. Khi bạn sử dụng *999px* bán kính đường tròn chắc chắn là 999px, quy tắc đặt ra được áp dụng sẽ là **các đường cong chồng lên nhau sẽ làm giảm bán kính của vòng tròn xuống 1/2 kích thước của cạnh nhỏ nhất**. Bạn có thể xem hình ảnh bên dưới.
+Thay vì sử dụng giá trị tương đối **%**, ta nên dùng giá trị tuyệt đối **px** để làm điều này.<br/>
+Khi sử dụng *999px* bán kính đường tròn chắc chắn là 999px, quy tắc đặt ra được áp dụng sẽ là **các đường cong chồng lên nhau sẽ làm giảm bán kính của vòng tròn xuống 1/2 kích thước của cạnh nhỏ nhất**. Bạn có thể xem hình ảnh bên dưới.
 
 <div class="jxgbox jxgControll_embed">
     <div style="
@@ -232,13 +233,13 @@ Các cột trong *table* đều bằng nhau chỉ với 1 dòng code.
 
 #### 6) Tránh nhầm lẫn khoảng cách giữa 2 Component liền kề
 
-Các trình duyệt sẽ tính khoảng cách giữa 2 *component* như thế nào khi **khối Đỏ** được đặt `margin-bottom: 30px` và **khối xanh** được đặt với `margin-top: 20px`???<br/>
+Các trình duyệt sẽ tính khoảng cách giữa 2 *component* như thế nào khi **khối A** được đặt `margin-bottom: 30px` và **khối B** được đặt với `margin-top: 20px`???<br/>
 Có phải khoảng cách sẽ bằng *50px*???
 
-* Đáp án sẽ là tổng khoảng cách chỉ bằng 30px của **khối đỏ**.<br/>
+* Đáp án sẽ là tổng khoảng cách chỉ bằng 30px của **khối A**.<br/>
 
-Mình cố ý cho **khối xanh** `margin-bottom: 50px` thì tổng khoảng cách sẽ bằng 50px.<br/>
-Vậy nếu khoảng cách giữa 2 component với nhau, độ dài nào *lớn hơn* sẽ được ưu tiên làm giá trị chung, nếu 2 giá trị đều bằng nhau, thì sẽ ưu tiên cho giá trị đã được khai báo trước đó.
+Mình cố ý cho **khối B** `margin-bottom: 60px` thì tổng khoảng cách sẽ bằng 60px.<br/>
+Vậy nếu khoảng cách giữa 2 component với nhau, khoảng cách nào *lớn hơn* sẽ được ưu tiên làm giá trị chung, nếu 2 khoảng cách đều bằng nhau, thì sẽ ưu tiên cho giá trị đã được khai báo trước đó.
 <div class="jxgbox jxgControll_embed">
     <div style="
     display: block;
@@ -248,21 +249,49 @@ Vậy nếu khoảng cách giữa 2 component với nhau, độ dài nào *lớn
     margin-bottom: 30px;
     width: 180px;
     height: 180px;
-    background: red;
+    background: linear-gradient(to right bottom, #ff0078, #f6efa7);
     border-radius: 8px;
     ">
     </div>
     <div style="
     display: block;
-    margin-top: 50px;
+    margin-top: 60px;
     margin-left: auto;
     margin-right: auto;
     width: 180px;
     height: 180px;
-    background: blue;
+    background: linear-gradient(to right bottom, #4b086d, #acc0fe);
     border-radius: 8px;
     ">
     </div>
 </div>
 
 **Lưu ý:** Trong các dự án, nên sử dụng 1 hướng duy nhất (top) hoặc (bottom), giúp bạn dể kiểm soát được khoảng cách giữa các component với nhau.
+
+#### 7) Xuất hiện khoảng trắng dưới image
+
+Sử dụng `vertical-align: middle;` cho img, giúp mất khoảng trắng không cần thiết.<br/>
+Chi tiết [vertical-align](https://codepen.io/CodePen_higithub97_Linhz/pen/qBWGbxB)
+
+#### 8) Ôi!!! <kbd>pointer-events</kbd> tuyệt cú mèo
+
+<div class="jxgbox jxgControll_embed">
+    <div class="pointerEvents">
+        <div style="
+        display: block;
+        margin: 20px auto;
+        background: linear-gradient(to right top, #0ff0b3, #0363d9);
+        width: 300px;
+        height: 300px;
+        border-radius: 8px;
+        box-shadow: 20px 20px 20px #c1c1c1;
+        ">
+            <div></div>
+        </div>
+        <button style="
+            display: block;
+            margin: 0 auto;
+            pointer-events:auto
+        ">Click here</button>
+    </div>
+</div>

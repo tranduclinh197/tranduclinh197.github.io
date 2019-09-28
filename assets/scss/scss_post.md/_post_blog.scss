@@ -1,0 +1,32 @@
+// File scss_post/_post_blog.scss
+// _post/change_file/...md
+// Blog_(2019-09-26-thu-thuat-css-p1.md)
+.pointerEvents {
+    pointer-events: none;
+    &:hover {
+        div div {
+            display: block;
+            margin: 10px auto;
+            width: 200px;
+            height: 200px;
+            border-radius: 8px;
+            animation: rainbow-background ease 5s infinite alternate;
+        }
+    }
+}
+
+@keyframes rainbow-background {
+    0%     { background: linear-gradient(to right top, #ff0000, #ff8000); }
+8.333%     { background: linear-gradient(to left bottom, #ff8000, #ffff00); }
+16.667%     { background: linear-gradient(to right top, #ffff00, #80ff00); }
+25.000%     { background: linear-gradient(to left bottom, #80ff00, #00ff00); }
+33.333%     { background: linear-gradient(to right top, #00ff00, #00ff80); }
+41.667%     { background: linear-gradient(to left bottom, #00ff80, #00ffff); }
+50.000%     { background: linear-gradient(to right top, #00ffff, #0080ff); }
+58.333%     { background: linear-gradient(to left bottom, #0080ff, #0000ff); }
+66.667%     { background: linear-gradient(to right top, #0000ff, #8000ff); }
+75.000%     { background: linear-gradient(to left bottom, #8000ff, #ff00ff); }
+83.333%     { background: linear-gradient(to right top, #ff00ff, #ff0080); }
+91.667%     { background: linear-gradient(to left bottom, #ff0080, #ff0000); }
+100.00%     { background: linear-gradient(to right top, #ff0000, #ff8000); }
+};
