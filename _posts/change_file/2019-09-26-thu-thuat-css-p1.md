@@ -30,7 +30,7 @@ Không được đâu, trừ khi *width = height* may ra nó là hình tròn, s�
     top: 30%;
     width: 250px;
     height: 40px;
-    background: linear-gradient(to right, #9618f7, #c1fcd3);
+    background: linear-gradient(to right top, #9618f7, #00b7ff);
     border: 1px solid #c1c1c1;
     border-radius: 50% 50%;
     box-shadow: 2px 2px 20px #a8a8a8;
@@ -42,7 +42,7 @@ Không được đâu, trừ khi *width = height* may ra nó là hình tròn, s�
     top: 60%;
     width: 250px;
     height: 40px;
-    background: linear-gradient(to right bottom, #e65758, #771d32);    
+    background: linear-gradient(to right bottom, #e65758, #f7d345);    
     border: 1px solid #c1c1c1;
     border-radius: 999px;
     box-shadow: 20px 20px 30px #a8a8a8;
@@ -279,19 +279,19 @@ Chi tiết [vertical-align](https://codepen.io/CodePen_higithub97_Linhz/pen/qBWG
     <div class="pointerEvents">
         <div style="
         display: block;
-        margin: 20px auto;
+        margin: 50px auto;
         background: linear-gradient(to right top, #0ff0b3, #0363d9);
-        width: 300px;
-        height: 300px;
+        width: 250px;
+        height: 250px;
         border-radius: 8px;
         box-shadow: 20px 20px 20px #c1c1c1;
         ">
             <div></div>
         </div>
-        <button style="
+        <button class="btn btn-link" style="
             display: block;
             margin: 0 auto;
             pointer-events:auto
-        ">Click here</button>
+        ">Hover...</button>
     </div>
 </div>

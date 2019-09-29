@@ -11,7 +11,7 @@ permalink: /vung-chon-css.html
 
 Bạn cần nắm vững các loại vùng chọn CSS này cho thật kỹ, vì những thủ thuật CSS được dựa vào những gì cơ bản nhất.
 
-
+![image-title-here](/assets/img/img-post/selector-css/selector-css.jpg){:width="100%"}
 
 Trong CSS được chia ra 2 loại vùng chọn bao gồm.
 * 1) Alone

@@ -7,8 +7,11 @@
         div div {
             display: block;
             margin: 10px auto;
-            width: 200px;
-            height: 200px;
+            position: relative;
+            top: 10%;
+            width: 70%;
+            height: 70%;
+            border: solid 1px #c1c1c1;
             border-radius: 8px;
             animation: rainbow-background ease 5s infinite alternate;
         }
