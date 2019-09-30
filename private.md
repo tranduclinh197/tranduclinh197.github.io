@@ -40,7 +40,6 @@ permalink: /397ecce003aa459208285c90d2931fef
     * ![.](/assets/img/private/pub.ico) [pughtml.com](https://pughtml.com/){:target="_blank"}
     * ![.](/assets/img/private/w3-favicon.gif) [w3schools.in](https://www.w3schools.in/){:target="_blank"}
     * ![.](/assets/img/private/atl.png) [atlassian.com(GIT)](https://www.atlassian.com/git/tutorials){:target="_blank"}
-    * ![.](/assets/img/private/dd487dad-3b4c-43a8-a002-d8341a17e902.jpg) [hackerthemes.com/...](https://hackerthemes.com/bootstrap-cheatsheet/){:target="_blank"}
     * ![.](/assets/img/private/jekyll.ico) [idratherbewriting.com/...(Jekyll)](https://idratherbewriting.com/documentation-theme-jekyll/mydoc_posts.html){:target="_blank"}
     * ![.](/assets/img/private/resp.ico) [blog.froont.com](https://blog.froont.com/){:target="_blank"}
     * ![.](/assets/img/private/git.ico) [backlog.com/git...](https://backlog.com/git-tutorial/vn/contents/){:target="_blank"}
@@ -145,6 +144,7 @@ permalink: /397ecce003aa459208285c90d2931fef
     * ![.](/assets/img/private/four-dot.png) [bennettfeely.com...(clip-path)](https://bennettfeely.com/clippy/){:target="_blank"}
     * ![.](/assets/img/private/regex.png) [regexr.com...(Regex)](https://regexr.com/){:target="_blank"}
     * ![.](/assets/img/private/game-regex.png) [regexcrossword.com...(Regex)](https://regexcrossword.com/){:target="_blank"}
+    * ![.](/assets/img/private/dd487dad-3b4c-43a8-a002-d8341a17e902.jpg) [hackerthemes.com/...(Bootstrap)](https://hackerthemes.com/bootstrap-cheatsheet/){:target="_blank"}
 
 
 ***
