@@ -6,7 +6,7 @@ categories: vung-chon-css
 author: Trần Đức Lĩnh
 tag: ["frontend", "css"]
 img-title: /assets/img/blog12.jpg
-permalink: /vung-chon-css.html
+permalink: /vung-chon-css
 ---
 
 Bạn cần nắm vững các loại vùng chọn CSS này cho thật kỹ, vì những thủ thuật CSS được dựa vào những gì cơ bản nhất.

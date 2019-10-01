@@ -6,7 +6,7 @@ categories: console-log
 author: Trần Đức Lĩnh
 tag: ["console.log", "javascript", "doyouknow"]
 img-title: /assets/img/blog8.jpg
-permalink: /consolelog.html
+permalink: /consolelog
 ---
 Khi đã dấn thân vào JavaScript, thì `console.log` không còn quá xa lạ gì nữa rồi. Nhưng không ít bạn biết rằng, ngoài <code>`console.log` </code>ra thì có trên 20 phương thức *console* khác nhau.
 

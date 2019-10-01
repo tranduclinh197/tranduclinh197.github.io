@@ -6,7 +6,7 @@ categories: tu-tuong-IT
 author: Trần Đức Lĩnh
 tag: ["doyouknow"]
 img-title: /assets/img/blog9.jpg
-permalink: /doanh-nghiep-hay-mot-nha-tu-thien.html
+permalink: /doanh-nghiep-hay-mot-nha-tu-thien
 ---
 Dạo 1 vòng trên các trang cộng đồng lập trình, có 1 bạn viết về chủ đề *Doanh nghiệp không phải trường học hay nhà từ thiện* khá hay nên mình xin trích một vài đoạn trên trang *topitworks* như sau:
 

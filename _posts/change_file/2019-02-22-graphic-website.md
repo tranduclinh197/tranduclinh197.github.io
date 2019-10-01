@@ -6,7 +6,7 @@ categories: graphic-website
 author: Trần Đức Lĩnh
 tag: ["design", "frontend", "graphic-website"]
 img-title: /assets/img/blog11.jpg
-permalink: /do-hoa-web-site-la-gi.html
+permalink: /do-hoa-web-site-la-gi
 ---
 **HTML5** hỗ trợ 2 dạng đồ hoạ gồm *Canvas* và *SVG*, những công nghệ này giải quyết các kịch bản đồ hoạ phức tạp, đưới đây là những đặc điểm khác biệt của chúng.
 

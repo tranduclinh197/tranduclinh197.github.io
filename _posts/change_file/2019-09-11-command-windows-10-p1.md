@@ -6,7 +6,7 @@ categories: command-p1
 author: Trần Đức Lĩnh
 tag: ["command", "windows", "cmd"]
 img-title: /assets/img/blog2.jpg
-permalink: /command-p1.html
+permalink: /command-p1
 ---
 Nếu bạn là một lập trình viên thì việc thao tác thành thạo các phím tắt, sử dụng `cmd` sẽ rút ngắn 1 khoảng thời gian nhất định và tăng năng suất trong công việc. Còn việc tăng độ ngầu như `hacker` trước mặt những người mù công nghệ cũng là 1 điểm cộng kha khá đấy.
 

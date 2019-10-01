@@ -6,7 +6,7 @@ categories: thu-thuat-css-p1
 author: Trần Đức Lĩnh
 tag: ["frontend", "css"]
 img-title: /assets/img/blog13.jpg
-permalink: /mot-so-thu-thuat-css-p1.html
+permalink: /mot-so-thu-thuat-css-p1
 ---
 
 CSS có thể học trong vòng 2-3 tháng, nhưng muốn giỏi thì đó là một chặng đường.<br/>
