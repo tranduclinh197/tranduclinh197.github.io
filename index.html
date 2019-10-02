@@ -8,7 +8,7 @@ pagination:
 <div class="container bg-light container-border-radius py-3 px-4 my-lg-4 my-3">
     <div class="posts">
         <div class="card-columns col-md-12 ">
-            {% for post in paginator.posts %}
+            {% for post in site.posts %}
                 <div class="card shadow-sm mt-5">
                     <div class="card-header bg-transparent border-0" style="margin-bottom: -44px">
                         <a href="{{ post.url | prepend: site.baseurl }}">
@@ -59,53 +59,6 @@ pagination:
                     </div>
                 </div>
             {% endfor %}
-            
-            
         </div>
     </div>
-</div>
-
-<div class="container bg-light container-border-radius py-3 px-4 my-lg-4 my-3">
-        <nav aria-label="Page navigation example">
-                <ul class="pagination justify-content-center">
-
-
-    {% if paginator.total_pages > 1 %}
-        <div class="pagination">
-        {% if paginator.previous_page %}
-            <li class="page-item">
-                <a class="page-link" href="{{ paginator.previous_page_path | relative_url }}">&laquo; Mới nhất</a>
-            </li>
-        {% else %}
-        {% endif %}
-
-        {% for page in (1..paginator.total_pages) %}
-            {% if page == paginator.page %}
-                <li class="page-item px-1">
-                    <em class="page-link text-dark">{{ page }}</em>
-                </li>
-            {% elsif page == 1 %}
-                <li class="page-item px-2">
-                    <a class="page-link" href="{{ paginator.previous_page_path | relative_url }}">{{ page }}</a>
-                </li>
-            {% else %}
-                <li class="page-item px-1">
-                    <a class="page-link" href="{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page }}</a>
-                </li>
-            {% endif %}
-        {% endfor %}
-
-        {% if paginator.next_page %}
-            <li class="page-item">
-                <a class="page-link" href="{{ paginator.next_page_path | relative_url }}">Cũ nhất &raquo;</a>
-            </li>
-        {% else %}
-        {% endif %}
-        </div>
-    {% endif %}
-
-            </ul>
-          </nav>
-
-          
 </div>
