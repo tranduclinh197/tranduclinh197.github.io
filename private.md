@@ -145,6 +145,7 @@ permalink: /397ecce003aa459208285c90d2931fef
     * ![.](/assets/img/private/regex.png) [regexr.com...(Regex)](https://regexr.com/){:target="_blank"}
     * ![.](/assets/img/private/game-regex.png) [regexcrossword.com...(Regex)](https://regexcrossword.com/){:target="_blank"}
     * ![.](/assets/img/private/dd487dad-3b4c-43a8-a002-d8341a17e902.jpg) [hackerthemes.com/...(Bootstrap)](https://hackerthemes.com/bootstrap-cheatsheet/){:target="_blank"}
+    * ![.](/assets/img/private/continents10.png) [dev.w3.org/..charref](https://dev.w3.org/html5/html-author/charref){:target="_blank"}
 
 
 ***
@@ -178,7 +179,6 @@ permalink: /397ecce003aa459208285c90d2931fef
     * ![.](/assets/img/private/cssSVG.png) [fontisto.com](https://www.fontisto.com/){:target="_blank"}
     * ![.](/assets/img/private/icon-svg.png) [freepik.com](https://www.freepik.com/){:target="_blank"}
     * ![.](/assets/img/private/cropped-dohoafx-icon-160x160.png) [dohoafx.com](https://dohoafx.com/){:target="_blank"}
-    * ![.](/assets/img/private/continents10.png) [dev.w3.org/..charref](https://dev.w3.org/html5/html-author/charref){:target="_blank"}
     * ![.](/assets/img/private/design.ico) [materialpalette.com](https://www.materialpalette.com/){:target="_blank"}
     * ![.](/assets/img/private/favicon.gif) [colorhunt.co](https://colorhunt.co/){:target="_blank"}
     * ![.](/assets/img/private/favicon-32.png) [paletton.com](http://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF){:target="_blank"}

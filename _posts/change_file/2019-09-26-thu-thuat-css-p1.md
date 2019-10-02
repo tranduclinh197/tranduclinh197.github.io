@@ -296,3 +296,154 @@ Chi tiết [vertical-align](https://codepen.io/CodePen_higithub97_Linhz/pen/qBWG
     </div>
 </div>
 
+Bạn có thể kham khảo mã nguồn tại đây.
+
+```html
+<div class="container">
+    <p>Hello</p>
+    <button>Hover</button>
+</div>
+```
+```css
+    button {
+        pointer-events: auto;
+    }
+
+    .container {
+        pointer-events: none;
+    }
+    .container:hover p {
+        color: red;
+    }
+```
+
+#### 9) Flexbox với margin-left: auto
+
+Sử dụng `margin-left: auto` trong trường hợp **user** ở bên phải.
+
+![image-title-here](/assets/img/img-post/know-css/flex.png){:width="100%"}
+
+```html
+    <header>
+        <div class="logo"></div>
+        <div class="menu"></div>
+        <div class="user"></div>
+    </header>
+```
+```css
+    div {
+        width: 30px;
+        height: 30px;
+        background: red;
+    }
+    header {
+        display: flex;
+    }
+    .user {
+        margin-left: auto;
+    }
+```
+
+#### 10) Giá trị <kbd>initial</kbd>
+
+Giá trị thuộc tính **width** có mỗi giá trị mặc định khác nhau.<br/>
+
+* **width** = *auto*
+* **min-width** = *0*
+* **max-width** = *none*
+
+Với mọi thuộc tính trong *CSS*, chỉ cần set giá trị mặc định về dạng <kbd>initial</kbd> cho từng thuộc tính mà không cần phải nhớ quá nhiều thứ.<br/>
+( IE11 không hỗ trợ )
+
+#### 11) Sử dụng **placeholder** với *input*
+
+<div class="jxgbox jxgControll_embed placeholder_11">
+    <form>
+        <input type="text" style="
+            font-size: 1.5rem;
+            margin-top: 160px;
+            padding: 10px 20px 10px 20px;
+            width: 65%;
+            display: block;
+            border-radius: 999px;
+        " placeholder="Nhập ngẫu nhiên...">
+    </form>
+</div>
+
+* **::placeholder** sẽ tác động vào phần bên trong của style **input** như `font-size`, `color`.<br/>
+* **:placeholder-shown** sẽ tác động tới bề ngoài style của **input** kể cã `border`...
+
+#### 12) Cách mà **border** thừa kế trong thuộc tính từ **color** 
+
+<div class="jxgbox jxgControll_embed class_12">
+    <button>Hover...</button>
+</div>
+
+Với thuộc tính **border** màu của nó chính là **inherit**, khi bạn khai báo **border: 1px solid** thì màu **border-color** được lấy từ thuộc tính **color**, nếu không tự định nghĩa **color** thì màu mặc định sẽ là `black`.<br/>
+Vì lý do này, code sẽ được ngắn gọn hơn. 
+
+```html
+    <button>Hover...</button>
+```
+```css
+    button {
+        color: rgb(82, 198, 236); //blue
+        border: 1px solid;
+    }
+    button:hover {
+        color: rgb(243, 196, 108); //orange
+    }
+```
+
+#### 13) <kbd>display: flex</kbd> làm méo **icon** khi `text` quá dài.
+
+<div class="jxgbox jxgControll_embed placeholder_11">
+    <div style="
+        width: 400px;
+        display: flex;
+        margin: 0 auto;
+        position: relative;
+        top: 40%;
+    ">
+        <img src="/assets/img/img-post/know-css/chrome.png" alt="..." style="
+            width: 50px;
+            height: 50px;
+        ">
+        <div style="
+            flex: 1;
+        ">Nàng công chúa bong bóng.
+            Yêu chàng mưa lơ đãng.
+            Dường như bên nhau quên giận hờn.
+            Dù có những lúc mưa vô tình.
+            Làm buồn công chúa bong bóng nhiều lần.</div>
+    </div>
+</div>
+
+Cách khắc phục đơn giản là định danh **{flex: 1;}** cho phần tử chứa đoạn `text` đó.
+
+```html
+    <div class="flex_icon">
+          <img src="/icon.png" alt="">
+          <div class="text">Nàng công chúa bong bóng. Yêu chàng mưa lơ đãng.
+            Dường như bên nhau quên giận hờn. Dù có những lúc mưa vô tình.
+            Làm buồn công chúa bong bóng nhiều lần.</div>
+    </div>
+```
+
+```css
+    .flex_icon {
+        width: 400px;
+        display: flex;
+    }
+    img {
+        width: 50px;
+        height: 50px;
+    }
+    .text {
+        flex: 1;
+    }
+```
+
+<hr/>
+
+<h4 class="text-center">Phần 1 tới đây là kết thúc.</h4>
