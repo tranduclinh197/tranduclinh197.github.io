@@ -50,6 +50,8 @@ permalink: /397ecce003aa459208285c90d2931fef
     * ![.](/assets/img/private/0129e9b9983bd5c26bfa72285bccb6c7.png) [learn.cloudcannon.com](https://learn.cloudcannon.com/){:target="_blank"}
     * ![.](/assets/img/private/hoc247_logo.png) [hoc247.net](https://hoc247.net/){:target="_blank"}
     * ![.](/assets/img/private/nodejs.png) [nodejs.org](https://nodejs.org/en/docs/){:target="_blank"}
+    * ![.](/assets/img/private/evondev-logo-150x150.png) [evondev.com](https://evondev.com/){:target="_blank"}
+
 
 ***
 
