@@ -13,7 +13,9 @@ Trong những năm gầy đây, sự phát triển nhanh chóng của các thi�
 
 ![image-title-here](/assets/img/img-post/responsive-web/responsiveweb.jpg){:width="100%"}
 
-(RWD) viết tắt của cụm từ `Responsive Web Design`, một xu hướng thiết kế và phát triển trang web phù hợp, đáp ứng mọi thiết bị và tích thước **[width]** X **[height]**.
+**(RWD)** viết tắt của cụm từ `Responsive Web Design`, một xu hướng thiết kế và phát triển trang web phù hợp, đáp ứng mọi thiết bị và tích thước **[width]** X **[height]**.
+
+<hr/>{:width="50%"}
 
 #### Lợi ích của Responsive Web Design.
 * Giúp tiết kiệm khá nhiều thời gian và chi phí duy trì từng phiên bản cho từng thiết bị khác nhau bao gồm điện thoại và máy tính.
@@ -37,6 +39,9 @@ Trong những năm gầy đây, sự phát triển nhanh chóng của các thi�
 **Trong đó:**<br/> 
     - `width=device-width` thiết lập chiều rộng trang web theo chiều rộng của thiết bị. <br/>
     - `initial-scale=1.0` thiết lập mức độ zoom ban đầu của trang web được load bởi trình duyệt.
+
+<hr/>{:width="50%"}
+
 
 * **GridView** là gì?
 GridView là trang web được chia thành các cột đều nhau, một gridview có 12 cột tương ứng với 100% độ rộng, và sẽ thu nhỏ hoặc mở rộng khi thay đổi kích thước trình duyệt.
@@ -83,28 +88,34 @@ GridView là trang web được chia thành các cột đều nhau, một gridvi
     @import url(styles.css) all and (max-width: 945px) {...}
 ```
 
+<hr/>{:width="50%"}
+
 - Mỗi `@media` có nhiều biểu thức theo sau nó bao gồm **all**, **screen**, **tv**, **print**, **3d-glasses**. Mặc định sẽ là **screen** nếu `@media type` không được khai báo.
 
+<hr/>{:width="50%"}
+
 * **Các biểu thức bên trong `Media Queries`**
-- Bao gồm toán tử logic `and`, `not` và `only`.
+    - Bao gồm toán tử logic `and`, `not` và `only`.
 
-    - <kbd>and</kbd> cho phép thêm điều kiện bổ sung (chọn tất cả các màng hình có chiều rộng từ 450px - 945px).
+        - <kbd>and</kbd> cho phép thêm điều kiện bổ sung (chọn tất cả các màng hình có chiều rộng từ 450px - 945px).
 
-    ```css
-        @media all and (min-width: 450px) and (max-width: 945px) {...}
-    ```
+        ```css
+            @media all and (min-width: 450px) and (max-width: 945px) {...}
+        ```
 
-    - <kbd>not</kbd> phủ định các truy vấn được xác định (các thiết bị màng hình không màu).
+        - <kbd>not</kbd> phủ định các truy vấn được xác định (các thiết bị màng hình không màu).
 
-    ```css
-        @media not screen and (color) {...}
-    ```
+        ```css
+            @media not screen and (color) {...}
+        ```
 
-    - <kbd>only</kbd> áp dụng cho truy vấn thoả điều kiện (chọn các màng hình chỉ theo chiều dọc).
+        - <kbd>only</kbd> áp dụng cho truy vấn thoả điều kiện (chọn các màng hình chỉ theo chiều dọc).
 
-    ```css
-        @media only screen and (orientation: portrait) {...}
-    ```
+        ```css
+            @media only screen and (orientation: portrait) {...}
+        ```
+
+<hr/>{:width="50%"}
 
 * **`Media Features` trong Media Queries**
     - **Media Features** xác định các loại thuộc tính thành phần nằm bên trong `Media Queries`
@@ -115,11 +126,15 @@ GridView là trang web được chia thành các cột đều nhau, một gridvi
     @media all and (min-width: 320px) and (max-width: 945px) {...}
 ```
 
+<hr/>{:width="50%"}
+
 - **Orientation: Portrait / Landscape** có trong `Media queries` dùng để xác định hướng của *trình duyệt*, sử dụng từ khoá **orientation** cho phép xác định hướng ngang(portrait) hay dọc(landscape). Sử dụng chủ yếu trên cách thiết bị di động.
 
 ```css
     @media all and (orientation: landscape) {...}
 ```
+
+<hr/>{:width="50%"}
 
 - **Aspect Ratio** xác định tỷ lệ khung hình có trong `Media queries`, cho phép chỉ định tỉ lệ chiều rộng hoặc chiều caocủa thiết bị mà bạn muốn truy vấn chúng, có thể kèm theo tiền tố `max` hoặc `min`.
 
@@ -127,37 +142,45 @@ GridView là trang web được chia thành các cột đều nhau, một gridvi
     @media all and (min-device-aspect-ratio: 16/9) {...}
 ```
 
+<hr/>{:width="50%"}
+
 - **Resolution** sẽ xác định độ phân giải của thiết bị đầu ratheo mật độ `pixel` (mật đổ điểm ảnh trên mỗi inch). Không có tiền tố `max` hoặc `min`, thay vào đó sẽ là số điểm ảnh trên mỗi pixel `dppx` và số điểm ảnh trên cm `dpcm`
 
 ```css
     @media print and (min-resolution: 300dpi) {...}
 ```
 
-* **Nguyên tắc Mobile First**
-- Luôn thiết kế layout cho mobile trước rồi đếm các thiết bị màng hình lớn.
+<hr/>{:width="50%"}
 
-```css
-    /*Smartphone nhỏ*/
-    @media screen and (min-width: 240px){
+* **Nguyên tắc Mobile First**
+
+![image-title-here](/assets/img/img-post/responsive-web/mobile_first.jpg){:width="100%"}
+
+
+    - Luôn thiết kế layout cho mobile trước rồi đếm các thiết bị màng hình lớn.
+
+    ```css
+        /*Smartphone nhỏ*/
+        @media screen and (min-width: 240px){
+            
+        }
+        /*Smartphone lớn (480 x 640)*/
+        @media screen and (min-width: 320px){
+            
+        }
+        /*Tablet nhỏ(480 x 640)*/
+        @media screen and (min-width: 480px){
+            
+        }
+        /*Tablet dọc(768 x 1024)*/
+        @media screen and (min-width: 768px){
+            
+        }
+        /*Tablet ngang(1024 x 768)*/
+        @media screen and (min-width: 1024px){
         
-    }
-    /*Smartphone lớn (480 x 640)*/
-    @media screen and (min-width: 320px){
-        
-    }
-    /*Tablet nhỏ(480 x 640)*/
-    @media screen and (min-width: 480px){
-        
-    }
-    /*Tablet dọc(768 x 1024)*/
-    @media screen and (min-width: 768px){
-        
-    }
-    /*Tablet ngang(1024 x 768)*/
-    @media screen and (min-width: 1024px){
-    
-    }
-```
+        }
+    ```
 
 ##### 3. <kbd>Flexible Media</kbd>
 (Ảnh, video...) cũng có khả năng thay đổi kích thước đấy.<br/>
