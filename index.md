@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 title: Trang chủ
 ---
 <div class="container bg-light container-border-radius py-3 px-4 my-lg-4 my-3">
@@ -58,4 +58,4 @@ title: Trang chủ
             {% endfor %}
         </div>
     </div>
-</div>
+</div> 
