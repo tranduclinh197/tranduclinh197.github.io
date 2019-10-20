@@ -7,7 +7,7 @@ permalink: /397ecce003aa459208285c90d2931fef
 
 ***
 
-* ##### WEB / DEV
+* ##### <kbd>WEB / DEV</kbd>
     * ![.](/assets/img/private/favicon.png) [developer.mozilla.org](https://developer.mozilla.org/vi/){:target="_blank"}
     * ![.](/assets/img/private/ZiVAi6zG_400x400.jpg) [frontendmasters.com](https://developer.mozilla.org/vi/){:target="_blank"}
     * ![.](/assets/img/private/favicon-32x32.png) [getbootstrap.com](https://getbootstrap.com/){:target="_blank"}
@@ -55,7 +55,7 @@ permalink: /397ecce003aa459208285c90d2931fef
 
 ***
 
-* ##### Cộng đồng công nghệ
+* ##### <kbd>Cộng đồng công nghệ</kbd>
     * ![.](/assets/img/private/topdev.ico) [topdev.vn](https://topdev.vn/blog/){:target="_blank"}
     * ![.](/assets/img/private/tech-1.png) [techtalk.vn](https://techtalk.vn/){:target="_blank"}
     * ![.](/assets/img/private/howkteam.jpg) [howkteam.vn](https://www.howkteam.vn/){:target="_blank"}
@@ -78,7 +78,7 @@ permalink: /397ecce003aa459208285c90d2931fef
 
 ***
 
-* ##### Cộng đồng-hỏi đáp-biện luận
+* ##### <kbd>Cộng đồng-hỏi đáp-biện luận</kbd>
     * ![.](/assets/img/private/quora.ico) [quora.com](https://www.quora.com/){:target="_blank"}
     * ![.](/assets/img/private/ted.ico) [ted.com](https://www.ted.com/){:target="_blank"}
     * ![.](/assets/img/private/medium.ico) [medium.com](https://medium.com/){:target="_blank"}
@@ -87,7 +87,7 @@ permalink: /397ecce003aa459208285c90d2931fef
 
 ***
 
-* ##### Font
+* ##### <kbd>Font</kbd>
     * ![.](/assets/img/private/google_fonts_lodp.ico) [fonts.google.com](https://fonts.google.com/){:target="_blank"}
     * ![.](/assets/img/private/fontcss.ico) [cssfontstack.com](https://www.cssfontstack.com/){:target="_blank"}
     * ![.](/assets/img/private/font.png) [fontsquirrel.com](https://www.fontsquirrel.com/){:target="_blank"}
@@ -95,7 +95,7 @@ permalink: /397ecce003aa459208285c90d2931fef
 
 ***
 
-* ##### Book free
+* ##### <kbd>Book free</kbd>
     * ![.](/assets/img/private/smlshare.ico) [slimshare.com](https://slimshare.com/){:target="_blank"}
     * ![.](/assets/img/private/bookfree.png) [b-ok.xyz](https://b-ok.xyz/){:target="_blank"}
     * ![.](/assets/img/private/ipi.png) [vetbooks.ir](http://vetbooks.ir/){:target="_blank"}
@@ -104,7 +104,7 @@ permalink: /397ecce003aa459208285c90d2931fef
 
 ***
 
-* ##### Xây dựng ý tưởng mới
+* ##### <kbd>Xây dựng ý tưởng mới</kbd>
     * ![.](/assets/img/private/favicon-fd1ea058.png) [pinterest.com](https://www.pinterest.com/){:target="_blank"}
     * ![.](/assets/img/private/systax.ico) [enlight.nyc](https://enlight.nyc/){:target="_blank"}
     * ![.](/assets/img/private/c.ico) [calltoidea.com](https://www.calltoidea.com/){:target="_blank"}
@@ -112,7 +112,7 @@ permalink: /397ecce003aa459208285c90d2931fef
 
 ***
 
-* ##### Khám phá
+* ##### <kbd>Khám phá</kbd>
     * ![.](/assets/img/private/favicon-32x32-v1.png) [artsandculture.google.com](https://artsandculture.google.com/){:target="_blank"}
     * ![.](/assets/img/private/star.jpg) [stars.chromeexperiments.com](http://stars.chromeexperiments.com/){:target="_blank"}
     * ![.](/assets/img/private/Spiral_galaxy.png) [meteorshowers.org](https://www.meteorshowers.org/){:target="_blank"}
@@ -124,7 +124,7 @@ permalink: /397ecce003aa459208285c90d2931fef
 
 ***
 
-* ##### Giải trí
+* ##### <kbd>Giải trí</kbd>
     * ![.](/assets/img/private/9gag.ico) [9gag.com](https://9gag.com/){:target="_blank"}
     * ![.](/assets/img/private/communityIcon_yor9myhxz5x11.png) [reddit.com](https://www.reddit.com/){:target="_blank"}
     * ![.](/assets/img/private/ggame.png) [ncase.me](https://ncase.me/){:target="_blank"}
@@ -132,7 +132,7 @@ permalink: /397ecce003aa459208285c90d2931fef
 
 ***
 
-* ##### Công cụ
+* ##### <kbd>Công cụ</kbd>
     * ![.](/assets/img/private/active.ico) [pastebin.com/...(Key-Activate)](https://pastebin.com/QexQirMw){:target="_blank"}
     * ![.](/assets/img/private/convert.png) [smallpdf.com/...(PDF->DOC)](https://smallpdf.com/){:target="_blank"}
     * ![.](/assets/img/private/dltaccount.ico) [backgroundchecks.org/...(Delete account)](https://backgroundchecks.org/justdeleteme/?fbclid=IwAR1K2cA9w9f0KTW8nlDTL41Fp-szh2UXdJ7ww0mKV3bgbGPvnEvDQisOJY8){:target="_blank"}
@@ -152,7 +152,7 @@ permalink: /397ecce003aa459208285c90d2931fef
 
 ***
 
-* ##### Background
+* ##### <kbd>Background</kbd>
     * ![.](/assets/img/private/apple-touch-icon.png) [flickr.com](https://www.flickr.com/){:target="_blank"}
     * ![.](/assets/img/private/pix.png) [pixabay.com](https://pixabay.com/vi/){:target="_blank"}
     * ![.](/assets/img/private/pexels.png) [pexels.com](https://www.pexels.com/){:target="_blank"}
@@ -168,7 +168,7 @@ permalink: /397ecce003aa459208285c90d2931fef
 
 ***
 
-* ##### Thiết kế
+* ##### <kbd>Thiết kế</kbd>
     * ![.](/assets/img/private/color.ico) [flatuicolors.com](https://flatuicolors.com/){:target="_blank"}
     * ![.](/assets/img/private/coll.ico) [collectui.com](http://collectui.com/){:target="_blank"}
     * ![.](/assets/img/private/apple-icon-57x57-precomdposed.png) [flaticon.com](https://www.flaticon.com/){:target="_blank"}
@@ -194,7 +194,7 @@ permalink: /397ecce003aa459208285c90d2931fef
 
 ***
 
-* ##### Chủ đề
+* ##### <kbd>Chủ đề</kbd>
     * ![.](/assets/img/private/be.ico) [themes.muffingroup.com](https://themes.muffingroup.com/){:target="_blank"}
     * ![.](/assets/img/private/logo-1.png) [webdesignerwall.com](https://webdesignerwall.com/){:target="_blank"}
     * ![.](/assets/img/private/theme.ico) [themeforest.net](https://themeforest.net/){:target="_blank"}
@@ -202,7 +202,7 @@ permalink: /397ecce003aa459208285c90d2931fef
 
 ***
 
-* ##### Ngoại ngữ
+* ##### <kbd>Ngoại ngữ</kbd>
     * ![.](/assets/img/private/meri.png) [memrise.com](https://www.memrise.com/home/){:target="_blank"}
     * ![.](/assets/img/private/engVid.ico) [engvid.com](https://www.engvid.com/){:target="_blank"}
     * ![.](/assets/img/private/fb_avatar.jpg) [lingoglobe.com](http://www.lingoglobe.com/){:target="_blank"}
@@ -221,7 +221,7 @@ permalink: /397ecce003aa459208285c90d2931fef
 
 ***
 
-* ##### Toán học
+* ##### <kbd>Toán học</kbd>
     * ![.](/assets/img/private/mathit.gif) [math2it.com](https://math2it.com/){:target="_blank"}
     * ![.](/assets/img/private/favicon-64.png) [mathigon.org](https://mathigon.org/){:target="_blank"}
     * ![.](/assets/img/private/apple-touch-icon-57x57-precomposed.new.png) [khanacademy.org](https://www.khanacademy.org/){:target="_blank"}
@@ -235,12 +235,12 @@ permalink: /397ecce003aa459208285c90d2931fef
 
 ***
 
-* ##### Unix/Linux
+* ##### <kbd>Unix/Linux</kbd>
     * ![.](/assets/img/private/ubuntu.ico) [ubuntupit.com](https://www.ubuntupit.com/){:target="_blank"}
     * ![.](/assets/img/private/gnome.ico) [gnome-look.org](https://www.gnome-look.org/){:target="_blank"}
     * ![.](/assets/img/private/ubuntu.png) [omgubuntu.co.uk](https://www.omgubuntu.co.uk/){:target="_blank"}
 
 ***
 
-* ##### Dữ liệu ảo
+* ##### <kbd>Dữ liệu ảo</kbd>
     * ![.](/assets/img/private/mockaroo.png) [mockaroo.com](https://mockaroo.com/){:target="_blank"}
