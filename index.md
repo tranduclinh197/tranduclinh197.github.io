@@ -7,9 +7,9 @@ title: Trang chủ
         <div class="card-columns col-md-12 ">
             {% for post in site.posts %}
                 <div class="card shadow-sm mt-5">
-                    <div class="card-header bg-transparent border-0" style="margin-bottom: -44px">
+                    <div class="card-header bg-transparent border-0" style="margin-bottom: -44px;">
                         <a href="{{ post.url | prepend: site.baseurl }}">
-                            <img title="{{ post.title }}" class="card-position img container-border-radius shadow" src="{{ post.img-title }}" width="100%">
+                            <img title="{{ post.title }}" class="card-position img container-border-radius shadow hover-img" src="{{ post.img-title }}" width="100%">
                         </a>
                     </div>
                     <div class="card-body">
