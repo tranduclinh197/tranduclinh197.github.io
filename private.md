@@ -244,3 +244,16 @@ permalink: /397ecce003aa459208285c90d2931fef
 
 * ##### <kbd>Dữ liệu ảo</kbd>
     * ![.](/assets/img/private/mockaroo.png) [mockaroo.com](https://mockaroo.com/){:target="_blank"}
+
+***
+
+* ##### <kbd>Cheat sheet</kbd>
+    * <kbd>CSS</kbd>
+        * [Css-grid](https://devhints.io/css-grid){:target="_blank"}
+        
+    * <kbd>JavaScript</kbd>
+        * 
+    * <kbd>PUG</kbd>
+        * [Pug](https://devhints.io/pug){:target="_blank"}
+    * <kbd>Glup</kbd>
+        * [Glup](https://devhints.io/gulp){:target="_blank"}
