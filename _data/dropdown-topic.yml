@@ -9,7 +9,7 @@ data-nar:
   - h4-title: Lập trình
     topic:
       - img-src:
-        path: /
+        path: /command
         text-title: Command
 
       - img-src:
