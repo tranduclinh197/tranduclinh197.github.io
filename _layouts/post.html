@@ -25,7 +25,7 @@ layout: default
                     {% if page.tag != null %}
                         <i class="fas fa-tags font-weight-light mr-1">
                             {% for multi-tag in page.tag %}
-                                <a class="post" href="/tag/{{multi-tag}}">
+                                <a class="post" href="/{{multi-tag}}">
                                     <span style="border: 1px solid #c1c1c1; border-radius: 4px; padding: 2px 4px;" class="shadow-sm">
                                         #{{multi-tag}}
                                     </span>
@@ -41,17 +41,19 @@ layout: default
             {{ content }}
         </div>
         <ul class="pager">
+            
+            {% if page.next.url %}
+            <li class="next">
+                <a href="{{ page.next.url | prepend:site.baseurl | replace: '//', '/' }}" data-toogle="tooltip" data-placement="top" title="{{ page.next.title }}">&gt; Tới</a>
+            </li>
+            {% endif %}
+            
             {% if page.previous.url %}
                 <li class="previous">
-                    <a href="{{ page.previous.url | prepend:site.baseurl | replace: '//', '/' }}" data-toogle="tooltip" data-placement="top" title="{{ page.previous.title }}">&lt; Lùi</a>
+                    <a href="{{ page.previous.url | prepend:site.baseurl | replace: '//', '/' }}" data-toogle="tooltip" data-placement="top" title="{{ page.previous.title }}">Lùi &lt;</a>
                 </li>
             {% endif %}
 
-            {% if page.next.url %}
-                <li class="next">
-                    <a href="{{ page.next.url | prepend:site.baseurl | replace: '//', '/' }}" data-toogle="tooltip" data-placement="top" title="{{ page.next.title }}">Tới &gt;</a>
-                </li>
-            {% endif %}
         </ul>
     </article>
 

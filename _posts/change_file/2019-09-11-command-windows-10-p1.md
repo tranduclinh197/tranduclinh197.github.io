@@ -1,10 +1,10 @@
 ---
-layout: ['post', 'command']
+layout: post
 title:  "Những dòng lệnh command trên Windows 10 thường dùng nhất (P1)"
 date:   2019-09-11 11:30:40 +0700
-categories: command-p1
+categories: command
 author: Trần Đức Lĩnh
-tag: ["command", "windows", "cmd"]
+tag: ["command", "windows"]
 img-title: /assets/img/blog2.jpg
 permalink: /command-p1
 ---

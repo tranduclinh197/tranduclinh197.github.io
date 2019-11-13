@@ -1,22 +1,28 @@
 ---
-layout: home
-title: Trang chủ
----
+layout: command
+title: Command
+permalink: /command
+--- 
 <div class="container bg-light container-border-radius py-3 px-4 my-lg-4 my-3">
     <div class="posts">
+        <div class="text-center">
+            <div class="text-center shadow container-border-radius p-3" style="display: inline-block">
+                <h3 class="text-uppercase ">{{ page.title }}</h3>
+            </div>
+        </div>
         <div class="card-columns col-md-12 ">
-            {% for post in site.posts %}
+            {% for command in site.categories.command %}
                 <div class="card shadow-sm mt-5">
                     <div class="card-header bg-transparent border-0" style="margin-bottom: -44px;">
-                        <a href="{{ post.url | prepend: site.baseurl }}">
-                            <img title="{{ post.title }}" class="card-position img container-border-radius shadow hover-img" src="{{ post.img-title }}" width="100%">
+                        <a href="{{ command.url | prepend: site.baseurl }}">
+                            <img title="{{ command.title }}" class="card-position img container-border-radius shadow hover-img" src="{{ command.img-title }}" width="100%">
                         </a>
                     </div>
                     <div class="card-body">
-                        <h5 class="text-center"><a title="{{ post.title }}" href="{{ post.url }}">{{ post.title }}</a></h5>
-                        {% if post.tag != null %}
+                        <h5 class="text-center"><a title="{{ command.title }}" href="{{ command.url }}">{{ command.title }}</a></h5>
+                        {% if command.tag != null %}
                             <i class="fas fa-tags font-weight-light mr-lg-1">
-                                {% for multi-tag in post.tag %}
+                                {% for multi-tag in command.tag %}
                                     <a class="post" href="/{{multi-tag}}">
                                         <span>
                                             <small>
@@ -30,7 +36,7 @@ title: Trang chủ
                         {% endif %}
                         <p>
                             <small>
-                                {{ post.excerpt }}
+                                {{ command.excerpt }}
                             </small>
                         </p>
                     </div>
@@ -39,7 +45,7 @@ title: Trang chủ
                             <a href="#">
                                 <span>
                                     <small>
-                                        {{ post.author }}
+                                        {{ command.author }}
                                     </small>
                                 </span>
                             </a>
@@ -48,7 +54,7 @@ title: Trang chủ
                             <a href="#">
                                 <span>
                                     <small>
-                                        {{ post.date | date_to_string }}
+                                        {{ command.date | date_to_string }}
                                     </small>
                                 </span>
                             </a>
