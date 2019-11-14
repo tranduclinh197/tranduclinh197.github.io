@@ -2,9 +2,9 @@
 layout: post
 title:  "Tìm hiểu Responsive Web Design từ sách giáo khoa đến trải nghiệm thực tế"
 date: 2019-10-7 18:41:20 +0700
-categories: responsive-web-design
+categories: frontend
 author: Trần Đức Lĩnh
-tag: ["responsive", "frontend"]
+tag: frontend
 img-title: /assets/img/blog14.jpg
 permalink: /tim-hieu-responsive-web-design
 ---

@@ -2,9 +2,9 @@
 layout: post
 title:  "Một số thủ thuật CSS mà Front.End không ngờ tới (P1)"
 date:   2019-09-26 10:31:04 +0700
-categories: thu-thuat-css-p1
+categories: frontend
 author: Trần Đức Lĩnh
-tag: ["frontend", "css"]
+tag: frontend
 img-title: /assets/img/blog13.jpg
 permalink: /mot-so-thu-thuat-css-p1
 ---

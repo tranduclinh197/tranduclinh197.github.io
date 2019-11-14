@@ -2,9 +2,9 @@
 layout: post
 title:  "Ngoài console.log ra thì còn gì khác biệt không?"
 date:   2019-09-17 16:20:10 +0700
-categories: console-log
+categories: frontend
 author: Trần Đức Lĩnh
-tag: ["console.log", "javascript", "doyouknow"]
+tag: frontend
 img-title: /assets/img/blog8.jpg
 permalink: /consolelog
 ---

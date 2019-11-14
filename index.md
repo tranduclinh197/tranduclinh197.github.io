@@ -12,21 +12,23 @@ title: Trang chủ
                             <img title="{{ post.title }}" class="card-position img container-border-radius shadow hover-img" src="{{ post.img-title }}" width="100%">
                         </a>
                     </div>
-                    <div class="card-body">
+                    <div class="card-body ">
                         <h5 class="text-center"><a title="{{ post.title }}" href="{{ post.url }}">{{ post.title }}</a></h5>
                         {% if post.tag != null %}
-                            <i class="fas fa-tags font-weight-light mr-lg-1">
-                                {% for multi-tag in post.tag %}
-                                    <a class="post" href="/{{multi-tag}}">
-                                        <span>
-                                            <small>
-                                                #{{multi-tag}}
-                                            </small>
-                                        </span>
-                                    </a>
-                                    {% unless forloop.last %}, {% endunless %}
-                                {% endfor %}
-                            </i>
+                            <ul class="">
+                                <i class="fas fa-tags font-weight-light mr-lg-1">
+                                    {% for multi-tag in post.tag %}
+                                        <a class="post text-center" href="/{{multi-tag}}">
+                                            <span>
+                                                <small>
+                                                    #{{multi-tag}}
+                                                </small>
+                                            </span>
+                                        </a>
+                                        {% unless forloop.last %}, {% endunless %}
+                                    {% endfor %}
+                                </i>
+                            </ul>
                         {% endif %}
                         <p>
                             <small>

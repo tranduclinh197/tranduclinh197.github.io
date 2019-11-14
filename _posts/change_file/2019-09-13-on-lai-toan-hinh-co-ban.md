@@ -2,9 +2,9 @@
 layout: post
 title:  "Ôn lại hình học cơ bản (P1)"
 date:   2019-09-13 09:02:04 +0700
-categories: hinh-hoc-co-ban-p1
+categories: geometry
 author: Trần Đức Lĩnh
-tag: ["hinh-hoc", "math", "toan"]
+tag: geometry
 img-title: /assets/img/blog4.jpg
 permalink: /hinh-hoc-co-ban-p1
 ---

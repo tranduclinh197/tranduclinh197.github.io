@@ -2,7 +2,7 @@ data-nar:
   - h4-title: Bạn có biết ???
     topic:
       - img-src:
-        path: /
+        path: /let-is-go
         text-title: Xem nào!
 
   - h4-title: Lập trình
@@ -12,45 +12,53 @@ data-nar:
         text-title: Command
 
       - img-src:
-        path: /
+        path: /frontend
         text-title: Frontend
 
       - img-src:
-        path: /
-        text-title: Đồ hoạ web
+        path: /backend
+        text-title: Backend
 
       - img-src:
-        path: /
+        path: /graphic
+        text-title: Đồ hoạ
+
+      - img-src:
+        path: /algorithm
         text-title: Thuật toán
 
       - img-src:
-        path: /
+        path: /data-structure
         text-title: Cấu trúc dữ liệu
 
   - h4-title: Toán học
     topic:
       - img-src:
-        path:
-        text-title: Toán số cơ bản
+        path: /math
+        text-title: Toán số
 
       - img-src:
-        path:
-        text-title: Hình học cơ bản
+        path: /geometry
+        text-title: Hình học
 
 
   - h4-title: Ngoại ngữ
     topic:
       - img-src:
-        path:
+        path: /english
         text-title: English
 
       - img-src:
-        path:
+        path: /russian
         disa: disabled
         text-title: Russian
 
   - h4-title: Kỹ năng sống
     topic:
       - img-src:
-        path:
+        path: /communication-skills
         text-title: Kỹ năng giao tiếp
+
+      - img-src:
+        path: /psychology
+        text-title: Tâm lý học

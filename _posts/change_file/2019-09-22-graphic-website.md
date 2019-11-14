@@ -2,9 +2,9 @@
 layout: post
 title:  "Tìm hiểu đồ hoạ Website"
 date:   2019-09-22 21:02:17 +0700
-categories: graphic-website
+categories: graphic
 author: Trần Đức Lĩnh
-tag: ["design", "frontend", "graphic-website"]
+tag: graphic
 img-title: /assets/img/blog11.jpg
 permalink: /do-hoa-web-site-la-gi
 ---

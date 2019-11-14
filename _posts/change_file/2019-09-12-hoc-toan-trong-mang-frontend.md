@@ -2,9 +2,9 @@
 layout: post
 title:  "Môn toán có quan trọng trong nghành CNTT?"
 date:   2019-09-12 13:28:15 +0700
-categories: 
+categories: let-is-go
 author: Trần Đức Lĩnh
-tag: ["math", "toan"]
+tag: let-is-go
 img-title: /assets/img/blog3.jpg
 permalink: /toan-hoc-co-quan-trong
 ---

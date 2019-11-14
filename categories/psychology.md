@@ -1,7 +1,7 @@
 ---
-layout: command
-title: Command
-permalink: /command
+layout: categories
+title: Tâm lý học
+permalink: /psychology
 --- 
 <div class="container bg-light container-border-radius py-3 px-4 my-lg-4 my-3">
     <div class="posts">
@@ -11,18 +11,18 @@ permalink: /command
             </div>
         </div>
         <div class="card-columns col-md-12 ">
-            {% for command in site.categories.command %}
+            {% for psychology in site.categories.psychology %}
                 <div class="card shadow-sm mt-5">
                     <div class="card-header bg-transparent border-0" style="margin-bottom: -44px;">
-                        <a href="{{ command.url | prepend: site.baseurl }}">
-                            <img title="{{ command.title }}" class="card-position img container-border-radius shadow hover-img" src="{{ command.img-title }}" width="100%">
+                        <a href="{{ psychology.url | prepend: site.baseurl }}">
+                            <img title="{{ psychology.title }}" class="card-position img container-border-radius shadow hover-img" src="{{ psychology.img-title }}" width="100%">
                         </a>
                     </div>
                     <div class="card-body">
-                        <h5 class="text-center"><a title="{{ command.title }}" href="{{ command.url }}">{{ command.title }}</a></h5>
-                        {% if command.tag != null %}
+                        <h5 class="text-center"><a title="{{ psychology.title }}" href="{{ psychology.url }}">{{ psychology.title }}</a></h5>
+                        {% if psychology.tag != null %}
                             <i class="fas fa-tags font-weight-light mr-lg-1">
-                                {% for multi-tag in command.tag %}
+                                {% for multi-tag in psychology.tag %}
                                     <a class="post" href="/{{multi-tag}}">
                                         <span>
                                             <small>
@@ -36,7 +36,7 @@ permalink: /command
                         {% endif %}
                         <p>
                             <small>
-                                {{ command.excerpt }}
+                                {{ psychology.excerpt }}
                             </small>
                         </p>
                     </div>
@@ -45,7 +45,7 @@ permalink: /command
                             <a href="#">
                                 <span>
                                     <small>
-                                        {{ command.author }}
+                                        {{ psychology.author }}
                                     </small>
                                 </span>
                             </a>
@@ -54,7 +54,7 @@ permalink: /command
                             <a href="#">
                                 <span>
                                     <small>
-                                        {{ command.date | date_to_string }}
+                                        {{ psychology.date | date_to_string }}
                                     </small>
                                 </span>
                             </a>

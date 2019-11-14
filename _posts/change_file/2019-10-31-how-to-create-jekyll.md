@@ -2,9 +2,9 @@
 layout: post
 title: "Cách tạo trang blog với Jekyll"
 date: 2019-10-31 09:00:00 +0700
-categories: cach-tao-trang-blog-voi-jekyll
+categories: let-is-go
 author: Trần Đức Lĩnh
-tag: ["jekyll", "frontend"]
+tag: let-is-go
 img-title: /assets/img/blog16.jpg
 permalink: /cach-tao-trang-blog-voi-jekyll
 ---

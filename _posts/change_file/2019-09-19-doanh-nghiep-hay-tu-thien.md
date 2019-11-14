@@ -2,9 +2,9 @@
 layout: post
 title:  "Trong nghành IT, doanh nghiệp có trông giống một nhà từ thiện?"
 date:  2019-09-19 23:21:05 +0700
-categories: tu-tuong-IT
+categories: let-is-go
 author: Trần Đức Lĩnh
-tag: ["doyouknow"]
+tag: let-is-go
 img-title: /assets/img/blog9.jpg
 permalink: /doanh-nghiep-hay-mot-nha-tu-thien
 ---

@@ -2,9 +2,9 @@
 layout: post
 title:  "Tổng hợp vùng chọn CSS"
 date:   2019-09-24 07:12:56 +0700
-categories: vung-chon-css
+categories: frontend
 author: Trần Đức Lĩnh
-tag: ["frontend", "css"]
+tag: frontend
 img-title: /assets/img/blog12.jpg
 permalink: /vung-chon-css
 ---
