@@ -12,7 +12,6 @@ Nếu bạn là một lập trình viên thì việc thao tác thành thạo cá
 
 ![image-title-here](/assets/img/img-post/command-p1/Command-Prompt-800x343.jpg){:width="100%"}
 
-
 ### <kbd>Windows</kbd>
 
 ##### Thao tác dọn sạch, thoát cmd
