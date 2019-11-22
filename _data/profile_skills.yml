@@ -4,7 +4,7 @@
   
 - name-skill: JavaScript-(ES6)
   color-bar: bg-warning
-  valuenow: 60
+  valuenow: 45
 
 - name-skill: Design-(Ps/Lr)
   color-bar: bg-warning
@@ -16,8 +16,8 @@
 
 - name-skill: English-(Basic)
   color-bar: bg-warning
-  valuenow: 55
+  valuenow: 50
 
 - name-skill: Other-(Git command, git work-follow)
   color-bar: bg-warning
-  valuenow: 68
+  valuenow: 60
