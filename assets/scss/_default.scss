@@ -28,10 +28,14 @@
   }
 }
 
+html, body {
+  height: 100%;
+}
 
 body {
   // min-height: 75rem;
-  background: #dfe4e9;
+  // background: #dfe4e9; (old)
+  background: #f8f9fa;
   min-width: 320px;
   color: rgb(60, 72, 88);
 }

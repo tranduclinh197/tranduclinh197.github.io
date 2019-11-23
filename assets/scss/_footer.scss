@@ -1,4 +1,10 @@
 footer {
     position: relative;
-    bottom: 0;
+    clear: both;
+    height:40px;
 };
+
+footer p {
+    line-height: 40px;
+    font-weight: 600;
+}

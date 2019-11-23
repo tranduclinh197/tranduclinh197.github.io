@@ -9,7 +9,7 @@ img-title: /assets/img/blog17.jpg
 permalink: /on-lai-khai-niem-co-ban-trong-javascript
 ---
 
-Trước khi tiếp tục theo đuổi con đường lập trình website, bạn cần ôn lại các khái niệm cơ bản nhất về JavaScript. Những điều này giúp bạn thoải mái hơn cho việc lập trình, nó còn giúp bạn hạn chế `bug` trong quá trình xây dựng ứng dụng cho riêng minh.
+Trước khi tiếp tục theo đuổi con đường lập trình website, bạn cần ôn lại các khái niệm cơ bản nhất về JavaScript. Những điều này giúp bạn thoải mái hơn cho việc lập trình, nó còn giúp bạn hạn chế `bug` trong quá trình xây dựng ứng dụng cho riêng mình.
 
 #### 1) Code là gì? (Mã)
 Đây là câu hỏi được hỏi nhiều nhất và cũng là cơ bản nhất khi bắt tay vào học một cái gì đó. 
@@ -90,12 +90,12 @@ Toán tử là những hành động mà máy tính có thể thực hiện dự
 Là những con số, chuỗi, mảng dữ liệu mà chúng ta thao tác.
 
 ```js
-"Text";
+    "Text";
 
-45;
+    45;
 
-true;
-false;
+    true;
+    false;
 ```
 Ngoài những kiểu dữ liệu quen thuộc như *string*, *number*, *boolean* thì có những kểu dữ liệu phức tạp khác như *array*, *object*, *function*,...
 
@@ -184,3 +184,121 @@ Có vài cách để thể hiện một số điều kiên trong JavaScript, tro
         console.log(" FALSE ");
     }
 ```
+
+Đoạn code phía trên thực thi theo kiểu nếu **if** đúng (true) thì thực hiện đoạn code bên trong, ngược lại **else** sẽ thực hiện việc đó nếu **if** sai (false).
+
+#### 13) Loops (Lặp)
+Công việc lặp đi lặp lại nhiều lần khi điều kiện hợp lệ được gọi là **vòng lặp**.
+
+```js
+    var a = 1;
+    while (a < 10) {
+        console.log(a++);
+        // 1,2,3,..10
+    };
+
+    for( i=1; i<10; i++)
+    {
+        console.log(i);
+        // 1,2,3,..10
+    }
+```
+
+Theo như ví dụ trên thì hai vòng lặp này đều ra kết quả như nhau, nhưng câu hỏi đặt ra là khi nào dùng **while**, khi nào dùng **if**??
+
+*   Khi ta không biết chính xác số lần lặp lại thì ta dùng **while**.
+*   Khi ta biết số lần lặp lại bao nhiêu lần ta dùng **if**.
+
+Ngoài ra còn có **do while**, **for/in**, **for/Each**, **for/of**...
+
+Các phép tính toán phức tạp ta cần dùng **break** và **continue**.
+*   **Break** buộc thoát ngay khỏi vòng lặp khi thoả mãn điều kiện nào đó (Hay xuất hiện trong **switch/case**).
+*   **Continue** loại bỏ một bước lặp, tất cả các đoạn code bên dưới *continue* sẽ không thực hiện mà nó sẽ nhảy qua lệnh mới luôn.
+
+#### 13) Functions (Chức năng)
+Khi nhu cầu sử dụng lặp đi lặp lại một chức năng gì đó, ta chỉ cần gọi nó ra và nó sẽ trả về kết quả cuối cùng.
+
+Thông thường một hàm thường có **tham số** và **giá trị trả về**.
+```js
+    function op(a) {
+        a ++;
+        return a;
+    };
+
+    console.log(op(10));    //11
+    console.log(op(20));    //21
+    console.log(op(30));    //31
+```
+
+<hr>
+<h3 class="text-center"><u>Ngoài ra</u></h3>
+
+##### Scope (Phạm vi)
+
+Khái niệm phạm vi truy cập biến trong một hàm.
+
+
+**Global Scope**
+
+Hiểu đơn giản là khi ta đặt ta đặt một biến bên ngoài, phạm vi này thật rộng lớn.
+
+```js
+    const a = 10;
+    // global scope
+```
+
+**Local Scope**
+
+Phạm vi biến nằm bên trong dấu ngoặc nhọn.
+
+```js
+    if (a > 10) {
+        // local scope
+    }
+```
+
+**Function scope**
+
+Mỗi *functions* đều có một phạm vi riêng và chúng ta chỉ truy xuất được những biến bên trong phạm vi đó, khi rời khỏi phạm vi của *functions* đó, những biến bên trong nó sẽ không còn được truy cập nữa.
+
+```js
+    function op () {
+        // function scope
+    }
+```
+
+*   *Ta có thể đặt tên biến giống nhau ở hai functions khác nhau.*
+
+**Lexical Scope**
+
+Một function bên trong một function khác.
+
+```js
+    function op () {
+        // function scope
+        function op_1 () {
+            // lexical scope
+        }
+    }
+```
+
+**Scope Chain**
+
+Được thiết lập cho mỗi scope một function nhất định, mỗi function lại có một *nested scope* riêng, mỗi function được định nghĩa bên trong một function khác đều là *local scope* được liên kết với function bên ngoài, sau đó tìm kiếm mở rộng ra bên ngoài (variables, objects, functions) cho tới khi nào chúng được tìm thấy.
+
+**Closures**
+
+...
+
+<!-- https://viblo.asia/p/tim-hieu-sau-hon-ve-scope-javascript-Qbq5QrRwKD8 -->
+
+**Scope and this**
+
+...
+
+<!-- https://viblo.asia/p/tim-hieu-sau-hon-ve-scope-javascript-Qbq5QrRwKD8 -->
+
+<hr>
+##### Tổng quan
+
+Chúng ta vừa ôn lại một nùi kiến thức và vài khái niệm + thuật ngữ trong lập trình. Điều đó rất cần thiết cho chúng ta muốn phát triển bản thân sau này nếu muốn theo nghành IT này.
