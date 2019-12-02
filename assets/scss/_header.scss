@@ -1,7 +1,7 @@
 @font-face {
   font-family: titleNar;
-  src: url(../fonts/UTM-Gradoo.ttf) format('truetype');
   font-size: 16px;
+  src: url(../fonts/UTM-Gradoo.ttf) format('truetype');
 }
 
 .font-bar {
@@ -18,8 +18,8 @@
     font-size: 0.875rem;
   }
   .icon-narbar {
-    width: 18px;
     height: 18px;
+    width: 18px;
   }
 }
 
@@ -35,14 +35,14 @@ header, footer {
 }
 
 .input-search {
-  border-right: none;
   border-radius: 999px 0 0 999px;
+  border-right: none;
   padding-left: 20px;
 }
 .outline-none {
-  outline: none;
-  box-shadow:none !important;
   border:1px solid rgba(204, 204, 204, 0) !important;
+  box-shadow:none !important;
+  outline: none;
 }
 // #bottom-search {
 //   border: none;

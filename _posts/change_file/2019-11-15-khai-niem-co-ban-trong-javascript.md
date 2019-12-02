@@ -288,13 +288,20 @@ Một function bên trong một function khác.
 
 **Closures**
 
-...
+Closures có quan hệ rất chặt chẽ với *Lexical Scope*, bên trong scope, chúng ta có thể truy cập bất cứ thứ gì đã khai báo ở scope cha.
 
-<!-- https://viblo.asia/p/tim-hieu-sau-hon-ve-scope-javascript-Qbq5QrRwKD8 -->
+```js
+    function clos (name) {
+	const x = name;	
+	return function () {
+		return x;
+        };
+    };
 
-**Scope and this**
-
-...
+    a = clos("Linh");
+    console.log(a());
+    //Linh
+```
 
 <!-- https://viblo.asia/p/tim-hieu-sau-hon-ve-scope-javascript-Qbq5QrRwKD8 -->
 

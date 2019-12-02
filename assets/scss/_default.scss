@@ -36,8 +36,8 @@ body {
   // min-height: 75rem;
   // background: #dfe4e9; (old)
   background: #f8f9fa;
-  min-width: 320px;
   color: rgb(60, 72, 88);
+  min-width: 320px;
 }
 
 .bg-blue{
@@ -50,14 +50,14 @@ body {
 }
 
 .bg-views {
+  background-attachment: fixed;
   background-image: url("../img/bg-wOlf.jpg");
+  background-position:center;
   background-repeat:no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-position:center;
-  background-attachment: fixed;
   height: 100%;
 }
 
@@ -67,9 +67,9 @@ body {
 }
 
 .outline-none {
-  outline: none;
-  box-shadow:none !important;
   border:1px solid #ccc !important;
+  box-shadow:none !important;
+  outline: none;
 }
 
 .overflow-ellipsis {
