@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Thành công và sự kiên trì"
-date: 2019-11-15 11:00:00 +0700
+date: 2019-12-3 20:19:45 +0700
 categories: psychology
 author: Trần Đức Lĩnh
 tag: psychology
