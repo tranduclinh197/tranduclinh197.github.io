@@ -3,7 +3,12 @@ layout: home
 title: Trang chủ
 ---
 <div class="container bg-light container-border-radius py-3 px-4 my-lg-4 my-3">
-    <div class="posts">
+    <div class="row">
+        <div class="d-block mx-auto mb-2" style="margin-top: -30px">
+            <img src="/assets/img/christmas.png" alt="christmas" width="100%" class="img-raised img-fluid">
+        </div>
+    </div>
+    <div class="row posts">
         <div class="card-columns col-md-12 ">
             {% for post in site.posts %}
                 <div class="card shadow-sm mt-5">
