@@ -161,3 +161,62 @@ Rút gọn thành
 - 1e4 === 10000
 - 1e5 === 100000
 ...
+
+### 7) Object property
+Nếu bạn đã học ES6, thì cũng biết đến khả năng gán `property` cho `object` một cách dễ dàng. Nếu tên **key** trùng với tên **variable**.
+
+```js
+    const a = 1, b = 2;
+    const obj = { a: a, b: b};
+    console.log(`${obj.a}, ${obj.b}`);
+    // 1, 2
+```
+
+Rút gọn thành.
+
+```js
+    const a = 1, b = 2;
+    const obj = {a, b};
+    console.log(`${obj.a}, ${obj.b}`);
+    // 1, 2
+```
+
+### 8) Rút gọn khi khai báo *Function*
+Kiểu khai báo function cũ nhìn dễ đọc viết nhưng trở nên rối răm khi dùng chung với lời gọi hàm khác. Có thể sử dụng **Array function** được hỗ trợ trong ES6 để code minh bạch hơn.
+
+```js
+    function sayHello (name) {
+        return "Hello" + " " + name;
+    };
+    console.log(sayHello("world"));
+    // Hello world
+```
+
+Rút gọn thành.
+
+```js
+    sayHello = (name) => {
+        return "Hello" + " " + name;
+    };
+    console.log(sayHello("world"));
+    // Hello world
+```
+
+### 9) Implicit Return
+Việc `return` để trả về kết quả cuối của *function*. Tuy nhiên hãy nhớ rằng trong **array function** việc `return` là implicit.
+
+```js
+    function getValue (a) {
+        return a + 10;
+    };
+    console.log(getValue(10));
+    // 20
+```
+
+Rút gọn thành.
+
+```js
+    getValue = (a) =>  a + 10;
+    console.log(getValue(10));
+    // 20
+```
