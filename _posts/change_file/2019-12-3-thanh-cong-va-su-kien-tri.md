@@ -11,6 +11,9 @@ permalink: /thanh-cong-va-su-kien-tri
 
 Hãy nắm vững những phương pháp làm việc hiệu quả so với việc bạn cứ cắm đầu vào và làm việc như một cái máy. Đầu óc trống rỗng không có chút tư duy, thật sự mà nói người tài giỏi đều chiến thẳng chính là nhờ có tư duy.
 
+![image-title-here](/assets/img/img-post/thanh-cong-va-su-kien-tri/thanh-cong-va-su-kien-tri.jpg){:width="100%"}
+
+
 #### Có một câu chuyện như sau:
 **Nhân viên:** -Tôi đã làm việc được 10 năm kinh nghiệm rồi, tại sao sếp lại không tăng lương cho tôi?<br/>
 **Sếp:** -Cái tôi đang cần không phải 10 năm kinh nghiệm làm việc, mà là anh đem 1 năm kinh nghiệm dùng tới 10 năm.

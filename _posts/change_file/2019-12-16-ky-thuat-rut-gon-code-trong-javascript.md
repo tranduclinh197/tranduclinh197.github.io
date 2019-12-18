@@ -9,9 +9,11 @@ img-title: /assets/img/blog19.jpg
 permalink: /ky-thuat-rut-gon-code-trong-javascript
 ---
 
-Những kỹ thuật rút gọn code được áp dụng rất nhiều, mục đích sử dụng kỹ thuật này có thể kể đến việc bảo trì code, nâng cấp, sửa lỗi và nhìn trông sạch hơn.
+Những kỹ thuật rút gọn code được áp dụng rất nhiều, mục đích sử dụng kỹ thuật này có thể kể đến việc bảo trì code, nâng cấp, sửa lỗi và nhìn trong sạch hơn.
 
 Những dự án lớn và phức tạp đòi hỏi phải tập hợp nhiều người xử lý chung một vấn đề, một tình huấn, và mọi người đều viết mã nguồn theo một quy ước cụ thể. Muốn học hỏi được những kỹ thuật này, ít nhất bạn phải nắm vững các kiến thức cơ bản về một ngôn ngữ nào đó.
+
+![image-title-here](/assets/img/img-post/ky-thuat-rut-gon-code-javascript/ky-thuat-rut-gon-code-javascript.jpg){:width="100%"}
 
 #### 1) Toán tử 3 ngôi (Ternary Operator)
 
@@ -227,5 +229,32 @@ Rút gọn thành.
 Kỹ thuật này có trong ES6, có thể sử dụng `if` để gán giá trị mặc định. Nhưng trong trường hợp này ES6 sẽ hỗ trợ việc đó thay bạn.
 
 ```js
+    function getValue (x, y, z) {
+    if (x == undefined) {
+         x = 5;   
+    };
     
+    if (y == undefined) {
+        y = 10;
+    };
+    
+    return x + y + z;
+    };
+
+    console.log(getValue(undefined, undefined, 10));
+    // 25
 ```
+
+Rút gọn code.
+
+```js
+    getValue = (x = 5, y = 10, z) => {
+        return x + y + z;
+    };
+
+    console.log(getValue(undefined, undefined, 10));
+    //  25
+```
+
+### 11) Template Literals
+Trong khi bạn
