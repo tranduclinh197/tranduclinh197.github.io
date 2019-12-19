@@ -42,8 +42,26 @@ layout: default
                 </div>
         </div>
         <hr/>
-        <div>
-            {{ content }}
+        <div class="row">
+            <div class="col-lg-8 col-md-8 col-sm-12">
+                {{ content }}
+            </div>
+            <div class="col-lg-4 col-md-4 category-post">
+                <div class="border-dark border-top">
+                    <h5 class="bg-dark text-white p-2">Mục lục</h5>
+
+                </div>
+                <div class="border-dark border-top">
+                    <h5 class="bg-dark text-white p-2">Bài viết liên quan</h5>
+                    <!-- <ul>
+                        {% for posta in site.po sts %}
+                            <li class="">
+                                <a href="">{{ posta }}</a>
+                            </li>
+                        {% endfor %}
+                    </ul> -->
+                </div>
+            </div>
         </div>
         <ul class="pager">
             

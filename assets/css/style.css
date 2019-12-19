@@ -10563,8 +10563,8 @@ a.text-dark:hover, a.text-dark:focus {
 
 @font-face {
   font-family: titleNar;
-  src: url(../fonts/UTM-Gradoo.ttf) format("truetype");
   font-size: 16px;
+  src: url(../fonts/UTM-Gradoo.ttf) format("truetype");
 }
 
 .font-bar {
@@ -10582,8 +10582,8 @@ a.text-dark:hover, a.text-dark:focus {
     font-size: 0.875rem;
   }
   .icon-narbar {
-    width: 18px;
     height: 18px;
+    width: 18px;
   }
 }
 
@@ -10598,16 +10598,16 @@ header, footer {
 }
 
 .input-search {
-  border-right: none;
   border-radius: 999px 0 0 999px;
+  border-right: none;
   padding-left: 20px;
 }
 
 .outline-none {
-  outline: none;
+  border: 1px solid rgba(204, 204, 204, 0) !important;
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
-  border: 1px solid rgba(204, 204, 204, 0) !important;
+  outline: none;
 }
 
 footer {
@@ -10667,8 +10667,8 @@ html, body {
 
 body {
   background: #f8f9fa;
-  min-width: 320px;
   color: #3c4858;
+  min-width: 320px;
 }
 
 .bg-blue {
@@ -10680,11 +10680,11 @@ body {
 }
 
 .bg-views {
+  background-attachment: fixed;
   background-image: url("../img/bg-wOlf.jpg");
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
   height: 100%;
 }
 
@@ -10694,10 +10694,10 @@ body {
 }
 
 .outline-none {
-  outline: none;
+  border: 1px solid #ccc !important;
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
-  border: 1px solid #ccc !important;
+  outline: none;
 }
 
 .overflow-ellipsis {
@@ -10749,24 +10749,28 @@ body {
   float: right;
 }
 
+.category-post div h5 {
+  display: inline-block;
+}
+
 .main .profile-content .profile {
   background: #fafafa;
 }
 
 .main .profile-content .profile .avatar img {
-  position: relative;
-  top: -60px;
   display: block;
   margin: 0 auto;
   max-width: 140px;
+  position: relative;
+  top: -60px;
   width: 100%;
 }
 
 .main .profile-content .profile .name {
-  position: relative;
-  top: -36px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  position: relative;
+  top: -36px;
 }
 
 .main .profile-content .profile .name .connect a:hover, .main .profile-content .profile .name .cv a:hover {
