@@ -10753,6 +10753,12 @@ body {
   display: inline-block;
 }
 
+@media only screen and (max-width: 767px) {
+  .category-post {
+    display: none;
+  }
+}
+
 .main .profile-content .profile {
   background: #fafafa;
 }
