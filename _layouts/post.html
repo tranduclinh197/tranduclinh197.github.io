@@ -53,13 +53,17 @@ layout: default
                 </div>
                 <div class="border-dark border-top">
                     <h5 class="bg-dark text-white p-2">Bài viết liên quan</h5>
-                    <!-- <ul>
-                        {% for posta in site.tag %}
-                            <li class="">
-                                <a href="">{{ posta }}</a>
-                            </li>
+                    {% for command in site.posts reversed limit: 10 offset: 10 %}
+                        {% assign colors = 'red|green|blue|yellow|orange' | split: '|' %}
+                        {% for i in (1..100) %}
+                        {{ i }} - {{ forloop.index | random_item: colors }}
                         {% endfor %}
-                    </ul> -->
+                            <ul>
+                                <li class="">
+                                    <a href="">{{ commxand.title }}</a>
+                                </li>
+                            </ul>
+                    {% endfor %}
                 </div>
             </div>
         </div>
