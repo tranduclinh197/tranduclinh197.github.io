@@ -52,17 +52,15 @@ layout: default
 
                 </div>
                 <div class="border-dark border-top">
-                    <h5 class="bg-dark text-white p-2">Bài viết liên quan</h5>
-                    {% for command in site.posts reversed limit: 10 offset: 10 %}
-                        {% assign colors = 'red|green|blue|yellow|orange' | split: '|' %}
-                        {% for i in (1..100) %}
-                        {{ i }} - {{ forloop.index | random_item: colors }}
-                        {% endfor %}
-                            <ul>
-                                <li class="">
-                                    <a href="">{{ commxand.title }}</a>
-                                </li>
-                            </ul>
+                    <h5 class="bg-dark text-white p-2">
+                        Bài viết liên quan
+                    </h5>
+                    {% for categorie in site.tag %}
+                    <ul>
+                        <li class="">
+                            <a href="/{{ categorie }}"> {{ categorie }}</a>
+                        </li>
+                    </ul>
                     {% endfor %}
                 </div>
             </div>
