@@ -18,8 +18,8 @@ Jekyll sử dụng Liquid template, Markdown, YAML front-matter để hoạt đ�
 Trước khi bắt tay vào tạo một trang bằng Jekyll bạn nên cài đặt các phần mềm phát triển.<br/>
 <small>(Cài đặt trên Windows OS)
 
-#### 1. Việc đầu tiên cần làm là cài [Git](https://git-scm.com/download) trên máy tính.
-#### 2. Cài [Ruby](https://www.ruby-lang.org/en/downloads/) trước để giảm thiểu quá trình phát sinh lỗi khi chạy, đồng thời quản lý <kbd>Ruby gems dependencies</kbd> cho Jekyll.
+### 1. Việc đầu tiên cần làm là cài [Git](https://git-scm.com/download) trên máy tính.
+### 2. Cài [Ruby](https://www.ruby-lang.org/en/downloads/) trước để giảm thiểu quá trình phát sinh lỗi khi chạy, đồng thời quản lý <kbd>Ruby gems dependencies</kbd> cho Jekyll.
 
 ![image-title-here](/assets/img/img-post/setup-jekyll/install-ruby.jpg){:width="100%"}
 <small>(Chọn 1-2-3 nhé)</small>
@@ -34,7 +34,7 @@ Kiểm tra phiên bản Ruby/Gem đã cài trên máy tính thành công hay ch�
     gem -v
 ```
 
-#### 3. Cài Bundler ta dùng lệnh
+### 3. Cài Bundler ta dùng lệnh
 
 ```js
     gem install jekyll bundler
@@ -122,7 +122,7 @@ Có nhiều cách viết thông qua HTML, Markdown hoặc Liquid Templating như
 * `ex` Danh sách các file CSS được nhứng từ bên ngoài.
 * `googlefonts` Danh sách các Font Google được sư dụng.
 
-##### Một số tài liệu kham khảo.
+### Một số tài liệu kham khảo.
 
 * Trang chủ Jekyll: [jekyllrb.com](https://jekyllrb.com/)
 * Trang chủ Github: [pages.github.com](https://pages.github.com/)

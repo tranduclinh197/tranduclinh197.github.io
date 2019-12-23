@@ -11,14 +11,14 @@ permalink: /on-lai-khai-niem-co-ban-trong-javascript
 
 Trước khi tiếp tục theo đuổi con đường lập trình website, bạn cần ôn lại các khái niệm cơ bản nhất về JavaScript. Những điều này giúp bạn thoải mái hơn cho việc lập trình, nó còn giúp bạn hạn chế `bug` trong quá trình xây dựng ứng dụng cho riêng mình.
 
-#### 1) Code là gì? (Mã?)
+### 1) Code là gì? (Mã?)
 Đây là câu hỏi được hỏi nhiều nhất và cũng là cơ bản nhất khi bắt tay vào học một cái gì đó. 
 
 Code bao gồm tập hợp những đoạn mã với nhau, nhiệm vụ chỉ dẫn cách thức làm việc cho máy tính thông qua những câu lệnh mà bạn tạo. Những đoạn `code` này được lưu trữ dưới dạng `text`.
 
 Ngôn ngữ máy được quy định chặc chẽ về định dạng, cú pháp, tính logic và không thể bị phá vỡ. Ai cố tình hoặc vô ý làm trái ngược sẽ tạo ra `bug`.
 
-#### 2) Statements? (Câu lệnh?)
+### 2) Statements? (Câu lệnh?)
 Bao gồm một cụm các từ ngữ (text), con số (number), phương thức (method), toán tử (operator)... mà chúng cùng thực hiện một nhiệm vụ nào đó được gọi là `statements`.
 
 ```js
@@ -26,7 +26,7 @@ Bao gồm một cụm các từ ngữ (text), con số (number), phương thức
     console.log(a);
 ```
 
-#### 3) Expressions? (Biểu thức)
+### 3) Expressions? (Biểu thức)
 Những câu lệnh được cấu thành biểu thức, một biểu thức được kết hợp giữa các `biến`, `giá trị`, `toán tử`,...
 
 ```js
@@ -42,12 +42,12 @@ Trong ví dụ trên, một `exxpression` bao gồm:
 *   **a + b** là một `exxpression`
 *   **console.log()** là một `function `, hàm này được xây dựng sẵn và chỉ gọi ra để thực thi.
 
-#### 4) Executing a Program? (Cách thức thực hiện một chương trình?)
+### 4) Executing a Program? (Cách thức thực hiện một chương trình?)
 Những biểu thức ở ví dụ trên được máy tính mã hoá dưới dạng mã nhị phân. Quá trình đó được gọi là thông dịch (`interpretor`) hay được gọi là biên dịch (`compiler`).
 
 Các mã nhị phân này được máy tính thực thi từng dòng được gọi là thông dịch (`interpret`).
 
-#### 5) Try Javascript Code! (Thử đoạn mã JavaScript nào!)
+### 5) Try Javascript Code! (Thử đoạn mã JavaScript nào!)
 Cách tốt nhất để bắt tay vào code một cái gì đó là bật trình duyệt của bạn lên gõ `about:blank` và nhấn `F12` hoặc `Ctrl + Shift + I`.
 
 ```js
@@ -55,7 +55,7 @@ Cách tốt nhất để bắt tay vào code một cái gì đó là bật trìn
 ```
 Muốn xuống dòng bạn dùng tổ hợp phím `Shift + Enter`. Muốn thực thi bạn chỉ cần nhấn `Enter`.
 
-#### 6) Output? (Đầu ra)
+### 6) Output? (Đầu ra)
 Muốn xuất kết quả cho người dùng thấy ta có thể sử dụng.
 
 ```js
@@ -66,7 +66,7 @@ Muốn xuất kết quả cho người dùng thấy ta có thể sử dụng.
     .textContent;
 ```
 
-#### 7) Input? (Đầu vào)
+### 7) Input? (Đầu vào)
 Cách mà máy tính có thể thu thập dữ liệu của người dùng để thực thi bao gồm sử dụng `HTML`, ta tạo một <form>, bên trong chứa các thẻ  `<input>` để lấy thông tin người dùng. Hoặc sử dụng các hàm xây dựng sẵn trong `JavaScript` bao gồm:
 
 ```js
@@ -74,7 +74,7 @@ Cách mà máy tính có thể thu thập dữ liệu của người dùng để
     prompt();
 ```
 
-#### 8) Operators? (Toán tử)
+### 8) Operators? (Toán tử)
 Toán tử là những hành động mà máy tính có thể thực hiện dựa trên các biến và các giá trị bao gồm:
 
 * **Phép gán**: `=`.
@@ -86,7 +86,7 @@ Toán tử là những hành động mà máy tính có thể thực hiện dự
 * **Logic**: `&&`, `||`.
 * **Truy cập thuột tính đối tượng**: `objectName.property` hoặc `objectName["property"]`.
 
-#### 9) Values & Types (Giá trị & kiểu)
+### 9) Values & Types (Giá trị & kiểu)
 Là những con số, chuỗi, mảng dữ liệu mà chúng ta thao tác.
 
 ```js
@@ -130,7 +130,7 @@ Một số kiểu dữ kiệu sẽ *tự động chuyển đổi không kiểm s
 1. **String - (Object)** => **String - String**
 1. **Other** => **false**
 
-#### 10) Code Comments (Ghi chú mã)
+### 10) Code Comments (Ghi chú mã)
 Comments là một cách chúng ta giải thích cách thức code hoạt động như thế nào. Nhưng tránh việc lạm dụng comment quá nhiều trong `project` gây xáo trộn bố cục code.
 
 Khi sử dụng comments chúng ta cần lưu ý vài điều như sau:
@@ -146,7 +146,7 @@ Có 2 dạng comments bao gồm:
         comment.*/
 ```
 
-#### 11) Variables (Biến)
+### 11) Variables (Biến)
 Các phần mềm đều cần biến để theo dõi các giá trị bởi vì chúng thường biến đổi theo thời gian theo những phương pháp *toán tử* hay *phép gán*.
 
 **Hãy lưu ý**
@@ -155,7 +155,7 @@ Một số ngôn ngữ lập trình *buộc* chúng ta phải khai báo một bi
 Số còn lại sử dụng kiểu *weak typing* (**dynamic typing**). Nó cho phép một biến có thể lưu nhiều kiểu dữ liệu khác nhau qua từng thời điểm khác nhau.
 **JavaScript** được thiết kế như một **dynamic type**, vì thế đừng than phiền và chê bai như một dạng ngôn ngữ *sida*.
 
-#### 12) Blocks (Khối)
+### 12) Blocks (Khối)
 Một block bao gồm những nhóm lệnh đi cùng nhau thực hiện một câu lệnh nào đó.
 Thông thường, một *block* được xác định bên trong dấu ngoặc nhọn `{...}`.
 
@@ -171,7 +171,7 @@ op(15);
 
 Một block thường xuất hiện nhiều trong các từ khoá như *if, for, do-while, function,...*
 
-#### 13) Conditionals (Điều kiện)
+### 13) Conditionals (Điều kiện)
 Có vài cách để thể hiện một số điều kiên trong JavaScript, trong đó có sử dụng câu lệnh *if-else* là cách thông dụng nhất.
 
 ```js
@@ -187,7 +187,7 @@ Có vài cách để thể hiện một số điều kiên trong JavaScript, tro
 
 Đoạn code phía trên thực thi theo kiểu nếu **if** đúng (true) thì thực hiện đoạn code bên trong, ngược lại **else** sẽ thực hiện việc đó nếu **if** sai (false).
 
-#### 14) Loops (Lặp)
+### 14) Loops (Lặp)
 Công việc lặp đi lặp lại nhiều lần khi điều kiện hợp lệ được gọi là **vòng lặp**.
 
 ```js
@@ -215,7 +215,7 @@ Các phép tính toán phức tạp ta cần dùng **break** và **continue**.
 *   **Break** buộc thoát ngay khỏi vòng lặp khi thoả mãn điều kiện nào đó (Hay xuất hiện trong **switch/case**).
 *   **Continue** loại bỏ một bước lặp, tất cả các đoạn code bên dưới *continue* sẽ không thực hiện mà nó sẽ nhảy qua lệnh mới luôn.
 
-#### 15) Functions (Chức năng)
+### 15) Functions (Chức năng)
 Khi nhu cầu sử dụng lặp đi lặp lại một chức năng gì đó, ta chỉ cần gọi nó ra và nó sẽ trả về kết quả cuối cùng.
 
 Thông thường một hàm thường có **tham số** và **giá trị trả về**.

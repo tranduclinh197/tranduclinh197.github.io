@@ -12,13 +12,13 @@ Nếu bạn là một lập trình viên thì việc thao tác thành thạo cá
 
 ![image-title-here](/assets/img/img-post/command-p1/Command-Prompt-800x343.jpg){:width="100%"}
 
-### <kbd>Windows</kbd>
+## <kbd>Windows</kbd>
 
-##### Thao tác dọn sạch, thoát cmd
+### Thao tác dọn sạch, thoát cmd
 * `cls` : `Xóa lệnh`
 * `exit` : `Thoát khỏi cmd`
 
-##### Thao tác trên thư mục
+### Thao tác trên thư mục
 * `rd/s /q <folder>` : `Xóa rỗng 100%, không cần hỏi`
 * `cd..` : `Trở về`
 * `cd <folder>` : `Chọn`
@@ -30,7 +30,7 @@ Nếu bạn là một lập trình viên thì việc thao tác thành thạo cá
 * `tree/f` : `Xem cây thư mục`
 * `ren <name> <name new>` : `Đổi tên`
 
-##### Thao tác xử lý thuột tính cho file hoặc thư mục
+### Thao tác xử lý thuột tính cho file hoặc thư mục
 * `attrib (+/-)a (+/-)s (+/-)h (+/-)r <file/>folder> /s /d`
   * `(+/-)` : `Thêm/loại bỏ thuộc tính`
   * `a` : `(archive) -> lưu trữ`
@@ -42,17 +42,17 @@ Nếu bạn là một lập trình viên thì việc thao tác thành thạo cá
 
 
 
-##### Thao tác kiểm tra thông tin host, địa chỉ IP, DNS,...
+### Thao tác kiểm tra thông tin host, địa chỉ IP, DNS,...
 * `tasklist` : `Xem tiến trình chương trình`
 * `driverquery` : `Xem các driver đã cài trong máy`
 * `systeminfo` : `Xem thông tin hệ thống`
 * `ipconfig/all` : `Xem thông tin mạng`
 
-##### Thao tác tắt máy
+### Thao tác tắt máy
 * `Shutdown -s -t [1200]` : `Shutdown -shutdown -time [1200/60]s`
 * `Shutdown -r -t [1200]` : `Shutdown -restart -time [1200/60]s`
 
-##### Thao tác tắt phần mềm
+### Thao tác tắt phần mềm
 * `taskkill/f /im <name-application>.exe` : `Tắt trong tường hợp khi không thể thoát trực tiếp`
 
 ***

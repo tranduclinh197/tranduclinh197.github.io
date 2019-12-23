@@ -222,7 +222,7 @@ Chọn các phần tử ở các vị trí bao gồm cố định 1 vị trí, c
     :nth-child(n+8):nth-child(-n+16)
 ```
 
-#### 5) Các ô trong table có chiều rộng bằng nhau
+### 5) Các ô trong table có chiều rộng bằng nhau
 Các cột trong *table* đều bằng nhau chỉ với 1 dòng code.
 
 ```css
@@ -231,7 +231,7 @@ Các cột trong *table* đều bằng nhau chỉ với 1 dòng code.
     }
 ```
 
-#### 6) Tránh nhầm lẫn khoảng cách giữa 2 Component liền kề
+### 6) Tránh nhầm lẫn khoảng cách giữa 2 Component liền kề
 
 Các trình duyệt sẽ tính khoảng cách giữa 2 *component* như thế nào khi **khối A** được đặt `margin-bottom: 30px` và **khối B** được đặt với `margin-top: 20px`???<br/>
 Có phải khoảng cách sẽ bằng *50px*???
@@ -268,12 +268,12 @@ Vậy nếu khoảng cách giữa 2 component với nhau, khoảng cách nào *l
 
 **Lưu ý:** Trong các dự án, nên sử dụng 1 hướng duy nhất (top) hoặc (bottom), giúp bạn dể kiểm soát được khoảng cách giữa các component với nhau.
 
-#### 7) Xuất hiện khoảng trắng dưới image
+### 7) Xuất hiện khoảng trắng dưới image
 
 Sử dụng `vertical-align: middle;` cho img, giúp mất khoảng trắng không cần thiết.<br/>
 Chi tiết [vertical-align](https://codepen.io/CodePen_higithub97_Linhz/pen/qBWGbxB)
 
-#### 8) Ôi!!! <kbd>pointer-events</kbd> tuyệt cú mèo
+### 8) Ôi!!! <kbd>pointer-events</kbd> tuyệt cú mèo
 
 <div class="jxgbox jxgControll_embed">
     <div class="pointerEvents">
@@ -317,7 +317,7 @@ Bạn có thể kham khảo mã nguồn tại đây.
     }
 ```
 
-#### 9) Flexbox với margin-left: auto
+### 9) Flexbox với margin-left: auto
 
 Sử dụng `margin-left: auto` trong trường hợp **user** ở bên phải.
 
@@ -344,7 +344,7 @@ Sử dụng `margin-left: auto` trong trường hợp **user** ở bên phải.
     }
 ```
 
-#### 10) Giá trị <kbd>initial</kbd>
+### 10) Giá trị <kbd>initial</kbd>
 
 Giá trị thuộc tính **width** có mỗi giá trị mặc định khác nhau.<br/>
 
@@ -355,7 +355,7 @@ Giá trị thuộc tính **width** có mỗi giá trị mặc định khác nhau
 Với mọi thuộc tính trong *CSS*, chỉ cần set giá trị mặc định về dạng <kbd>initial</kbd> cho từng thuộc tính mà không cần phải nhớ quá nhiều thứ.<br/>
 ( IE11 không hỗ trợ )
 
-#### 11) Sử dụng **placeholder** với *input*
+### 11) Sử dụng **placeholder** với *input*
 
 <div class="jxgbox jxgControll_embed placeholder_11">
     <form>
@@ -373,7 +373,7 @@ Với mọi thuộc tính trong *CSS*, chỉ cần set giá trị mặc định 
 * **::placeholder** sẽ tác động vào phần bên trong của style **input** như `font-size`, `color`.<br/>
 * **:placeholder-shown** sẽ tác động tới bề ngoài style của **input** kể cã `border`...
 
-#### 12) Cách mà **border** thừa kế trong thuộc tính từ **color** 
+### 12) Cách mà **border** thừa kế trong thuộc tính từ **color** 
 
 <div class="jxgbox jxgControll_embed class_12">
     <button>Hover...</button>
@@ -395,7 +395,7 @@ Vì lý do này, code sẽ được ngắn gọn hơn.
     }
 ```
 
-#### 13) <kbd>display: flex</kbd> làm méo **icon** khi `text` quá dài.
+### 13) <kbd>display: flex</kbd> làm méo **icon** khi `text` quá dài.
 
 <div class="jxgbox jxgControll_embed placeholder_11">
     <div style="

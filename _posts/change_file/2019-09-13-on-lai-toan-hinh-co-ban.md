@@ -13,7 +13,7 @@ Khác biệt lớn nhất khi thiết kế icon theo ý muốn ta phải sử d�
 
 
 
-#### Cùng nhau ôn lại 1 chút kiến thức toán hình nào.
+### Cùng nhau ôn lại 1 chút kiến thức toán hình nào.
 *(Hiển thị toạ độ sẽ bị biến dạng khi xem theo <strong>chiều dọc</strong> trên hầu hết thiết bị di động.)*
 <hr/>
 ##### **Hình tam giác**

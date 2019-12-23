@@ -157,30 +157,31 @@ GridView là trang web được chia thành các cột đều nhau, một gridvi
 ![image-title-here](/assets/img/img-post/responsive-web/mobile_first.jpg){:width="100%"}
 
 
-    - Luôn thiết kế layout cho mobile trước rồi đếm các thiết bị màng hình lớn.
+- Luôn thiết kế layout cho mobile trước rồi đếm các thiết bị màng hình lớn.
 
-    ```css
-        /*Smartphone nhỏ*/
-        @media screen and (min-width: 240px){
-            
-        }
-        /*Smartphone lớn (480 x 640)*/
-        @media screen and (min-width: 320px){
-            
-        }
-        /*Tablet nhỏ(480 x 640)*/
-        @media screen and (min-width: 480px){
-            
-        }
-        /*Tablet dọc(768 x 1024)*/
-        @media screen and (min-width: 768px){
-            
-        }
-        /*Tablet ngang(1024 x 768)*/
-        @media screen and (min-width: 1024px){
+
+```css
+    /*Smartphone nhỏ*/
+    @media screen and (min-width: 240px){
         
-        }
-    ```
+    }
+    /*Smartphone lớn (480 x 640)*/
+    @media screen and (min-width: 320px){
+        
+    }
+    /*Tablet nhỏ(480 x 640)*/
+    @media screen and (min-width: 480px){
+        
+    }
+    /*Tablet dọc(768 x 1024)*/
+    @media screen and (min-width: 768px){
+        
+    }
+    /*Tablet ngang(1024 x 768)*/
+    @media screen and (min-width: 1024px){
+    
+    }
+```
 
 ##### 3. <kbd>Flexible Media</kbd>
 (Ảnh, video...) cũng có khả năng thay đổi kích thước đấy.<br/>

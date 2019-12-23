@@ -334,3 +334,7 @@ Rút gọn thành.
     ~~6.9 === 6;
     // true
 ```
+
+<hr/>
+
+(Update lần thứ 1)
