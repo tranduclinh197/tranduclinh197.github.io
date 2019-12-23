@@ -199,7 +199,7 @@ Kiểu khai báo function cũ nhìn dễ đọc viết nhưng trở nên rối r
 Rút gọn thành.
 
 ```js
-    sayHello = (name) => {
+    sayHello = name => {
         return "Hello" + " " + name;
     };
     console.log(sayHello("world"));
@@ -245,7 +245,7 @@ Kỹ thuật này có trong ES6, có thể sử dụng `if` để gán giá tr�
     // 25
 ```
 
-Rút gọn code.
+Rút gọn thành.
 
 ```js
     getValue = (x = 5, y = 10, z) => {
@@ -257,4 +257,80 @@ Rút gọn code.
 ```
 
 ### 11) Template Literals
-Trong khi bạn
+Trong khi bạn quá mệ mỏi khi sử dụng toán tử `+` để nối chuỗi. Ở phiên bản ES6 trở đi, giải pháp ngắn ngọn và trực quan hơn nhiều khi sử dụng `${}` nằm bên trong cặp nháy backtrick **``**.
+
+```js
+    const a = 'world';
+    const template_string = 'Hello' + " " + a;
+    console.log(template_string);
+```
+
+Rut gọn thành.
+
+```js
+    const a = 'world';
+    const template_string = `Hello ${a}`;
+    console.log(template_string);
+```
+
+### 12) Destructuring Assignment
+Nếu bạn đã tiếp xúc và làm việc với `frameworkJS` hoặc ít nhiều đến `NodeJS`, có thể chúng ta không còn xa lạ đến việc truyền dữ liệu giữa các `component` với nhau. Một khi data được truyền tới, ta cần `unpack` chúng.
+
+```js
+    const action = require('lib/action')
+    const service = require('lib/service')
+
+    const form = this.props.form;
+    const errors = this.props.errors;
+    const entity = this.props.entity;
+    const controller = this.props.controller;
+    const component = this.props.component;
+```
+
+Rút gọn thành.
+
+```js
+    import { action, service } from 'lib';
+
+    const { form, errors, entity, controller, component } = this.props;
+```
+
+### 13) Multi-line string.
+Thay vì viết nhiều dòng ta thường sử dụng `\n\t` và dùng toán tử `+` để nối chuỗi với nhau. Trong `template literals` có hỗ trợ *multi-line* để rút ngắn chuỗi.
+
+```js
+    const  multi =
+            "Đừng dại mà quen bọn ai-ti (IT).\n\t" +
+            "Chúng nó khô khan, lãng mạn gì?\n\t" +
+            "Viết thư tán gái thì kinh dị.\n\t" +
+            "Chúng viết bằng gì? Ngôn ngữ C.\n\t"
+
+    console.log(multi);
+```
+
+Rút gọn thành.
+
+```js
+     const  multi =`
+            Đừng dại mà quen bọn ai-ti (IT).
+            Chúng nó khô khan, lãng mạn gì?
+            Viết thư tán gái thì kinh dị.
+            Chúng viết bằng gì? Ngôn ngữ C.`
+            
+    console.log(multi);
+```
+
+### 14) Toán tử `bitwise NOT Double`.
+Toán tử BITWISE NOT DOUBLE (2 lần phủ định) có thể thay thế cho hàm làm tròn xuống `Math.floor()`. Ưu điểm của việc các phép toán *bitwise* thực hiện các tác vụ tương tự và cho hiệu xuất cao hơn khi trực tiếp làm việc với **binary**.
+
+```js
+    Math.floor(6.9) === 6
+    // true
+```
+
+Rút gọn thành.
+
+```js
+    ~~6.9 === 6;
+    // true
+```
