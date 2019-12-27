@@ -4,8 +4,8 @@ title: Trang chủ
 ---
 <div class="container bg-light container-border-radius py-3 px-4 my-lg-4 my-3">
     <div class="row">
-        <div class="d-block mx-auto mb-2" style="margin-top: -30px">
-            <img src="/assets/img/christmas.png" alt="christmas" width="100%" class="img-raised img-fluid">
+        <div class="d-block mx-auto mb-2" style="margin-top: 5px">
+            <img src="/assets/img/2020.jpg" alt="2020" width="100%" class="img-raised img-fluid container-border-radius">
         </div>
     </div>
     <div class="row posts">
