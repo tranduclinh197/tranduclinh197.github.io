@@ -138,7 +138,6 @@ Rút gọn thành.
         // 1, 2, 3, 4
     }
 ```
-<small>`for in`<small>
 
 ### 6) Decimal base exponents
 Khi biểu diễn số hàng triệu, có khi lên đến hàng tỉ, thay vì viết 1.`000`.`000`.`000`... Ta có thể viết thành kiểu số thực phẩy động (float type).
