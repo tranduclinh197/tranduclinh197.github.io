@@ -11,7 +11,7 @@ permalink: /tu-duy-va-suy-nghi-o-tuoi-doi-muoi
 
 Những ngày cuối cùng của năm **2019**, những gì bản thân đang và đã làm trong một năm qua. Một chút suy tư, một chút hoài niệm.
 
-![image-title-here](/assets/img/img-post/ky-thuat-rut-gon-code-javascript/ky-thuat-rut-gon-code-javascript.jpg){:width="100%"}
+![image-title-here](/assets/img/img-post/tu-duy-va-suy-nghi-o-tuoi-doi-muoi/tu-duy-va-suy-nghi-o-tuoi-doi-muoi.jpg){:width="100%"}
 
 
 Sự trưởng thành được biểu đạt thông qua giao tiếp, cư xử, thái độ, trách nhiệm. Chứ không phải tuổi tác!<br/>
