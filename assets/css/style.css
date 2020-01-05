@@ -10588,9 +10588,9 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 header, footer {
-  background: -webkit-gradient(linear, left top, right top, from(#2be280), to(#f3e852));
-  background: linear-gradient(to right, #2be280, #f3e852);
-  background: -o-linear-gradient(to right, #2be280, #f3e852);
+  background: -webkit-gradient(linear, left top, right top, from(#2be28000), to(#f3e85200));
+  background: linear-gradient(to right, #2be28000, #f3e85200);
+  background: -o-linear-gradient(to right, #2be28000, #f3e85200);
 }
 
 .narbar-height {
@@ -10763,7 +10763,13 @@ body {
   background: #fafafa;
 }
 
-.main .profile-content .profile .avatar img {
+.main .profile-content .profile .avatar {
+  display: block;
+  margin: 0 auto;
+  width: 140px;
+}
+
+.main .profile-content .profile .avatar a img {
   display: block;
   margin: 0 auto;
   max-width: 140px;
