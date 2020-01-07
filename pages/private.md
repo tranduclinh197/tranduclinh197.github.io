@@ -84,6 +84,7 @@ permalink: /397ecce003aa459208285c90d2931fef
     * ![.](/assets/img/private/medium.ico) [medium.com](https://medium.com/){:target="_blank"}
     * ![.](/assets/img/private/apple-touch-icon-precomposed.png) [brilliant.org](https://brilliant.org/){:target="_blank"}
     * ![.](/assets/img/private/math.ico) [math.stackexchange.com](https://math.stackexchange.com/){:target="_blank"}
+    * ![.](/assets/img/private/ddfavicon.ico) [triethoc.edu.vn](http://triethoc.edu.vn/){:target="_blank"}
 
 ***
 
@@ -129,6 +130,8 @@ permalink: /397ecce003aa459208285c90d2931fef
     * ![.](/assets/img/private/communityIcon_yor9myhxz5x11.png) [reddit.com](https://www.reddit.com/){:target="_blank"}
     * ![.](/assets/img/private/ggame.png) [ncase.me](https://ncase.me/){:target="_blank"}
     * ![.](/assets/img/private/radio.png) [radio.garden](https://radio.garden/){:target="_blank"}
+    * ![.](/assets/img/private/cropped-Untitled-1-180x180.png) [adamshivan.com](https://https://adamshivan.com/){:target="_blank"}
+
 
 ***
 

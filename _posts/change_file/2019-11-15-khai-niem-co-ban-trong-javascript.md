@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Ôn lại khái niệm cơ bản trong JavaScript"
+title: "Ôn lại khái niệm cơ bản trong JavaScript (P1)"
 date: 2019-11-15 11:00:00 +0700
 categories: frontend
 author: Trần Đức Lĩnh
 tag: frontend
 img-title: /assets/img/blog17.jpg
-permalink: /on-lai-khai-niem-co-ban-trong-javascript
+permalink: /on-lai-khai-niem-co-ban-trong-javascript-p1
 ---
 
 Trước khi tiếp tục theo đuổi con đường lập trình website, bạn cần ôn lại các khái niệm cơ bản nhất về JavaScript. Những điều này giúp bạn thoải mái hơn cho việc lập trình, nó còn giúp bạn hạn chế `bug` trong quá trình xây dựng ứng dụng cho riêng mình.
