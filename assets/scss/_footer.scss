@@ -4,6 +4,16 @@ footer {
     height:40px;
 };
 
+footer {
+    background-image: url("/assets/img/ny-miniplayer-1.jpg");
+    background-image: -webkit-url("/assets/img/ny-miniplayer-1.jpg");
+    background-image: -moz-url("/assets/img/ny-miniplayer-1.jpg");
+    background-image: -o-url("/assets/img/ny-miniplayer-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
 footer p {
     line-height: 40px;
     font-weight: 600;
