@@ -255,7 +255,7 @@ Riêng trong trường hợp với *function* có thể phổ biến hơn và ch
 
 Điều kiện trong JS có thể hiểu khái quát là (*if-else*). Bên cạnh đó có thể sử dụng các cú pháp tương tự để làm việc.
 
-Sử dụng **if-else**.
+- Sử dụng **if-else**.
 
 ```js
     if(num == 2) {
@@ -269,4 +269,46 @@ Sử dụng **if-else**.
     }
 ```
 
-Sử dụng **switch-case**.
+- Sử dụng **switch-case**.
+
+```js
+    switch(num) {
+        case 2: 
+            // code here 
+            break;
+        case 4:
+            // code here
+            break;
+        default:
+    }
+```
+
+- Trong một số trường hợp có thể sử dụng [toán tử 3 ngôi](/ky-thuat-rut-gon-code-trong-javascript){:target="_blank"} để rút gọn code.
+
+```js
+    const num = 2;
+    (num < 4) ? console.log("true") : console.log("false");
+    // true
+```
+
+### Strict mode
+
+**Strict mode** được thêm vào ở phiên bản ***ES5***, có chức năng kiểm tra cú pháp, giảm lỗi và tăng tính năng bảo mật.
+
+JS cung cấp và sử dụng *strict mode* với cú pháp
+
+```js
+    "use strict";
+```
+
+**Lưu ý** khi sử dụng *Strict mode*.
+- Không được dùng với biến "undefined".
+- Không đặt tên trùng với từ khoá.
+- Không đặt 2 thuộc tính trùng nhau trong 1 object.
+- Không truyền 2 tham số cùng tên nhau trong 1 function.
+- Không định nghĩa trên [cơ số 8](https://developer.mozilla.org/vi/docs/Learn/JavaScript/First_steps/Math){:target="_blank"}.
+- Không được dùng câu lênh `with`.
+Gán giá trị trong một thuộc tính `read-only` trong đối tượng.
+- Thay đổi đối số trong object.
+- [EVAL](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval){:target="_blank"} không được phép tạo biến.
+
