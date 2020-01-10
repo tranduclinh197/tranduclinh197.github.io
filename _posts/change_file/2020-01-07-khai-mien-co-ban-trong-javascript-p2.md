@@ -280,7 +280,7 @@ Riêng trong trường hợp với *function* có thể phổ biến hơn và ch
             // code here
             break;
         default:
-    }
+    };
 ```
 
 - Trong một số trường hợp có thể sử dụng [toán tử 3 ngôi](/ky-thuat-rut-gon-code-trong-javascript){:target="_blank"} để rút gọn code.
@@ -312,3 +312,91 @@ Gán giá trị trong một thuộc tính `read-only` trong đối tượng.
 - Thay đổi đối số trong object.
 - [EVAL](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval){:target="_blank"} không được phép tạo biến.
 
+### Function As Values
+
+Khi khai báo một *Functions* trong JS, kiểu khai báo như thế này đã đề cập đến phần [trước](/on-lai-khai-niem-co-ban-trong-javascript-p1).
+
+Những kiểu khai báo một hàm thông thường được gọi là ***Function Declaration***. Những hàm kiểu như thế này có thể được gọi trước khi khai báo hoặc sau khia khai báo đều được,
+
+```js
+    function opp() {
+        // code here
+    };
+```
+
+Trước khi đi sau vào 2 phần dưới, bao gồm hàm có dạng *Anomymous Funtions* và *Named Function Expressions* đều có dạng là ***Functions Expressions***. Khác với những kiểu khai báo thông thường, việc gọi hàm khi được sử dụng phải theo trình tự rõ ràng.
+
+##### Anonymous Functions
+
+Function có dạng ***Anonymous Functions*** hay được gọi là một *hàm ẩn danh*. Thông thường khi khai báo một hàm thì chương trình biên dịch sẽ lưu lại trong bộ nhớ, vì thế có thể gọi phía trên hay ngay phía dưới vị trí khai báo hàm đều được. Nhưng đối với *Anonymous functions* thì được sinh ra khi biên dịch và xử lý tới vị trí của nó.
+
+```js
+    var foo = function() {
+        // code here
+    };
+```
+
+- Thông thường *anonymous functions* thường được sử dụng để thực hiện một [callback function](/)
+
+##### Named Function Expressions
+
+Kiểu khai báo có tên và được gán cho biến là một điển hình của ***Functions Expressions***.
+
+```js
+    var foo = function opp() {
+        // code here
+    };
+```
+
+### Immediately Invoked Function Expressions (IIFEs)
+
+**IIFEs** này cũng là một *functions*, khi chúng ta khai báo hàm nó sẽ thực thi ngay tức khắc. Cú pháp rất lạ và cũng khó nhớ.
+
+```js
+    (function opp() {
+        console.log(0.1 + 0.2 == 0.3);
+        // false
+    })();
+```
+
+Trong dấu ngoặc **(...)** bao quanh hàm chỉ là cú pháp để phân biệt với những *functions* thông thường khác.<br/>
+Hai kiểu functions bên dưới đều tương tự nhau.
+
+```js
+    function foo(){
+        // code here
+    }
+    foo();
+
+    // -------
+
+    (function IIFE() {
+        // code here
+    })();
+```
+
+Lý do tạo ra ***IIFEs*** bởi vì nó sẽ tạo ra một **scope** riêng cho nó. Khi bạn vô tình khai báo một biến trùng với tên khai báo biến bên ngoài thì cũng không ảnh hưởng gì.
+
+```js
+    var efi = 10;
+
+    (function IIFE() {
+        var efi = 100;
+        console.log(efi);
+        // 100
+    })();
+
+    console.log(efi);
+    // 10
+```
+
+Và tất nhiên cũng có thể `return` về một giá trị trong **IIFEs**.
+
+```js
+    const efi = (function IIFE() {
+        return 100;
+    })();
+
+    efi;
+    // 100
+```
