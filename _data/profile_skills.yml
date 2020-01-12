@@ -1,23 +1,29 @@
-- name-skill: HTML/CSS-(Responsive, .sass/.scss)
-  color-bar: bg-danger
-  valuenow: 85
+- name-project: Facebook_
+  img: /assets/img/profile/clone-facebook.png
+  link: https://github.com/tranduclinh197/Facebook_
+  pro-lang: HTML, SCSS, JavaScript.
+  describe: Clone Facebook Interface
   
-- name-skill: JavaScript-(ES6)
-  color-bar: bg-warning
-  valuenow: 45
+- name-project: love.pet.nodejs
+  img: /assets/img/profile/mua-ban-thu-cung.png
+  link: https://github.com/tranduclinh197/love.pet.nodejs
+  pro-lang: Pug, SCSS, Bootstrap, JavaScript, NodeJS.
+  describe:
 
-- name-skill: Design-(Ps/Lr)
-  color-bar: bg-warning
-  valuenow: 70
+- name-project: Project_Calculate
+  img: /assets/img/profile/dat-ve.png
+  link: https://github.com/tranduclinh197/Project_Calculate
+  pro-lang: HTML, CSS, JavaScript.
+  describe:
 
-- name-skill: Office computing-(Wr, Ex, Pp)
-  color-bar: bg-warning
-  valuenow: 85
+- name-project: WEBSITE_CTT11CD3A_2018
+  img: /assets/img/profile/ket-thuc-mon.png
+  link: https://github.com/tranduclinh197/WEBSITE_CTT11CD3A_2018
+  pro-lang: HTML, CSS, JavaScript(DOM).
+  describe:
 
-- name-skill: English-(Basic)
-  color-bar: bg-warning
-  valuenow: 50
-
-- name-skill: Other-(Git command, git work-follow)
-  color-bar: bg-warning
-  valuenow: 60
+- name-project: Weather_API
+  img: /assets/img/profile/api-thoi-tiet.png
+  link: https://github.com/tranduclinh197/Weather_API
+  pro-lang: HTML, CSS, JavaScript.
+  describe:

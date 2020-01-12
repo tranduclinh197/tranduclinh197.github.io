@@ -2,13 +2,6 @@
 layout: default
 title: Cá nhân
 ---
-<!-- <div class="container">
-        <article>
-            <h3 class="mt-4 text-link">
-                {{ content }}
-            </h3>
-        </article>
-</div> -->
 <div class="main">
     <div class="profile-content ">
         <div class="container blue mt-4">
@@ -29,7 +22,7 @@ title: Cá nhân
                                 <div class="d-flex justify-content-center">
                                     <a class="nav-link" href="/397ecce003aa459208285c90d2931fef">
                                         <p class="bg-danger p-1 px-2 container-border-radius text-center text-light mx-3" style="border-radius: 999px">
-                                                Đừng chờ đợi thời gian hoàn hảo để học.
+                                            Đừng chờ đợi thời gian hoàn hảo để học.
                                         </p>
                                     </a>
                                 </div>
@@ -49,7 +42,7 @@ title: Cá nhân
                                                 aria-selected="true">
                                                 <i class="fas fa-poll-h">
                                                     <span class="hidden-md-sm-405">
-                                                        Kỹ năng
+                                                        Project
                                                     </span>
                                                 </i>
                                             </a>
@@ -80,31 +73,42 @@ title: Cá nhân
                                     <div class="tab-content" id="pills-tabContent">
                                         <div class="tab-pane fade " id="pills-home" role="tabpanel"
                                             aria-labelledby="pills-home-tab">
-                                            <div class="row">
-                                                <div class="col-lg-12 col-md-6">
+                                            
                                                     <div class="title">
-                                                        <h3>
-                                                            <small>
-                                                                Biểu đồ kỹ năng
-                                                            </small>
-                                                        </h3>
+                                                        
                                                     </div>
                                                     
-                                                    <div class="container pb-3">
-                                                        {% for skill in site.data.profile_skills %}
+                                                    {% for skill in site.data.profile_skills %}
+                                                        <div class="container pb-3">
                                                             <div>
-                                                                <p class="overflow-ellipsis" style="margin: 10px 0 0 2px">{{ skill.name-skill }}</p>
+                                                                <h5>
+                                                                    <a href="{{ skill.link }}" style="margin: 10px 0 0 2px" target="_blank">{{ skill.name-project }}</a>
+                                                                </h5>
                                                             </div>
-                                                            <div class="progress">
-                                                                <!-- Not ERROR ((style-"xxx")) -->
-                                                                <div class="progress-bar {{ skill.color-bar }}" role="progressbar" style="width:{{ skill.valuenow }}%;"
-                                                                    aria-valuenow="{{ skill.valuenow }}" aria-valuemin="0" aria-valuemax="100">{{ skill.valuenow }}%
+                                                            <div class="container pt-3">
+                                                                <div class="row d-sm-flex justify-content-sm-around">
+                                                                    <div class="col-md-6 col-12 ">
+                                                                        <a href="{{ skill.link }}" target="_blank">
+                                                                            <img src="{{ skill.img }}" alt="img" width="100%" class="d-inline border" style="border-radius: 8px;">
+                                                                        </a>
+                                                                    </div>
+                                                                    <div class="col-md-6 col-12 ">
+                                                                            <p class="mt-sm-2" style="white-space: nowrap;
+                                                                            overflow: hidden;
+                                                                            text-overflow: ellipsis;
+                                                                            white-space: nowrap;">
+                                                                                <a href="{{ skill.link }}" target="_blank">github.com/tranduclinh197/{{ skill.name-project }}</a>
+                                                                            </p>
+                                                                            <p>{{ skill.pro-lang }}</p>
+                                                                            <p>{{ skill.describe }}</p>
+                                                                    </div>
                                                                 </div>
                                                             </div>
-                                                        {% endfor %}
-                                                    </div>
-                                                </div>
-                                            </div>
+                                                        </div>
+                                                        <hr style="width: 50%" />
+                                                    {% endfor %}
+
+                                               
                                         </div>
                                         <div class="tab-pane fade show active" id="pills-profile" role="tabpanel"
                                             aria-labelledby="pills-profile-tab">
@@ -116,7 +120,7 @@ title: Cá nhân
                                                     <li><strong>Gender: </strong>Male</li>
                                                     <li><strong>Phone: </strong>0764.513.613</li>
                                                     <li><strong>Email: </strong>emailcuatoi97@gmail.com</li>
-                                                    <li><strong>Address: </strong>Ninh Hoa, Khanh Hoa, Viet Nam</li>
+                                                    <li><strong>Address: </strong>Ninh Hoa, Khanh Hoa, Viet Nam.</li>
                                                 </ul>
                                                 <hr/>
                                                 <h4>OBJECTIVE</h4>
@@ -138,8 +142,47 @@ title: Cá nhân
                                                 <p><strong>Design web: </strong>HTML,CSS, JavaScript, Photoshop</p>
                                                 <p><strong>Other: </strong>Git command, git work-follow</p>
                                                 <hr/>
+                                                <h4>PROJECT</h4>
+                                                <strong>Vietnamtrip.app (Nha Trang Trip)</strong>
+                                                <p>October - December 2019</p>
+                                                <div class="table-responsive-lg">
+                                                    <table class="table table-hover table-bordered">
+                                                        <tr>
+                                                            <th>Customer</th>
+                                                            <td>South Korea</td>
+                                                        </tr>
+                                                            
+                                                        <tr>
+                                                            <th>Description</th>
+                                                            <td>Introduce travel products</td>
+                                                        </tr>
+
+                                                        <tr>
+                                                            <th>Team size</th>
+                                                            <td>2</td>
+                                                        </tr>
+
+                                                        <tr>
+                                                            <th>My position</th>
+                                                            <td>- Coder</td>
+                                                        </tr>
+                                                            
+                                                        <tr>
+                                                            <th>My responsibilities</th>
+                                                            <td>- Bug fixing <br/>
+                                                                - Analysis and design</td>
+                                                        </tr>
+
+                                                        <tr>
+                                                            <th>Technologies used</th>
+                                                            <td>- Wordpress<br/>
+                                                                - HTML , CSS , JavaScript</td>
+                                                        </tr>
+                                                    </table>
+                                                  </div>
+                                                <hr/>
                                                 <h4>INTERESTS</h4>
-                                                <p>- to go fishing, listening to music (Dance, Guitar, Country)...</p>
+                                                <p>- to go fishing, listening to music (Chillhop, guitar, young music)</p>
                                                 <hr/>
                                                 <h4>ADDITIONAL INFORMATION</h4>
                                                 <p>- Feeling self-motivated, energetic, need to learn to develop high self</p>
@@ -170,7 +213,7 @@ title: Cá nhân
                                 </div>
                             </div>
                             <div class="pb-2 text-center mt-2 mb-4">
-                                <p>" Không có điều gì xảy ra cho đến khi bạn hành động. " </p>
+                                <p>"Không có điều gì xảy ra cho đến khi bạn hành động." </p>
                             </div>
                         </div>
                     </div>
