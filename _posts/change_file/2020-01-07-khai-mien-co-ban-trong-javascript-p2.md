@@ -27,7 +27,7 @@ Có một số *type* có sẵn trong JS:
 - object
 - symbol (ES6) 
 
-JS cung cấp cho chúng ta một hàm để kiểm tra kiểu dữ liệu thông qua cú pháp **typeod**.
+JS cung cấp cho chúng ta một hàm để kiểm tra kiểu dữ liệu thông qua cú pháp **typeof**.
 
 ```js
     var val = 0;
@@ -82,10 +82,11 @@ Một object (đối tượng) trong JS là một kiểu dữ liệu phức tạ
     var b = "a";
 
     console.log(obj[b]);
-    // OBJ[B]
-    // "hello world
+    // <. obj[b]
+    // .> "hello world
     console.log(obj["b"]);
-    // 197
+    // <. obj["b"]
+    // .> 197
 ```
 
 Có một số kiểu dữ liệu thường dùng trong **JS** bao gồm *Array* và *Function*. Chúng là những kiểu dữ liệu con của **Object**.
@@ -401,3 +402,9 @@ Và tất nhiên cũng có thể `return` về một giá trị trong **IIFEs**.
     // 100
 ```
 
+### Closure
+
+Phần này là những phần quan trọng và đặc biệt nhất trong *JavaScript*. Tuy vậy nhưng vẫn có nhiều người bỏ qua phần này nhất.<br/>
+Trong bài viết [Closures trong JS hoạt động như thế nào](https://viblo.asia/p/closures-trong-javascript-hoat-dong-nhu-the-nao-lA7GKnWWMKZQ){:target="_blank"} sẽ nói rõ hơn về cơ chế của nó. Trong bài viết này, mình chỉ điểm sơ qua những nét cơ bản để có cái nhìn tổng quát và toàn diện hơn.
+
+**Closure** là một cách để nhớ và 
