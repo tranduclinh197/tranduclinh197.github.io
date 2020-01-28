@@ -10750,24 +10750,6 @@ body {
           transform: scale(1.1);
 }
 
-html {
-  --bg: #f8f9fa;
-  --text: #3c4858;
-}
-
-html[data-theme='dark'] {
-  --bg: rgb(0, 0, 0);
-  --text: rgb(230, 230, 230);
-}
-
-html main .post {
-  background-color: var(--bg) !important;
-}
-
-html main .post > h1, h2, h3, h4, h5, h6, p, strong, b, em, span, small, ul, ol, li {
-  color: var(--text);
-}
-
 .pager {
   list-style: none;
   padding: 40px;
