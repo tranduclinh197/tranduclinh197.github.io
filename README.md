@@ -5,4 +5,4 @@
 
 * ...Truy cập [-tranduclinh.cf-](https://tranduclinh.cf)
 
-![img](/assets/img/locadlhost_4000_.png){:width="100%"}
+![img](/assets/img/locadlhost_4000_.png)
