@@ -35,11 +35,11 @@ Những câu lệnh được cấu thành biểu thức, một biểu thức đ�
     console.log( a + b );
 ```
 
-Trong ví dụ trên, một `exxpression` bao gồm:
+Trong ví dụ trên, một `expression` bao gồm:
 *   **var** là một `variables`.
 *   **a, b** là một `variable name`.
 *   **=** là một `assignment`.
-*   **a + b** là một `exxpression`
+*   **a + b** là một `expression`
 *   **console.log()** là một `function `, hàm này được xây dựng sẵn và chỉ gọi ra để thực thi.
 
 ### 4) Executing a Program? (Cách thức thực hiện một chương trình?)
@@ -116,7 +116,7 @@ Có một số trương hợp ta cần phải ép kiểu dữ liệu (`coercion 
     console.log( c + b );
     //11
 ```
-Như ví dụ ở trên, kiểu chuyển đổi dữ liệu từu *string* sang *number* là *kiểu chuyển đổi dữ liệu rõ ràng* (`explicit coercion`).
+Như ví dụ ở trên, kiểu chuyển đổi dữ liệu từ *string* sang *number* là *kiểu chuyển đổi dữ liệu rõ ràng* (`explicit coercion`).
 
 Một số kiểu dữ kiệu sẽ *tự động chuyển đổi không kiểm soát* được gọi là (`implicit coercion`). Bởi vì tính chất không minh bạch của nó mà chúng ta dễ gây hiểu nhầm và dễ gây sai sót trong lập trình.
 
@@ -147,12 +147,12 @@ Có 2 dạng comments bao gồm:
 ```
 
 ### 11) Variables (Biến)
-Các phần mềm đều cần biến để theo dõi các giá trị bởi vì chúng thường biến đổi theo thời gian theo những phương pháp *toán tử* hay *phép gán*.
+Các phần mềm đều cần biến để theo dõi các giá trị bởi vì chúng thường biến đổi những phương pháp *toán tử* hay *phép gán* theo thời gian.
 
 **Hãy lưu ý**
 Một số ngôn ngữ lập trình *buộc* chúng ta phải khai báo một biến để lưu lại kiểu dữ liệu cụ thể như *number* hoặc *string*. Đó được gọi là **static-typing**. Buộc chúng ta phải truyền đúng kiểu dữ liệu và ngăn chặn sự sai sót khi truyền dữ liệu lung tung.
 
-Số còn lại sử dụng kiểu *weak typing* (**dynamic typing**). Nó cho phép một biến có thể lưu nhiều kiểu dữ liệu khác nhau qua từng thời điểm khác nhau.
+Số còn lại sử dụng kiểu *weak typing* (**dynamic-typing**). Nó cho phép một biến có thể lưu nhiều kiểu dữ liệu khác nhau qua từng thời điểm khác nhau.
 **JavaScript** được thiết kế như một **dynamic type**, vì thế đừng than phiền và chê bai như một dạng ngôn ngữ *sida*.
 
 ### 12) Blocks (Khối)
