@@ -75,8 +75,7 @@ permalink: /397ecce003aa459208285c90d2931fef
     * ![.](/assets/img/private/codehub.ico) [codehub.vn](https://www.codehub.vn/){:target="_blank"}
     * ![.](/assets/img/private/hub.png) [stackoverrun.com](https://stackoverrun.com/){:target="_blank"}
     * ![.](/assets/img/private/news-design.png) [designernews.co](https://www.designernews.co/){:target="_blank"}
-
-***
+    * ![.](/assets/img/private/codelearn-icon.png) [codelearn.io](https://www.https://codelearn.io//){:target="_blank"}
 
 * ##### <kbd>Cộng đồng-hỏi đáp-biện luận</kbd>
     * ![.](/assets/img/private/quora.ico) [quora.com](https://www.quora.com/){:target="_blank"}
@@ -151,6 +150,8 @@ permalink: /397ecce003aa459208285c90d2931fef
     * ![.](/assets/img/private/game-regex.png) [regexcrossword.com...(Regex)](https://regexcrossword.com/){:target="_blank"}
     * ![.](/assets/img/private/dd487dad-3b4c-43a8-a002-d8341a17e902.jpg) [hackerthemes.com/...(Bootstrap)](https://hackerthemes.com/bootstrap-cheatsheet/){:target="_blank"}
     * ![.](/assets/img/private/continents10.png) [dev.w3.org/..charref](https://dev.w3.org/html5/html-author/charref){:target="_blank"}
+    * ![.](/assets/img/private/trifavicon.gif) [apps.eky.hk/...triangle/](http://apps.eky.hk/css-triangle-generator/){:target="_blank"}
+    * ![.](/assets/img/private/96.8aa68ac4.png) [easings.net](https://easings.net/){:target="_blank"}
 
 
 ***

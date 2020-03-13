@@ -5,6 +5,11 @@ title: Trang chủ
 <div class="container bg-light container-border-radius py-3 px-4 my-lg-4 my-3">
     <div class="row">
         <div class="d-block mx-auto mb-2" style="margin-top: 5px">
+            <div class="mx-2 text-center">
+                <h5 class="">Cảm ơn bạn đã truy cập website của tớ.</h5>
+                <p>Dấu trang mình yêu thích nhất: <a href='/397ecce003aa459208285c90d2931fef'>Xin mời nhấn vào!</a></p>
+                <p class="pb-4"><small><i>Trần Đức Lĩnh</i></small></p>
+            </div>
             <img src="/assets/img/2020.jpg" alt="2020" width="100%" class="img-raised img-fluid container-border-radius">
         </div>
     </div>

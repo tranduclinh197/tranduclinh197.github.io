@@ -52,10 +52,18 @@ Kiểm tra phiên bản Jekyll đã cài đặt trên máy tính chưa.
 
 ### <center>Tiến hành tạo Blog với Jekyll nào.</center>
 
-Ta tiến hành tạo project với lệnh nhau sau.
+Trước tiên hãy chọn nơi lưu trữ project cho mục đích phát triển và quản lý sau này.
+
+Sau đó ta tiến hành tạo project với lệnh nhau sau.
 
 ```js
     jekyll new <name-project>
+```
+
+Hãy trỏ tới thư mục chứa project trước đó.
+
+```js
+    cd \
 ```
 
 Sau khi tạo xong *project* ta chạy server local.
@@ -121,6 +129,16 @@ Có nhiều cách viết thông qua HTML, Markdown hoặc Liquid Templating như
 * `ext-js` Danh sách các file JavaScript được nhúng từ bên ngoài.
 * `ex` Danh sách các file CSS được nhứng từ bên ngoài.
 * `googlefonts` Danh sách các Font Google được sư dụng.
+
+
+### Một số lỗi có thể xảy ra.
+
+* <i>Could not find ffi-1.11.1-x64-mingw32 in any of the sources. Run `bundle install` to install missing gems.</i>
+
+* Cách khắc phục: 
+    *   Cật nhật bundle và cài ffi cho gem: 
+        * `bundle update`
+        * `gem install ffi -f`
 
 ### Một số tài liệu kham khảo.
 
