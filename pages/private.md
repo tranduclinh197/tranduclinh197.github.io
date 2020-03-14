@@ -259,6 +259,8 @@ permalink: /397ecce003aa459208285c90d2931fef
     * ![.](/assets/img/private/freenomlogo.png) [freenom.com](https://my.freenom.com/){:target="_blank"}
     
 
+***
+
 * ##### <kbd>Cheat sheet</kbd>
     * <kbd>CSS</kbd>
         * [Css-grid](https://devhints.io/css-grid){:target="_blank"}
