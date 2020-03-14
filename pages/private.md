@@ -51,6 +51,8 @@ permalink: /397ecce003aa459208285c90d2931fef
     * ![.](/assets/img/private/hoc247_logo.png) [hoc247.net](https://hoc247.net/){:target="_blank"}
     * ![.](/assets/img/private/nodejs.png) [nodejs.org](https://nodejs.org/en/docs/){:target="_blank"}
     * ![.](/assets/img/private/evondev-logo-150x150.png) [evondev.com](https://evondev.com/){:target="_blank"}
+    * ![.](/assets/img/private/animousfavicon.ico) [anonystick.com](https://anonystick.com/){:target="_blank"}
+
 
 
 ***
@@ -152,6 +154,7 @@ permalink: /397ecce003aa459208285c90d2931fef
     * ![.](/assets/img/private/continents10.png) [dev.w3.org/..charref](https://dev.w3.org/html5/html-author/charref){:target="_blank"}
     * ![.](/assets/img/private/trifavicon.gif) [apps.eky.hk/...triangle/](http://apps.eky.hk/css-triangle-generator/){:target="_blank"}
     * ![.](/assets/img/private/96.8aa68ac4.png) [easings.net](https://easings.net/){:target="_blank"}
+    * ![.](/assets/img/private/apple-icon-60x60.png) [css.gg](https://css.gg/){:target="_blank"}
 
 
 ***
@@ -250,6 +253,11 @@ permalink: /397ecce003aa459208285c90d2931fef
     * ![.](/assets/img/private/mockaroo.png) [mockaroo.com](https://mockaroo.com/){:target="_blank"}
 
 ***
+
+* ##### <kbd>Domain & Deployment</kbd>
+    * ![.](/assets/img/private/nififavicon-32x32.png) [app.netlify.com](https://app.netlify.com/){:target="_blank"}
+    * ![.](/assets/img/private/freenomlogo.png) [freenom.com](https://my.freenom.com/){:target="_blank"}
+    
 
 * ##### <kbd>Cheat sheet</kbd>
     * <kbd>CSS</kbd>
