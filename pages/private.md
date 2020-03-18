@@ -79,6 +79,8 @@ permalink: /397ecce003aa459208285c90d2931fef
     * ![.](/assets/img/private/news-design.png) [designernews.co](https://www.designernews.co/){:target="_blank"}
     * ![.](/assets/img/private/codelearn-icon.png) [codelearn.io](https://www.https://codelearn.io//){:target="_blank"}
 
+***
+
 * ##### <kbd>Cộng đồng-hỏi đáp-biện luận</kbd>
     * ![.](/assets/img/private/quora.ico) [quora.com](https://www.quora.com/){:target="_blank"}
     * ![.](/assets/img/private/ted.ico) [ted.com](https://www.ted.com/){:target="_blank"}
