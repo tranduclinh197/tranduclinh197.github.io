@@ -12,25 +12,37 @@ title: Trang chủ
                 <!-- <p>Dấu trang mình yêu thích nhất: <a href='/397ecce003aa459208285c90d2931fef'>Xin mời nhấn vào!</a></p>
                 <p class="pb-4"><small><i>Trần Đức Lĩnh</i></small></p> -->
             </div>
-            <div class="text-center border p-4 shadow mb-4">
+            <!-- <div class="text-center border p-4 shadow mb-4">
                 <h2 class="text-danger">Công nghệ mới, trải nghiệm mới.</h2>
                 <p>GatsbyJS cho bạn trải nghiệm tốc độ và bảo mật tối ưu hơn cã Jekyll hiện tại.</p>
                 <p>Truy cập đến <a href="https://dev-note.cf" target="_blank">dev-note.cf</a></p>
-            </div>
+            </div> -->
             <img src="/assets/img/city.png" alt="2020" width="100%" class="img-raised img-fluid container-border-radius">
             <hr/>
         </div>
     </div>
     <div class="row posts">
-        <div class="card-columns col-md-12 ">
+        <div class="card-columns col-md-12" style="
+            -webkit-filter: grayscale(100%);
+            -moz-filter: grayscale(100%);
+            -o-filter: grayscale(100%);
+            -ms-filter: grayscale(100%);
+            filter: grayscale(100%);
+        ">
             {% for post in site.posts %}
-                <div class="card shadow-sm mt-5">
+                <div class="card shadow-sm mt-5" style="
+                        -webkit-filter: blur(2px);
+                        -moz-filter: blur(2px);
+                        -o-filter: blur(2px);
+                        -ms-filter: blur(2px);
+                        filter: blur(2px);
+                    ">
                     <div class="card-header bg-transparent border-0" style="margin-bottom: -44px;">
                         <a href="{{ post.url | prepend: site.baseurl }}">
                             <img title="{{ post.title }}" class="card-position img container-border-radius shadow hover-img" src="{{ post.img-title }}" width="100%">
                         </a>
                     </div>
-                    <div class="card-body ">
+                    <div class="card-body">
                         <h5 class="text-center"><a title="{{ post.title }}" href="{{ post.url }}">{{ post.title }}</a></h5>
                         {% if post.tag != null %}
                             <ul class="">
