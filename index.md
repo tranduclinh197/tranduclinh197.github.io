@@ -21,22 +21,28 @@ title: Trang chủ
             <hr/>
         </div>
     </div>
-    <div class="row posts">
-        <div class="card-columns col-md-12" style="
+    <!-- 
+     style="
             -webkit-filter: grayscale(100%);
             -moz-filter: grayscale(100%);
             -o-filter: grayscale(100%);
             -ms-filter: grayscale(100%);
             filter: grayscale(100%);
-        ">
+        "
+     -->
+    <div class="row posts">
+        <div class="card-columns col-md-12">
             {% for post in site.posts %}
-                <div class="card shadow-sm mt-5" style="
+            <!-- 
+            style="
                         -webkit-filter: blur(2px);
                         -moz-filter: blur(2px);
                         -o-filter: blur(2px);
                         -ms-filter: blur(2px);
                         filter: blur(2px);
-                    ">
+                    "
+             -->
+                <div class="card shadow-sm mt-5">
                     <div class="card-header bg-transparent border-0" style="margin-bottom: -44px;">
                         <a href="{{ post.url | prepend: site.baseurl }}">
                             <img title="{{ post.title }}" class="card-position img container-border-radius shadow hover-img" src="{{ post.img-title }}" width="100%">
