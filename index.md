@@ -5,18 +5,14 @@ title: Trang chủ
 <div class="container bg-light container-border-radius py-3 px-4 my-lg-4 my-3">
     <div class="row">
         <div class="d-block mx-auto mb-2" style="margin-top: 5px">
-            <!-- <div class="mx-2 text-center">
-                <h3 class="">Cảm ơn bạn đã truy cập website của tớ trong thời gian qua.</h3>
-                <h4>Trang web này sẽ không còn cập nhật từ ngày <strong>19-03-2020</strong>.</h4>
-                <hr/> -->
-                <!-- <p>Dấu trang mình yêu thích nhất: <a href='/397ecce003aa459208285c90d2931fef'>Xin mời nhấn vào!</a></p>
-                <p class="pb-4"><small><i>Trần Đức Lĩnh</i></small></p> -->
-            <!-- </div> -->
-            <!-- <div class="text-center border p-4 shadow mb-4">
-                <h2 class="text-danger">Công nghệ mới, trải nghiệm mới.</h2>
-                <p>GatsbyJS cho bạn trải nghiệm tốc độ và bảo mật tối ưu hơn cã Jekyll hiện tại.</p>
-                <p>Truy cập đến <a href="https://dev-note.cf" target="_blank">dev-note.cf</a></p>
-            </div> -->
+            <div class="mx-2 text-center">
+                <h3 class="">Cảm ơn bạn đã ghé thăm trang web của tớ.</h3>
+                <h5>Mọi thứ sẽ có 1 vài thay đổi trong thời gian tới (08-2020).</h5>
+            </div>
+            <div class="text-center border p-4 shadow mb-4">
+                <h4 class="text-danger">Trang web này sẽ không còn cập nhật nội dung từ ngày <strong>19-03-2020</strong>.</h4>
+                <p>Truy cập đến <a href="https://dev-note.cf" target="_blank">dev-note.cf</a> để tìm kiếm "Know-how" cho chính bạn.</p>
+            </div>
             <img src="/assets/img/city.png" alt="2020" width="100%" class="img-raised img-fluid container-border-radius">
             <hr/>
         </div>
