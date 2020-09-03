@@ -8,12 +8,17 @@
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/style.css">
 </head>
 <body>
-    {% include header.html %}
-    <div>
-        {{ content }}
+    <div class="ui container">
+        <div class="column">
+            {% include header.html %}
+            <div>
+                {{ content }}
+            </div>
+            {% include footer.html %}
+        </div>
     </div>
-    {% include footer.html %}
     <script src="/assets/js/jquery-3.5.1.min.js"></script>
     <script src="/assets/js/semantic.min.js"></script>
+    <script src="/assets/js/main.js"></script>
 </body>
 </html>
