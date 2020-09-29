@@ -1,28 +1,34 @@
-<div class="ui secondary segment menu">
-  <a class="active item">
-    <i class="github large icon"></i> Trang chủ
-  </a>
-  <a class="item">
-    <i class="bug large icon"></i> Lỗi
-  </a>
-  <a class="item">
-    <i class="bug large icon"></i> Lỗi
-  </a>
-  <div class="right menu">
-    <div class="item">
-      <div class="ui icon input">
-        <input type="text" placeholder="Tìm kiếm...">
-        <i class="search link icon"></i>
-      </div>
-    </div>
-    <a class="ui item">
-      <i class="ellipsis vertical large icon"></i>
-    </a>
-  </div>
-</div>
-
-<div class="ui piled segment loading massive ">
-  <div class="ui medium text loader">Không thể tải được gì...</div>
-  <h1 class="ui header piled header">tranduclinh2067.github.io</h1>
-  <p class="ui red header ui right aligned header">Ôi không!!! <br/> Mọi thứ đang rối tung lên...</p>
+<div>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background: #007bff17;">
+        <div class="container-fluid">
+            <div class="" style="width: 30%; background: rgba(255, 0, 0, 0.288); border-radius: 999px;">
+                <a class="navbar-brand" href="#">
+                    <img src="../assets/img/icon.png" class="ml-2" alt="Error" width="40px" style="border-radius: 50%;">
+                </a>
+            </div>
+            <div class="d-block">
+                <div class="collapse navbar-collapse float-right" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        {% for header in site.data.header %}
+                            <li class="nav-item {{ header.active-class }}">
+                                <a class="nav-link" href="{{ header.path }}"><i class="fas {{ header.i-class }} fa-lg"></i> {{ header.title }}<span class="sr-only">(current)</span></a>
+                            </li>
+                        {% endfor %}
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fas fa-record-vinyl fa-lg"></i> Hoạt động</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fas fa-user-circle fa-lg"></i> Cá nhân</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fas fa-disease fa-lg"></i> Khám phá</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fas fa-terminal fa-lg"></i> Kiến thức</a>
+                        </li> -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
 </div>

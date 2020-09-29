@@ -1,0 +1,20 @@
+- title: Trang chủ
+  path: /
+  i-class: fa-home
+  active-class: active
+
+- title: Hoạt động
+  path: /hoat-dong/
+  i-class: fa-record-vinyl
+
+- title: Cá nhân
+  path: /ca-nhan/
+  i-class: fa-user-circle
+
+- title: Khám phá
+  path: /kham-pha/
+  i-class: fa-disease
+
+- title: Kiến thức
+  path: /kien-thuc/
+  i-class: fa-terminal
