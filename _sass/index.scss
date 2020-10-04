@@ -1,83 +1,85 @@
+
+
 .block-index {
 
     &-left, &-right {
-        height: 400px;
         border-radius: 20px;
         background: rgba(0, 0, 0, 0.082);
         position: relative;
     }
 
     &-left {
-        animation: move infinite 5s ease;
+        animation: move 2 2s ease;
         // background: red;
-    }
+        padding: 0;
 
+    }
+    
     &-right {
-        animation: move infinite 8s ease;
+        animation: move 2 3s ease;
+        height: 400px;
         // background: blue;
+        overflow: hidden;
     }
 }
 
-.block-demo {
-    -ms-overflow-style: none;  // Internet Explorer 10+
-    scrollbar-width: none;  // Firefox
-    height: 800px;
-}
-.block-demo::-webkit-scrollbar { 
-    display: none;  // Safari and Chrome
+#imgDemo {
+
+    img {
+        border-radius: 50%;
+        width: 60px;
+    }
 }
 
 @keyframes move {
     0% { 
-        top: 10px;
-        background: rgba(0, 0, 0, 0);
-     }
+        top: 0px;
+        background: rgba(0, 0, 0, 0.082);
+    }
     
     50% {
         top: 200px;
-        background: rgba(0, 0, 0, 0.281);
+        background: rgba(0, 0, 0, 0);
     }
 
     100% {
-        top: 10px;
-        background: rgba(0, 0, 0, 0);
+        top: 0px;
+        background: rgba(0, 0, 0, 0.082);
     }
 }
 
 @-moz-keyframes move {
     0% { 
-        top: 10px;
-        background: rgba(0, 0, 0, 0);
-     }
+        top: 0px;
+        background: rgba(0, 0, 0, 0.082);
+    }
     
     50% {
         top: 200px;
-        background: rgba(0, 0, 0, 0.281);
-
+        background: rgba(0, 0, 0, 0);
     }
 
     100% {
-        top: 10px;
-        background: rgba(0, 0, 0, 0);
-
+        top: 0px;
+        background: rgba(0, 0, 0, 0.082);
     }
 }
 
 @-webkit-keyframes move {
     0% { 
-        top: 10px;
-        background: rgba(0, 0, 0, 0);
-     }
+        top: 0px;
+        background: rgba(0, 0, 0, 0.082);
+    }
     
     50% {
         top: 200px;
-        background: rgba(0, 0, 0, 0.281);
-
+        background: rgba(0, 0, 0, 0);
     }
 
     100% {
-        top: 10px;
-        background: rgba(0, 0, 0, 0);
-
+        top: 0px;
+        background: rgba(0, 0, 0, 0.082);
     }
 }
+
+
