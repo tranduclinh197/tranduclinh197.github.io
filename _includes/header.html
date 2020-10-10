@@ -7,11 +7,11 @@
         </div>
         <div class="d-block">
             <div class="collapse navbar-collapse float-right d-md-block" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto nav-ul"  style="font-family: 'Patrick Hand SC', cursive;">
+                <ul class="navbar-nav mr-auto nav-ul">
                     {% for header in site.data.header %}
                         <li class="nav-item {{ header.active-class }} nav-button-item">
                             <a class="nav-link" href="{{ header.path }}">
-                                <i class="fas {{ header.i-class }} fa-md">
+                                <i class="fal {{ header.i-class }} fa-md">
                                 </i>
                                 <span class="hidden-text-header">
                                     {{ header.title }}
