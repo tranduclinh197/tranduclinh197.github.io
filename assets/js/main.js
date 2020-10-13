@@ -1,6 +1,11 @@
-const image = document.getElementsByClassName('thumbnail');
-new simpleParallax(image, {
-	delay: .4,
-    scale: 2.5,
-    transition: 'cubic-bezier(0,0,0,1)',
+$('.parallax-window').parallax({
+    imageSrc: './assets/img/jGuCm.png',
+    speed: 0.1,
 });
+
+$('.parallax-window-2').parallax({
+    imageSrc: './assets/img/demo2.jpg',
+    speed: 0.7,
+});
+
+// Active Menu

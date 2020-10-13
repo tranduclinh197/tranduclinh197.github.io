@@ -1,7 +1,39 @@
-.simpleParallax {
-    height: 400px;
+.parallax-window {
+    min-height: 350px;
+    background: transparent;
+    box-shadow: inset 0px 39px 43px 4px #f0f2f5
+}
+
+.parallax-window-2 {
+    min-height: 350px;
+    background: transparent;
 }
 
 .box-shadow {
     box-shadow: 0 0 8px rgba(56, 56, 56, .23);
+}
+
+.disk {
+    font-size: 14em;
+
+    div {
+        background: linear-gradient(to right, #3498db 50%, #34495e 50%);
+        border-radius: 50%;
+        overflow: hidden;
+        height: 1em;
+        width: 1em;
+        margin: 15px;
+
+        &:before {
+            background: #3498db;
+            transform: rotate(43.2deg);
+
+            border-radius: 0 100% 100% 0 / 50%;
+            content: '';
+            display: block;
+            height: 100%;
+            margin-left: 50%;
+            transform-origin: left;
+        }
+    }
 }

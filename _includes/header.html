@@ -1,13 +1,13 @@
 <nav class="navbar navbar-expand navbar-light" style="background: #4fa3fd41;">
     <div class="container-fluid">
-        <div class="" style="width: 30%; background: rgba(255, 56, 56, 0.692); border-radius: 999px; margin-right: 10px;">
-            <a class="navbar-brand" href="#">
+        <div class="" style="width: 30%; background: rgb(182 219 255 / 78%); border-radius: 999px; margin-right: 10px;">
+            <a class="navbar-brand" href="/">
                 <img src="../assets/img/icon.jpg" class="ml-2" alt="Error" width="40px" style="border-radius: 50%;">
             </a>
         </div>
         <div class="d-block">
             <div class="collapse navbar-collapse float-right d-md-block" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto nav-ul">
+                <ul class="navbar-nav mr-auto nav-ul" id="active">
                     {% for header in site.data.header %}
                         <li class="nav-item {{ header.active-class }} nav-button-item">
                             <a class="nav-link" href="{{ header.path }}">
@@ -17,7 +17,7 @@
                                     {{ header.title }}
                                 </span>
                                 <span class="sr-only">(current)</span>
-                        </a>
+                            </a>
                         </li>
                     {% endfor %}
                 </ul>
