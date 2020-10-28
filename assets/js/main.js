@@ -1,10 +1,12 @@
 $('.parallax-window').parallax({
     imageSrc: './assets/img/jGuCm.png',
     speed: 0.3,
+    androidFix: true,
+    iosFix: true
 });
 
 $('.friends-data').parallax({
-    imageSrc: './assets/img/friends-data.png',
+    imageSrc: './assets/img/demo2.jpg',
     speed: 0.9,
 });
 
