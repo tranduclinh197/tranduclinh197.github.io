@@ -8,15 +8,27 @@
     flex: 25%;
     max-width: 25%;
     padding: 0 4px;
-}
 
-.busble-column img {
-    margin-top: 8px;
-    vertical-align: middle;
-    width: 100%;
-    border: 2px solid #fff;
-    border-radius: 4px;
-    box-shadow: 1px 1px 4px 0px #9c9c9c;
+    p {
+        margin: 10px 0 10px 0;
+        display: block;
+        background: #c7def7;
+        padding: 4px 0;
+        border-radius: 8px;
+        text-align: center;
+        font-size: 1.25rem;
+        box-shadow: 1px 1px 4px 0px #dee9f6;
+
+    }
+
+    img {
+        margin-top: 8px;
+        vertical-align: middle;
+        width: 100%;
+        // border: 2px solid #fff;
+        border-radius: 10px;
+        box-shadow: 1px 1px 4px 0px #9c9c9c;
+    }
 }
 
 @media (max-width: 800px) {

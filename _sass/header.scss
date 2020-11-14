@@ -28,6 +28,12 @@
     }
 }
 
+.active-header {
+    background: white;
+    font-weight: 500;
+    box-shadow: 0 0 8px 1px #69696938;
+}
+
 @media (max-width: 991.98px) { 
     .hidden-text-header {
         display: none;
