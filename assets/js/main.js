@@ -1,37 +1,15 @@
-$('.parallax-window').parallax({
-    imageSrc: './assets/img/jGuCm.png',
-    speed: 0.3,
-    androidFix: true,
-    iosFix: true
+const acctive__now = document.getElementsByClassName('acctive__now');
+const friends = document.getElementsByClassName('friends');
+const friends_2 = document.getElementsByClassName('friends_2');
+
+
+new simpleParallax(acctive__now, {
+	transition: 'cubic-bezier(0,0,0,1)'
 });
 
-$('.friends-data').parallax({
-    imageSrc: './assets/img/demo2.jpg',
-    speed: 0.9,
+new simpleParallax(friends, {
+	maxTransition: 100
 });
 
-$('.friend-3').parallax({
-    imageSrc: './assets/img/bustle/2020/2020-4.jpg',
-    speed: 0.6,
-});
-
-$('.file-data').parallax({
-    imageSrc: './assets/img/file-data.png',
-    speed: 0.9,
-});
-
-
-$('.friend-200x').parallax({
-    imageSrc: './assets/img/2013-1.png',
-    speed: 0.9,
-});
-
-$('.friend-c3').parallax({
-    imageSrc: './assets/img/2015-1.jpg',
-    speed: 0.95,
-});
-
-$('.parallax-window-2').parallax({
-    imageSrc: './assets/img/demo2.jpg',
-    speed: 0.7,
+new simpleParallax(friends_2, {
 });

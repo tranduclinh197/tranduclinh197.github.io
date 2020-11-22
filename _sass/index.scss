@@ -1,11 +1,15 @@
-.parallax-window {
-    min-height: 350px;
+.mwidth__obj__cover {
+    object-fit: cover;
+    max-width: 100%;
+}
+
+
+.acctive__now {
     background: transparent;
     box-shadow: inset 0px 39px 43px 4px #f0f2f5;
 }
 
-.parallax-window-2 {
-    min-height: 350px;
+.friends {
     background: transparent;
 }
 
