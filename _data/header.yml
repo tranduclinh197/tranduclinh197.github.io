@@ -3,20 +3,20 @@
   i-class: fa-home
   active-class: active-header
 
-- title: Cá nhân
-  path: /ca-nhan
-  i-class: fa-user-circle
-  active-class: active-header
+# - title: Cá nhân
+#   path: /ca-nhan
+#   i-class: fa-user-circle
+#   active-class: active-header
 
 - title: Kỷ niệm
   path: /ky-niem
   i-class: fa-record-vinyl
   active-class: active-header
 
-- title: Khám phá
-  path: /kham-pha
-  i-class: fa-disease
-  active-class: active-header
+# - title: Khám phá
+#   path: /kham-pha
+#   i-class: fa-disease
+#   active-class: active-header
 
 - title: Kiến thức
   path: /kien-thuc
